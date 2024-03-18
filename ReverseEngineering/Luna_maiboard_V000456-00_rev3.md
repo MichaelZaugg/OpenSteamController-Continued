@@ -284,7 +284,7 @@ This is the processor on the haptics board, which seems to be a custom design
 
 ## Resources 
 
-[Datasheets & User Manuals](./Datasheets_Documentation/"Cirque 1CA027")
+[Datasheets & User Manuals](./Datasheets_Documentation/Cirque-1CA027)
 
 ## Pinout 
 
