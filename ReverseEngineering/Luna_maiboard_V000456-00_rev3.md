@@ -184,32 +184,32 @@ This is a 6-axis motion tracking device (i.e. accelerometer, gyroscope).
 ## Pinout
 
 
-| Pin Number | Datasheet Name | Pin Function | Notes                                                        |
-| -----------: | ---------------- | -------------- | -------------------------------------------------------------- |
-|          1 | NC             | NC           | No Connect                                                   |
-|          2 | NC             | NC           | No Connect                                                   |
-|          3 | NC             | NC           | No Connect                                                   |
-|          4 | NC             | NC           | No Connect                                                   |
-|          5 | NC             | NC           | No Connect                                                   |
-|          6 | NC             | NC           | No Connect                                                   |
-|          7 | AUX_CL         |              |                                                              |
-|          8 | VDDIO          |              |                                                              |
-|          9 | SDO/AD0        |              | Connected to VDDIO which makes I2C Slave Address is b1101001 |
-|         10 | REGOUT         |              | Connected C36 to GND                                         |
-|         11 | FSYNC          |              | Connected to GND                                             |
-|         12 | INT            |              | Connected to Pin 24 on LPC11U37F                             |
-|         13 | VDD            |              | Connected to VDDIO                                           |
-|         14 | NC             |              |                                                              |
-|         15 | NC             |              |                                                              |
-|         16 | NC             |              |                                                              |
-|         17 | NC             |              |                                                              |
-|         18 | GND            |              | Connected to GND                                             |
-|         19 | RESV           |              | Connected to GND                                             |
-|         20 | RESV           |              |                                                              |
-|         21 | AUX_DA         |              |                                                              |
-|         22 | nCS            |              | Connected to VDDIO for I2C operation                         |
-|         23 | SCL/SCLK       | I2C SCL      | Connected to Pin 20 on LPC11U37F                             |
-|         24 | SDA/SDI        | I2C SDA      | Connected to Pin 21 on LPC11U37F                             |
+| Pin Number | Datasheet Name | Pin Function                                                                                                                                                                                | Notes                                                        |
+| -----------: | ---------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
+|          1 | NC             | NC                                                                                                                                                                                          | No Connect                                                   |
+|          2 | NC             | NC                                                                                                                                                                                          | No Connect                                                   |
+|          3 | NC             | NC                                                                                                                                                                                          | No Connect                                                   |
+|          4 | NC             | NC                                                                                                                                                                                          | No Connect                                                   |
+|          5 | NC             | NC                                                                                                                                                                                          | No Connect                                                   |
+|          6 | NC             | NC                                                                                                                                                                                          | No Connect                                                   |
+|          7 | AUX_CL         | I2C Master serial clock, for connecting to external sensors                                                                                                                                 |                                                              |
+|          8 | VDDIO          | Digital I/O supply voltage                                                                                                                                                                  |                                                              |
+|          9 | SDO/AD0        | I2C Slave Address LSB (AD0); SPI serial data output (SDO)                                                                                                                                   | Connected to VDDIO which makes I2C Slave Address is b1101001 |
+|         10 | REGOUT         | Regulator filter capacitor connection                                                                                                                                                       | Connected C36 to GND                                         |
+|         11 | FSYNC          | Frame synchronization digital input. Connect to GND if unused.                                                                                                                              | Connected to GND                                             |
+|         12 | INT            | Interrupt digital output (totem pole or open-drain)<br />Note: The Interrupt line should be connected to a pin on the Application Processor (AP) that can bring the AP out of suspend mode. | Connected to Pin 24 on LPC11U37F                             |
+|         13 | VDD            | Power supply voltage and Digital I/O supply voltage                                                                                                                                         | Connected to VDDIO                                           |
+|         14 | NC             |                                                                                                                                                                                             |                                                              |
+|         15 | NC             |                                                                                                                                                                                             |                                                              |
+|         16 | NC             |                                                                                                                                                                                             |                                                              |
+|         17 | NC             |                                                                                                                                                                                             |                                                              |
+|         18 | GND            |                                                                                                                                                                                             | Connected to GND                                             |
+|         19 | RESV           | Reserved. Do not connect.                                                                                                                                                                   | Connected to GND                                             |
+|         20 | RESV           | Reserved. Do not connect.                                                                                                                                                                   |                                                              |
+|         21 | AUX_DA         | I2C master serial data, for connecting to external sensors                                                                                                                                  |                                                              |
+|         22 | nCS            | Chip select (SPI mode only)                                                                                                                                                                 | Connected to VDDIO for I2C operation                         |
+|         23 | SCL/SCLK       | I2C SCL                                                                                                                                                                                     | Connected to Pin 20 on LPC11U37F                             |
+|         24 | SDA/SDI        | I2C SDA                                                                                                                                                                                     | Connected to Pin 21 on LPC11U37F                             |
 
 # nRF51822
 
@@ -287,53 +287,53 @@ similar to the [GlidePoint TM040040](http://www.cirque.com/glidepoint-circle-tra
 ## Pinout
 
 
-| Pin Number | Datasheet Name | Pin Function | Notes                                            |
-| -----------: | ---------------- | -------------- | -------------------------------------------------- |
-|          1 |                |              |                                                  |
-|          2 |                |              |                                                  |
-|          3 |                |              |                                                  |
-|          4 |                | <br />       |                                                  |
-|          5 |                |              |                                                  |
-|          6 |                |              |                                                  |
-|          7 |                |              |                                                  |
-|          8 |                |              |                                                  |
-|          9 |                |              |                                                  |
-|         10 |                |              |                                                  |
-|         11 |                |              |                                                  |
-|         12 |                |              | Connected to Pin 13 via 470K indicating SPI Mode |
-|         13 |                |              | Connected to Pin 12 via 470K indicating SPI Mode |
-|         14 |                |              |                                                  |
-|         15 |                |              |                                                  |
-|         16 |                |              |                                                  |
-|         17 |                |              |                                                  |
-|         18 |                |              |                                                  |
-|         19 |                |              |                                                  |
-|         20 |                |              |                                                  |
-|         21 |                |              |                                                  |
-|         22 |                |              |                                                  |
-|         23 |                |              |                                                  |
-|         24 |                |              |                                                  |
-|         25 |                |              |                                                  |
-|         26 |                |              |                                                  |
-|         26 |                |              |                                                  |
-|         28 |                |              |                                                  |
-|         29 |                |              |                                                  |
-|         30 |                |              |                                                  |
-|         31 |                |              |                                                  |
-|         32 |                |              |                                                  |
-|         33 |                |              |                                                  |
-|         34 |                |              |                                                  |
-|         35 |                |              |                                                  |
-|         36 |                |              |                                                  |
-|         37 |                |              |                                                  |
-|         38 |                |              |                                                  |
-|         39 |                |              |                                                  |
-|         40 |                |              |                                                  |
-|         41 |                |              |                                                  |
-|         42 |                |              |                                                  |
-|         43 |                |              |                                                  |
-|         44 |                |              |                                                  |
-|         45 |                |              |                                                  |
-|         46 |                |              |                                                  |
-|         47 |                |              |                                                  |
-|         48 |                |              |                                                  |
+| Pin Number | Datasheet Name | Pin Function                                                                                                                                                                                                      | Notes                                            |
+| -----------: | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- |
+|          1 | REXT           | External bias resistor pin (Input). A resistor is tied between this pin and ground. It is used to adjust the sensitivity of the measurement system.                                                               |                                                  |
+|          2 | SNSP1          | Sense Positive input pin(s) for sensor. A trace must be routed to the sensor and throughout the sensor grids. It is typically connected to AVSS through a 47 pF capacitor.<br />Note Must be shielded from noise. |                                                  |
+|          3 | SNSN           | Sense Negative input pin. This is an input to the analog measurement system. It is typically connected to AVSS through a 47 pF capacitor.<br />Note Must be shielded from noise.                                  |                                                  |
+|          4 | AVSS           | Analog Ground                                                                                                                                                                                                     |                                                  |
+|          5 | YE0            | Y Electrode pins (outputs). Used to charge the sensor and determine finger position in the Y direction by switching patterns.                                                                                     |                                                  |
+|          6 | YE1            | Same as above.                                                                                                                                                                                                    |                                                  |
+|          7 | YE2            | Same as above.                                                                                                                                                                                                    |                                                  |
+|          8 | YE3            | Same as above.                                                                                                                                                                                                    |                                                  |
+|          9 | YE4            | Same as above.                                                                                                                                                                                                    |                                                  |
+|         10 | YE5            | Same as above.                                                                                                                                                                                                    |                                                  |
+|         11 | YE6            | Same as above.                                                                                                                                                                                                    |                                                  |
+|         12 | YE7            | Same as above.                                                                                                                                                                                                    | Connected to Pin 13 via 470K indicating SPI Mode |
+|         13 | YE8            | Same as above.                                                                                                                                                                                                    | Connected to Pin 12 via 470K indicating SPI Mode |
+|         14 | YE9            | Same as above.                                                                                                                                                                                                    |                                                  |
+|         15 | YE10           | Same as above.                                                                                                                                                                                                    |                                                  |
+|         16 | YE11           | Same as above.                                                                                                                                                                                                    |                                                  |
+|         17 | XE0            | X Electrode pins (outputs). Used to charge the sensor and determine finger position in the X direction by switching patterns.                                                                                     |                                                  |
+|         18 | XE1            | Same as above.                                                                                                                                                                                                    |                                                  |
+|         19 | XE2            | Same as above.                                                                                                                                                                                                    |                                                  |
+|         20 | XE3            | Same as above.                                                                                                                                                                                                    |                                                  |
+|         21 | XE4            | Same as above.                                                                                                                                                                                                    |                                                  |
+|         22 | XE5            | Same as above.                                                                                                                                                                                                    |                                                  |
+|         23 | XE6            | Same as above.                                                                                                                                                                                                    |                                                  |
+|         24 | XE7            | Same as above.                                                                                                                                                                                                    |                                                  |
+|         25 | XE8            | Same as above.                                                                                                                                                                                                    |                                                  |
+|         26 | XE9            | Same as above.                                                                                                                                                                                                    |                                                  |
+|         26 | XE10           | Same as above.                                                                                                                                                                                                    |                                                  |
+|         28 | XE11           | Same as above.                                                                                                                                                                                                    |                                                  |
+|         29 | XE12           | Same as above.                                                                                                                                                                                                    |                                                  |
+|         30 | XE13           | Same as above.                                                                                                                                                                                                    |                                                  |
+|         31 | XE14           | Same as above.                                                                                                                                                                                                    |                                                  |
+|         32 | XE15           | Same as above.                                                                                                                                                                                                    |                                                  |
+|         33 | PA0            | I/O pins used for Communications (PS/2, SPI, I2C), button inputs and other I/0 needs.                                                                                                                             |                                                  |
+|         34 | PA1            | Same as above.                                                                                                                                                                                                    |                                                  |
+|         35 | PA2            | Same as above.                                                                                                                                                                                                    |                                                  |
+|         36 | PA3            | Same as above.                                                                                                                                                                                                    |                                                  |
+|         37 | PA4            | Same as above.                                                                                                                                                                                                    |                                                  |
+|         38 | PA5            | Same as above.                                                                                                                                                                                                    |                                                  |
+|         39 | PA6            | Same as above.                                                                                                                                                                                                    |                                                  |
+|         40 | PA7            | Same as above.                                                                                                                                                                                                    |                                                  |
+|         41 | PB2            | Same as above.                                                                                                                                                                                                    |                                                  |
+|         42 | PB1            | Same as above.                                                                                                                                                                                                    |                                                  |
+|         43 | PB0            | Same as above.                                                                                                                                                                                                    |                                                  |
+|         44 | DVSS           | Digital Ground                                                                                                                                                                                                    |                                                  |
+|         45 | OSCA           | Oscillator pin (input). Activates internal oscillator when connected to an external resistor to ground.                                                                                                           |                                                  |
+|         46 | DVDD           | Digital Power pin. Supplies digital logic, processor and memory.                                                                                                                                                  |                                                  |
+|         47 | VREG_VDD       | Supply voltage for 5 volt operation. Regulates the internal VDD voltage.                                                                                                                                          |                                                  |
+|         48 | AVDD           | Analog Power pin for analog measurement system and electrodes.                                                                                                                                                    |                                                  |

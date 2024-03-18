@@ -35,9 +35,9 @@ The file tracks memory usage and attempts to identify how different section of
 
 # Resources 
 
-* [Datasheet](http://www.nxp.com/documents/data_sheet/LPC11U3X.pdf?fasp=1&WT_TYPE=Data%20Sheets&WT_VENDOR=FREESCALE&WT_FILE_FORMAT=pdf&WT_ASSET=Documentation&fileExt=.pdf)
+* [Datasheet](./Datasheets_Documentation/LPC11U37F/lpc11u3x.pdf)
 
-* [User Manual](http://www.nxp.com/documents/user_manual/UM10462.pdf)
+* [User Manual](./Datasheets_Documentation/LPC11U37F/um10462.pdf)
 
 * [ISA](http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.subset.architecture.reference/index.html)
 
