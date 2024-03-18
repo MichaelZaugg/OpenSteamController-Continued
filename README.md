@@ -130,7 +130,7 @@ intentions of this project please see the Subprojects section below.
 Please recognize that by utilizing any part of this project you are doing so at
 your own risk. This is a reverse engineering effort and [we] make no claims to
 have a complete understanding of the hardware [that we write] custom or modified
-firmware for. Hopefully the testing [we] perform before publishing my findings and
+firmware for. Hopefully the testing [we] perform before publishing our findings and
 modifications will prevent damage to your Steam Controller or anything you may
 connect your Steam Controller to (i.e. the Nintendo Switch). However, [we] cannot
 guarantee that.
@@ -139,15 +139,11 @@ Also please note this is being shared primarily for educational purposes. While
 this may allow a user to do things such as use the Steam Controller on the
 Nintendo Switch, please recognize that this is almost definitely going to be
 coming with trade-offs compared to officially supported hardware and firmware.
-If you want a cheap Switch Controller and are OK with it being
-wired, check out the ones PowerA or Hori makes. If you want a fully featured
-controller, consider spending the extra money and get a Pro Controller (it
-really is worth it).
 
 Finally note that [we] say all of this with the hope of not discouraging anyone.
 Please dive in and get your hands dirty. Just please be aware that there is a
 (hopefully) very small, but non-zero, chance that a mistake could lead to
-bricked or broken hardware.
+[bricked or broken hardware](./LoadingFirmware.md).
 
 # Subprojects
 
