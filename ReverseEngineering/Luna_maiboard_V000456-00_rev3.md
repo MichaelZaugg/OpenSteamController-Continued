@@ -18,7 +18,7 @@ This sections tracks useful documentation related to the processor.
 
 * [Product Information](https://www.nxp.com/part/LPC11U37FBD64?lang_cd=en)
 
-* [Datasheet](./DataSheets_Documentation/LPC11U37F/lpc11u3x.pdf)
+* [Datasheet](./Datasheets_Documentation/LPC11U37F/lpc11u3x.pdf)
 
 * [User Manual](http://www.nxp.com/documents/user_manual/UM10462.pdf)
 
