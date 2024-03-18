@@ -224,56 +224,57 @@ silkscreen labels this as RADIO.
 ## Pinout
 
 
-| Pin Number | Datasheet Name | Pin Function                                                                      | Notes                                            |
-| -----------: | ---------------- | ----------------------------------------------------------------------------------- | -------------------------------------------------- |
-|          1 |                |                                                                                   |                                                  |
-|          2 |                |                                                                                   |                                                  |
-|          3 |                |                                                                                   |                                                  |
-|          4 |                |                                                                                   |                                                  |
-|          5 |                |                                                                                   |                                                  |
-|          6 |                |                                                                                   |                                                  |
-|          7 |                |                                                                                   |                                                  |
-|          8 |                |                                                                                   |                                                  |
-|          9 |                |                                                                                   |                                                  |
-|         10 |                |                                                                                   |                                                  |
-|         11 |                |                                                                                   |                                                  |
-|         12 |                |                                                                                   |                                                  |
-|         13 |                |                                                                                   |                                                  |
-|         14 |                |                                                                                   |                                                  |
-|         15 |                |                                                                                   |                                                  |
-|         16 |                |                                                                                   |                                                  |
-|         17 |                |                                                                                   |                                                  |
-|         18 |                |                                                                                   |                                                  |
-|         19 |                |                                                                                   |                                                  |
-|         20 | P0.14          | General purpose I/O pin                                                           | Connected to Pin 20 (USART TXD) on LPC11U37F/501 |
-|         21 | P0.15          | General purpose I/O pin                                                           | Connected to Pin 23 (USART RXD) on LPC11U37F/501 |
-|         22 | P0.16          | General purpose I/O pin                                                           |                                                  |
-|         23 | SWDIO/nRESET   | (Digital I/O) System reset (active low). Hardware debug and flash programming I/O | Connected to Pin 27 on LPC11U37F/501             |
-|         24 | SWDCLK         | (Digital input) Hardware debug and flash programming I/O.                         | Connected to Pin 39 on LPC11U37F/501             |
-|         25 |                |                                                                                   |                                                  |
-|         26 |                |                                                                                   |                                                  |
-|         26 |                |                                                                                   |                                                  |
-|         28 |                |                                                                                   |                                                  |
-|         29 |                |                                                                                   |                                                  |
-|         30 |                |                                                                                   |                                                  |
-|         31 |                |                                                                                   |                                                  |
-|         32 |                |                                                                                   |                                                  |
-|         33 |                |                                                                                   |                                                  |
-|         34 |                |                                                                                   |                                                  |
-|         35 |                |                                                                                   |                                                  |
-|         36 |                |                                                                                   |                                                  |
-|         37 |                |                                                                                   |                                                  |
-|         38 |                |                                                                                   |                                                  |
-|         39 |                |                                                                                   |                                                  |
-|         40 |                |                                                                                   |                                                  |
-|         41 |                |                                                                                   |                                                  |
-|         42 |                |                                                                                   |                                                  |
-|         43 |                |                                                                                   |                                                  |
-|         44 |                |                                                                                   |                                                  |
-|         45 |                |                                                                                   |                                                  |
-|         46 |                |                                                                                   |                                                  |
-|         47 |                |                                                                                   |                                                  |
-|         48 |                |                                                                                   |                                                  |
+| Pin Number | Datasheet Name             | Pin Function                                                                                                                                      | Notes                                            |
+| :----------- | ---------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- |
+| 1          | VDD                        |                                                                                                                                                   |                                                  |
+| 2          | DCC                        | DC/DC output voltage to external LC filter                                                                                                        |                                                  |
+| 3          | P0.30                      | Digital I/O                                                                                                                                       |                                                  |
+| 4          | P0.00<br />AREF0           | Digital I/O<br />Analog input(ADC/LPCOMP reference input 0)                                                                                       |                                                  |
+| 5          | P0.01<br />AIN2            | Digital I/O<br />Analog input(ADC/LPCOMP input 2.)                                                                                                |                                                  |
+| 6          | P0.02<br />AIN3            | Digital I/O<br />Analog input(ADC/LPCOMP input 3.)                                                                                                |                                                  |
+| 7          | P0.03<br />AIN4            | Digital I/O<br />Analog input(ADC/LPCOMP input 4.)                                                                                                |                                                  |
+| 8          | P0.04<br />AIN5            | Digital I/O<br />Analog input(ADC/LPCOMP input 5.)                                                                                                |                                                  |
+| 9          | P0.05<br />AIN6            | Digital I/O<br />Analog input(ADC/LPCOMP input 6.)                                                                                                |                                                  |
+| 10         | P0.06<br />AIN7<br />AREF1 | Digital I/O<br />Analog input(ADC/LPCOMP input 7.)<br />Analog input (ADC/LPCOMP reference input 1.)                                              |                                                  |
+| 11         | P0.07                      | Digital I/O                                                                                                                                       |                                                  |
+| 12         | VDD                        |                                                                                                                                                   |                                                  |
+| 13         | VSS                        |                                                                                                                                                   |                                                  |
+| 14         | P0.08                      | General purpose I/O pin.                                                                                                                          |                                                  |
+| 15         | P0.09                      | General purpose I/O pin.                                                                                                                          |                                                  |
+| 16         | P0.10                      | General purpose I/O pin.                                                                                                                          |                                                  |
+| 17         | P0.11                      | General purpose I/O pin.                                                                                                                          |                                                  |
+| 18         | P0.12                      | General purpose I/O pin.                                                                                                                          |                                                  |
+| 19         | P0.13                      | General purpose I/O pin.                                                                                                                          |                                                  |
+| 20         | P0.14                      | General purpose I/O pin                                                                                                                           | Connected to Pin 20 (USART TXD) on LPC11U37F/501 |
+| 21         | P0.15                      | General purpose I/O pin                                                                                                                           | Connected to Pin 23 (USART RXD) on LPC11U37F/501 |
+| 22         | P0.16                      | General purpose I/O pin                                                                                                                           |                                                  |
+| 23         | SWDIO/nRESET               | (Digital I/O) System reset (active low). Hardware debug and flash programming I/O                                                                 | Connected to Pin 27 on LPC11U37F/501             |
+| 24         | SWDCLK                     | (Digital input) Hardware debug and flash programming I/O.                                                                                         | Connected to Pin 39 on LPC11U37F/501             |
+| 25         | P0.17                      | General purpose I/O pin.                                                                                                                          |                                                  |
+| 26         | P0.18                      | General purpose I/O pin.                                                                                                                          |                                                  |
+| 26         | P0.19                      | General purpose I/O pin.                                                                                                                          |                                                  |
+| 28         | P0.20                      | General purpose I/O pin.                                                                                                                          |                                                  |
+| 29         | DEC2                       | Power supply decoupling                                                                                                                           |                                                  |
+| 30         | VDD_PA                     | Power supply output (+1.6 V) for on-chip RF power amp.                                                                                            |                                                  |
+| 31         | ANT1                       | Differential antenna connection (TX and RX).                                                                                                      |                                                  |
+| 32         | ANT2                       | Differential antenna connection (TX and RX).                                                                                                      |                                                  |
+| 33         | VSS                        |                                                                                                                                                   |                                                  |
+| 34         | VSS                        |                                                                                                                                                   |                                                  |
+| 35         | AVDD                       | Analog power supply (Radio).                                                                                                                      |                                                  |
+| 36         | AVDD                       | Analog power supply (Radio).                                                                                                                      |                                                  |
+| 37         | XC1                        | (Analog input) Connection for 16/32 MHz crystal or external 16 MHz clock reference.                                                               |                                                  |
+|            |                            |                                                                                                                                                   |                                                  |
+| 38         | XC2                        | (Analog output) Connection for 16/32 MHz crystal.                                                                                                 |                                                  |
+| 39         | DEC1                       | Power supply decoupling                                                                                                                           |                                                  |
+| 40         | P0.21                      | General purpose I/O pin                                                                                                                           |                                                  |
+| 41         | P0.22                      | General purpose I/O pin                                                                                                                           |                                                  |
+| 42         | P0.23                      | General purpose I/O pin                                                                                                                           |                                                  |
+| 43         | P0.24                      | General purpose I/O pin                                                                                                                           |                                                  |
+| 44         | P0.25                      | General purpose I/O pin                                                                                                                           |                                                  |
+| 45         | P0.26<br />AIN0<br />XL2   | Digital I/O<br />(Analog input) ADC/LPCOMP input 0.<br />(Analog output) Connection for 32.768 kHz crystal                                        |                                                  |
+| 46         | P0.27<br />AIN1<br />XL1   | Digital I/O<br />(Analog input) ADC/LPCOMP input 1.<br />(Analog input) Connection for 32.768 kHz crystal or external 32.768 kHz clock reference. |                                                  |
+| 47         | P0.28                      | General purpose I/O pin.                                                                                                                          |                                                  |
+| 48         | P0.29                      | General purpose I/O pin.                                                                                                                          |                                                  |
 
 # Cirque 1CA027
 
@@ -287,53 +288,53 @@ similar to the [GlidePoint TM040040](http://www.cirque.com/glidepoint-circle-tra
 ## Pinout
 
 
-| Pin Number | Datasheet Name         | Pin Function                                                      | Notes                                            |
-| -----------: | ------------------------ | ------------------------------------------------------------------- | -------------------------------------------------- |
-|          1 | VDD                    |                                                                   |                                                  |
-|          2 | DCC                    | DC/DC output voltage to external LC filter                        |                                                  |
-|          3 | P0.30                  | Digital I/O                                                       |                                                  |
-|          4 | P0.00<br /><br />AREF0 | Digital I/O<br />Analog input(ADC/LPCOMP reference input 0)<br /> |                                                  |
-|          5 |                        |                                                                   |                                                  |
-|          6 |                        |                                                                   |                                                  |
-|          7 |                        |                                                                   |                                                  |
-|          8 |                        |                                                                   |                                                  |
-|          9 |                        |                                                                   |                                                  |
-|         10 |                        |                                                                   |                                                  |
-|         11 |                        |                                                                   |                                                  |
-|         12 |                        |                                                                   | Connected to Pin 13 via 470K indicating SPI Mode |
-|         13 |                        |                                                                   | Connected to Pin 12 via 470K indicating SPI Mode |
-|         14 |                        |                                                                   |                                                  |
-|         15 |                        |                                                                   |                                                  |
-|         16 |                        |                                                                   |                                                  |
-|         17 |                        |                                                                   |                                                  |
-|         18 |                        |                                                                   |                                                  |
-|         19 |                        |                                                                   |                                                  |
-|         20 |                        |                                                                   |                                                  |
-|         21 |                        |                                                                   |                                                  |
-|         22 |                        |                                                                   |                                                  |
-|         23 |                        |                                                                   |                                                  |
-|         24 |                        |                                                                   |                                                  |
-|         25 |                        |                                                                   |                                                  |
-|         26 |                        |                                                                   |                                                  |
-|         26 |                        |                                                                   |                                                  |
-|         28 |                        |                                                                   |                                                  |
-|         29 |                        |                                                                   |                                                  |
-|         30 |                        |                                                                   |                                                  |
-|         31 |                        |                                                                   |                                                  |
-|         32 |                        |                                                                   |                                                  |
-|         33 |                        |                                                                   |                                                  |
-|         34 |                        |                                                                   |                                                  |
-|         35 |                        |                                                                   |                                                  |
-|         36 |                        |                                                                   |                                                  |
-|         37 |                        |                                                                   |                                                  |
-|         38 |                        |                                                                   |                                                  |
-|         39 |                        |                                                                   |                                                  |
-|         40 |                        |                                                                   |                                                  |
-|         41 |                        |                                                                   |                                                  |
-|         42 |                        |                                                                   |                                                  |
-|         43 |                        |                                                                   |                                                  |
-|         44 |                        |                                                                   |                                                  |
-|         45 |                        |                                                                   |                                                  |
-|         46 |                        |                                                                   |                                                  |
-|         47 |                        |                                                                   |                                                  |
-|         48 |                        |                                                                   |                                                  |
+| Pin Number | Datasheet Name | Pin Function | Notes                                            |
+| -----------: | ---------------- | -------------- | -------------------------------------------------- |
+|          1 |                |              |                                                  |
+|          2 |                |              |                                                  |
+|          3 |                |              |                                                  |
+|          4 |                | <br />       |                                                  |
+|          5 |                |              |                                                  |
+|          6 |                |              |                                                  |
+|          7 |                |              |                                                  |
+|          8 |                |              |                                                  |
+|          9 |                |              |                                                  |
+|         10 |                |              |                                                  |
+|         11 |                |              |                                                  |
+|         12 |                |              | Connected to Pin 13 via 470K indicating SPI Mode |
+|         13 |                |              | Connected to Pin 12 via 470K indicating SPI Mode |
+|         14 |                |              |                                                  |
+|         15 |                |              |                                                  |
+|         16 |                |              |                                                  |
+|         17 |                |              |                                                  |
+|         18 |                |              |                                                  |
+|         19 |                |              |                                                  |
+|         20 |                |              |                                                  |
+|         21 |                |              |                                                  |
+|         22 |                |              |                                                  |
+|         23 |                |              |                                                  |
+|         24 |                |              |                                                  |
+|         25 |                |              |                                                  |
+|         26 |                |              |                                                  |
+|         26 |                |              |                                                  |
+|         28 |                |              |                                                  |
+|         29 |                |              |                                                  |
+|         30 |                |              |                                                  |
+|         31 |                |              |                                                  |
+|         32 |                |              |                                                  |
+|         33 |                |              |                                                  |
+|         34 |                |              |                                                  |
+|         35 |                |              |                                                  |
+|         36 |                |              |                                                  |
+|         37 |                |              |                                                  |
+|         38 |                |              |                                                  |
+|         39 |                |              |                                                  |
+|         40 |                |              |                                                  |
+|         41 |                |              |                                                  |
+|         42 |                |              |                                                  |
+|         43 |                |              |                                                  |
+|         44 |                |              |                                                  |
+|         45 |                |              |                                                  |
+|         46 |                |              |                                                  |
+|         47 |                |              |                                                  |
+|         48 |                |              |                                                  |
