@@ -20,7 +20,7 @@ This sections tracks useful documentation related to the processor.
 
 * [Datasheet](./Datasheets_Documentation/LPC11U37F/lpc11u3x.pdf)
 
-* [User Manual](http://www.nxp.com/documents/user_manual/UM10462.pdf)
+* [User Manual](./Datasheets_Documentation/LPC11U37F/um10462.pdf)
 
 ## Pinout
 
