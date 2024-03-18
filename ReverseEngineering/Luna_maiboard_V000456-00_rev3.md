@@ -249,8 +249,7 @@ This is the powerful, highly flexible multiprotocol SoC ideally suited for
 |            20 | P0.14                 |General purpose I/O pin| Connected to Pin 20 (USART TXD) on LPC11U37F/501 |
 |            21 | P0.15                 |General purpose I/O pin| Connected to Pin 23 (USART RXD) on LPC11U37F/501 |
 |            22 | P0.16                 |General purpose I/O pin| |
-|            23 | SWDIO/nRESET          |(Digital I/O) System reset (active low). Hardware debug and flash
-programming I/O| Connected to Pin 27 on LPC11U37F/501 |
+|            23 | SWDIO/nRESET          |(Digital I/O) System reset (active low). Hardware debug and flash programming I/O| Connected to Pin 27 on LPC11U37F/501 |
 |            24 | SWDCLK                |(Digital input) Hardware debug and flash programming I/O.| Connected to Pin 39 on LPC11U37F/501 |
 |            25 |                       |               | |
 |            26 |                       |               | |
