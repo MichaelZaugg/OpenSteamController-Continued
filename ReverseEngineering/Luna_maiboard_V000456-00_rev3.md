@@ -181,7 +181,7 @@ This is a 6-axis motion tracking device (i.e. accelerometer, gyroscope).
 
 ## Resources 
 
-* TODO: datasheet, etc.
+[Datasheets & User Manuals](./Datasheets_Documentation/MPU-6500)
 
 ## Pinout
 
@@ -221,7 +221,7 @@ This is the powerful, highly flexible multiprotocol SoC ideally suited for
 
 ## Resources 
 
-* TODO: datasheet, etc.
+[Datasheets & User Manuals](./Datasheets_Documentation/nRF51822)
 
 ## Pinout
 
@@ -284,7 +284,7 @@ This is the processor on the haptics board, which seems to be a custom design
 
 ## Resources 
 
-* TODO: datasheet, etc.
+[Datasheets & User Manuals](./Datasheets_Documentation/"Cirque 1CA027")
 
 ## Pinout 
 
