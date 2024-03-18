@@ -10,14 +10,14 @@ repurpose and expand upon the Steam Controller firmware and hardware.
 First, it is important to talk a little about the Steam Controller (the
 hardware that this project is focused on).
 
-![SteamControllerBox](./img/SC-Box.png)
+![SteamControllerBox](./img/SC-Box.jpg)
 
 The Steam Controller is a video game controller released by Valve Corporation
 on November 10, 2015. This was part of Valve's initiative to give PC gamers the
 option of a console-like experience (i.e. the couch gamer who sits in front of
 a TV and uses a controller instead of keyboard and mouse).
 
-![SteamControllerFront](./img/SCFront.png)
+![SteamControllerFront](./img/SCFront.jpg)
 
 Keeping some aspects familiar to modern video game controllers (i.e. a left analog stick,
 
@@ -25,7 +25,7 @@ four face buttons, two shoulder and bumper buttons) while also changing up some 
 
 norms we have come to expect (i.e. replacing the directional pad and right analog stick with trackpads).
 
-![SteamControllerBack](./img/SCBack.png)
+![SteamControllerBack](./img/SCBack.jpg)
 
 Additional details on the controller can be found on the official
 [Product Page](https://store.steampowered.com/app/353370/Steam_Controller/)
