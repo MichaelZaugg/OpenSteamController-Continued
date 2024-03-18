@@ -1,36 +1,35 @@
-# Open Steam Controller
+# Open Steam Controller - Continued
 
 Welcome to the Open Steam Controller Project!
 
-This is a project where I have been working to deconstruct, document,
-repurpose and expand upon the Steam Controller firmware and hardware.
+This project is a fork of the [original Open Steam Controller](https://github.com/greggersaurus/OpenSteamController) by [Greg Gluszek](https://github.com/greggersaurus).
+
+I hope to continue and improve upon the already amazing work done to deconstruct, document,
+repurpose, and expand upon the Steam Controller firmware and hardware. As well as
+provide a page of mods for those wanting to improve their own controllers with all
+the information they need.
 
 # The Steam Controller
-
-First, it is important to talk a little about the Steam Controller (the
-hardware that this project is focused on).
 
 ![SteamControllerBox](./img/SC-Box.jpg)
 
 The Steam Controller is a video game controller released by Valve Corporation
 on November 10, 2015. This was part of Valve's initiative to give PC gamers the
-option of a console-like experience (i.e. the couch gamer who sits in front of
-a TV and uses a controller instead of keyboard and mouse).
+option of a console-like experience.
 
 ![SteamControllerFront](./img/SCFront.jpg)
 
 Keeping some aspects familiar to modern video game controllers (i.e. a left analog stick,
-
-four face buttons, two shoulder and bumper buttons) while also changing up some of the
-
-norms we have come to expect (i.e. replacing the directional pad and right analog stick with trackpads).
+four face buttons, two shoulder, and bumper buttons) while also changing up some of the
+norms that we have come to expect (i.e. replacing the directional pad
+and right analog stick with trackpads).
 
 ![SteamControllerBack](./img/SCBack.jpg)
 
 Additional details on the controller can be found on the official
 [Product Page](https://store.steampowered.com/app/353370/Steam_Controller/)
 
-# Why?
+# Why? - From [Greg Gluszek](https://github.com/greggersaurus)
 
 You may be wondering why this project exists and why I have invested a
 non-negligible amount of my time and energy into it over the past couple of
@@ -61,7 +60,7 @@ pointed out a lot of neat peripherals and processors that I thought would
 be neat to work with, especially in the context of a product that already
 was designed for a particular purpose.
 
-# The Open Steam Controller Project
+# The Open Steam Controller Project - Summary From [Greg Gluszek](https://github.com/greggersaurus)
 
 Now that the controller and some of its (default) capabilities have been explained,
 we can start talking about this project. Namely I want to cover what has been
@@ -129,11 +128,11 @@ intentions of this project please see the Subprojects section below.
 # Notice and Warning
 
 Please recognize that by utilizing any part of this project you are doing so at
-your own risk. This is a reverse engineering effort and I make no claims to
-have a complete understanding of the hardware I am providing custom or modified
-firmware for. Hopefully the testing I perform before publishing my findings and
+your own risk. This is a reverse engineering effort and [we] make no claims to
+have a complete understanding of the hardware [that we write] custom or modified
+firmware for. Hopefully the testing [we] perform before publishing my findings and
 modifications will prevent damage to your Steam Controller or anything you may
-connect your Steam Controller to (i.e. the Nintendo Switch). However, I cannot
+connect your Steam Controller to (i.e. the Nintendo Switch). However, [we] cannot
 guarantee that.
 
 Also please note this is being shared primarily for educational purposes. While
@@ -145,7 +144,7 @@ wired, check out the ones PowerA or Hori makes. If you want a fully featured
 controller, consider spending the extra money and get a Pro Controller (it
 really is worth it).
 
-Finally note that I say all of this with the hope of not discouraging anyone.
+Finally note that [we] say all of this with the hope of not discouraging anyone.
 Please dive in and get your hands dirty. Just please be aware that there is a
 (hopefully) very small, but non-zero, chance that a mistake could lead to
 bricked or broken hardware.
@@ -178,6 +177,13 @@ Open Steam Controller: Development Board
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=6n_3tYg0XP8
 " target="_blank"><img src="http://img.youtube.com/vi/6n_3tYg0XP8/0.jpg" 
 alt="Open Steam Controller: Development Board" width="240" height="180" border="10" /></a>
+
+In addition [I](https://github.com/MichaelZaugg) hope to continue on the development
+of the custom firmware. Hopefully getting it the closest we can to the official
+firmware so that we may better understand and mod more functionality. Some examples
+could be wireless support for the Nintendo Switch, Windows Support both wireless and
+wired, Xbox, PlayStation, and whatever future interests come to mind.Thanks to the
+tremendous work already done I believe that these goals can be achieved.
 
 ## [Jingle](./Jingle)
 
@@ -223,7 +229,7 @@ effort or incongruous designs.
 
 # Bugs and Issues
 
-I will do my best to provide easy to use and robust software. However, there
+We will do our best to provide easy to use and robust software. However, there
 will still most likely be bugs. If you find a bug, please report it.
 
 The best way to report a bug is to use the Issues tab on GitHub.
