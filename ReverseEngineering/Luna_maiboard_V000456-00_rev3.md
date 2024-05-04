@@ -283,6 +283,7 @@ similar to the [GlidePoint TM040040](http://www.cirque.com/glidepoint-circle-tra
 ## Resources
 
 [Datasheets & User Manuals](./Datasheets_Documentation/Cirque-1CA027)
+[Ribbon Cable Pinout](./Datasheets_Documentation/Cirque-1CA027/)
 
 ## Pinout
 
