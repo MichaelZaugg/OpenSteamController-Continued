@@ -10,7 +10,7 @@ These models are unofficial and not made by Valve. The purpose of these models i
 the Steam Controller CAD models. For example we are not given the left/right trackpad arms, or
 the battery housing, along with a few other bits and pieces. 
 
-You can find the current models in the Unofficial directory.
+You can find the current models in the [Unofficial](./Unofficial) directory.
 
 ## User Mods
 
