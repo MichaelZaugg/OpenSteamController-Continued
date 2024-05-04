@@ -12,6 +12,3 @@ the battery housing, along with a few other bits and pieces.
 
 You can find the current models in the Unofficial Releases directory.
 
-## CAD Mods
-
-Here you can find case mods for the Steam Controller created by others in the Community Mods directory.
