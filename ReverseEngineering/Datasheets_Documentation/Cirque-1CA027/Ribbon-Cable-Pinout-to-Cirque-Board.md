@@ -1,4 +1,4 @@
-This is the pinout for the ribbon cable. Starting with the white dot as pin 0 going to pin 11 on the left.
+This is the pinout for the ribbon cable. Starting with the white dot as pin 0 going to pin 11 from left to right.
 
 ![RightTrackPad](https://github.com/MichaelZaugg/OpenSteamController-Continued/assets/26980031/8011e839-85fa-49b8-87e3-3cf58929fd1b)
 
