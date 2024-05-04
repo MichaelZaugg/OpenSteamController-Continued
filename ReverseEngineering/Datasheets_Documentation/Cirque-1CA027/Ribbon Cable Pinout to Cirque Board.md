@@ -1,1 +1,17 @@
-test
+This is the pinout for the ribbon cable. Starting with the white dot as pin 0 going to pin 11 on the left.
+
+![RightTrackPad](https://github.com/MichaelZaugg/OpenSteamController-Continued/assets/26980031/8011e839-85fa-49b8-87e3-3cf58929fd1b)
+
+Pin(s)
+0: ATP5/ATP6
+1: ATP5/ATP6
+2: ATP5/ATP6
+3: ATP5/ATP6
+4: GND/ ATP3, ATP4
+5: VDD
+6: GND
+7: MOSI
+8: DR
+9: SS
+10: MISO
+11: SCK
