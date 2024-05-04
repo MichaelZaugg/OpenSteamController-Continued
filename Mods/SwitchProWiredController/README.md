@@ -9,4 +9,4 @@ Then follow the instructions in the [LoadingFirmware.md](/LoadingFirmware.md).
 not supported, and analog triggers is currently not supported. The mod only gets
 the basics working with USB.
 
-For more details and source code please visit the [Firmware](./Firmware) subproject. 
+For more details and source code please visit the [Firmware](/Firmware) subproject. 
