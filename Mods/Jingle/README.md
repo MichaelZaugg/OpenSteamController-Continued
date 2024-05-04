@@ -72,10 +72,10 @@ In order to custom the Jingles on the Steam Controller, the Steam Controller
  The binary that works with the SCJingleConverter GUI is 
  [OpenSteamController.bin](./bin/OpenSteamController.bin).
 
-First follow steps section Backing Up the Firmware of [Loading Firmware](../LoadingFirmware.md) 
+First follow steps section Backing Up the Firmware of [Loading Firmware](/LoadingFirmware.md) 
  to create a back up the firmware currently on your Steam Controller. 
 
-Second, follow steps section Manually Loading Firmware of [Loading Firmware](../LoadingFirmware.md)
+Second, follow steps section Manually Loading Firmware of [Loading Firmware](/LoadingFirmware.md)
  to download [OpenSteamController.bin](./bin/OpenSteamController.bin) to your
  controller.
 
@@ -115,11 +115,11 @@ Once custom Jingle Data has been saved to EEPROM you can restore the Steam
  Controller firmware to the officially supported firmware and use the controller
  like normal. 
 
-Use the previously backed firmware and follow the steps in [Loading Firmware](../LoadingFirmware.md) 
+Use the previously backed firmware and follow the steps in [Loading Firmware](/LoadingFirmware.md) 
  to manually restore this firmware. 
 
 If you did not backup the firmware or it became corrupted or was lost, follow the
- Restoring Firmware section in [Loading Firmware](../LoadingFirmware.md).
+ Restoring Firmware section in [Loading Firmware](/LoadingFirmware.md).
 
 Once the officially supported firmware is loaded onto the controller it should
  behave like normal, except that the custom Jingle Data you loaded will play
@@ -143,12 +143,12 @@ See the [Jingle Data Details](./JingleData.md) document for details on what a
 
 All the information in this document was deciphered via reverse engineering
  Valve's official firmware. Refer to the 
- [Reverse Engineering](../ReverseEngineering/) Subproject for details. 
+ [Reverse Engineering](/ReverseEngineering/) Subproject for details. 
 
-Additionally the [Firmware](../Firmware) Subproject has details and examples of
+Additionally the [Firmware](/Firmware) Subproject has details and examples of
  how this information is used to play a Jingle via the Steam Controller. See
- [jingle_data.c](../Firmware/OpenSteamController/src/jingle_data.c) and 
- [haptic.c](../Firmware/OpenSteamController/src/haptic.c) specifically for 
+ [jingle_data.c](/Firmware/OpenSteamController/src/jingle_data.c) and 
+ [haptic.c](/Firmware/OpenSteamController/src/haptic.c) specifically for 
  further details.
 
 
