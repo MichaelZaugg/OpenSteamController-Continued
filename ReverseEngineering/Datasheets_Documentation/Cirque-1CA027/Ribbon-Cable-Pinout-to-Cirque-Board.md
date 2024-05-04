@@ -4,15 +4,15 @@ This is the pinout for the ribbon cable. Starting with the white dot as pin 0 go
 
 Pin(s)
 
-0: ATP5/ATP6
+0: ATP5/ATP6  -Haptics Engine Annode
 
-1: ATP5/ATP6
+1: ATP5/ATP6  -Haptics Engine Annode 
 
-2: ATP5/ATP6
+2: ATP5/ATP6  -Haptics Engine Annode
 
-3: ATP5/ATP6
+3: ATP5/ATP6  -Haptics Engine Annode
 
-4: GND/ ATP3, ATP4
+4: GND/ ATP3, ATP4 -Haptics Engine Cathode
 
 5: VDD
 
@@ -27,3 +27,5 @@ Pin(s)
 10: MISO
 
 11: SCK
+
+It looks like one side of the cable is allocated to the haptics engine and the other side is to control the trackpad
