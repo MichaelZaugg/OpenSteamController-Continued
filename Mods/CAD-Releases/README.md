@@ -2,7 +2,7 @@
 
 You can find the official CAD files on Steam [here](https://store.steampowered.com/news/app/353370/view/3931035846865618326).
 
-This includes almost everything insight the controller except a few parts.
+This includes almost everything inside the controller except a few parts.
 
 ## User Created Models - Unofficial
 
