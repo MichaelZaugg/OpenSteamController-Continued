@@ -15,5 +15,7 @@ This includes almost everything inside the controller except these parts:
 These models are unofficial and not made by Valve. The purpose of these models is to complete
 the CAD Steam Controller and provide a source for future modding/replacement parts. 
 
+* Note: These are user made parts and are still live projects being updated.
+
 You can find the current models in the [Unofficial](./Unofficial) directory.
 
