@@ -6,8 +6,7 @@ This project is aimed to fully reverse engineer the hardware on the steam contro
 # I won't be releasing any gerber files until version 1 is complete. 
 
 # Disclaimer - Please Read:
-Disclaimer - Please Read:
-I am not a professional. This project is not finished. Version 1.0 will be the first fully working replacement PCB. Why am I announcing an unfinished project? As the Steam Controller 9 year anniversary is tomorrow as of the time of this writing. I saw it fit to announce and update what I've been working on. This project is aimed to be open source. All files and documentation will be uploaded for free. Please take this into consideration before modding your controller as I not responsible for any damage done to it.
+I am not a professional. This project is not finished. Version 1.0 will be the first fully working replacement PCB. Why am I announcing an unfinished project? As the Steam Controller 9 year anniversary is tomorrow as of the time of this writing. I saw it fit to announce and update what I've been working on. This project is aimed to be open source. All files and documentation will be uploaded for free. Please take this into consideration before modding your controller as I am not responsible for any damage done to it.
 
 # PCB Editor:
 This project was initially made with EasyEDA but everything has been ported to KiCad version 8. All the KiCad files will be provided.
