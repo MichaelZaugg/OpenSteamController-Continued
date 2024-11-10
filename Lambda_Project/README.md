@@ -13,7 +13,7 @@ I am not a professional. This project is not finished. Version 1.0 will be the f
 This project was initially made with EasyEDA but everything has been ported to KiCad version 8. All the KiCad files will be provided.
 
 # KiCad Project Files:
-Since the project is over 25MB and GitLFS doesn't seem to work the entire project will be here on google drive: [Steam_Controller_KiCad_V0.4](https://drive.google.com/file/d/1F0fDjccjUbn52ikgSFCjOqOBMrxM-hcS/view?usp=drive_link)
+Since the project is over 25MB and GitLFS doesn't seem to work the entire project will be here on google drive: [Steam_Controller_KiCad_V0.4.zip](https://drive.google.com/file/d/1F0fDjccjUbn52ikgSFCjOqOBMrxM-hcS/view?usp=drive_link)
 
 # Images and Schematic
 ![](attachment/afa9b77cc4482fdf89f3f103edac71b2.png)
