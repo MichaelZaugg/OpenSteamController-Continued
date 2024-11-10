@@ -12,7 +12,7 @@ I am not a professional. This project is not finished. Version 1.0 will be the f
 # PCB Editor:
 This project was initially made with EasyEDA but everything has been ported to KiCad version 8. All the KiCad files will be provided. 
 
-
+# Images and Schematic
 ![](attachment/afa9b77cc4482fdf89f3f103edac71b2.png)
 ![](attachment/7c7c7de2daa7c212bad5140ab162f510.png)
 Lambda_mainboard_EXP V0.4
@@ -27,7 +27,7 @@ Most of the traces are made with AutoRouter with some manual adjustment. Also it
 
 ![](attachment/6aab1f713e77da4a4bc93c133fc36ce6.png)
 Lambda Schematic V0.4 Screenshot -Inverted because dark mode
-A pdf can be found here.
+A pdf can be found here [lambda_schematic.pdf](/lambda_schematic.pdf).
 
 
 
