@@ -27,7 +27,7 @@ Most of the traces are made with AutoRouter with some manual adjustment. Also it
 
 ![](attachment/6aab1f713e77da4a4bc93c133fc36ce6.png)
 Lambda Schematic V0.4 Screenshot -Inverted because dark mode
-A pdf can be found here [lambda_schematic.pdf](/lambda_schematic.pdf).
+A pdf can be found here [lambda_schematic.pdf](/Lambda_Project/lambda_schematic.pdf).
 
 
 
