@@ -3,7 +3,7 @@
 Welcome to the Lambda Project! 
 This project is aimed to fully reverse engineer the hardware on the steam controller motherboard for modding and repair. The main goal is to be able to fabricate a drop in replacement motherboard for the controller. Either through transplanting original components or using brand new replacements. I have named this board the 'Lambda_mainboard_EXP' (experimental). This project will open numerous opportunities for the modding community and the steam controller community. Bringing life back to broken units or fully integrating your upgrades/mods onto this board. To give some examples: USB-C mod, Better buttons, more LEDs, rechargeable battery system, a proper D-Pad, second Joystick, and anything else the community comes up with. I also believe that this could be the groundwork for a community made Steam Controller 2, such as one based off the Steam Deck since the controls are almost exact. 
 
-I won't be releasing any gerber files until version 1 is complete. 
+# I won't be releasing any gerber files until version 1 is complete. 
 
 # Disclaimer - Please Read:
 Disclaimer - Please Read:
