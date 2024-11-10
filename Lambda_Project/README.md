@@ -10,7 +10,10 @@ Disclaimer - Please Read:
 I am not a professional. This project is not finished. Version 1.0 will be the first fully working replacement PCB. Why am I announcing an unfinished project? As the Steam Controller 9 year anniversary is tomorrow as of the time of this writing. I saw it fit to announce and update what I've been working on. This project is aimed to be open source. All files and documentation will be uploaded for free. Please take this into consideration before modding your controller as I not responsible for any damage done to it.
 
 # PCB Editor:
-This project was initially made with EasyEDA but everything has been ported to KiCad version 8. All the KiCad files will be provided. 
+This project was initially made with EasyEDA but everything has been ported to KiCad version 8. All the KiCad files will be provided.
+
+# KiCad Project Files:
+Since the project is over 25MB and GitLFS doesn't seem to work the entire project will be here on google drive: [Steam_Controller_KiCad_V0.4](https://drive.google.com/file/d/1F0fDjccjUbn52ikgSFCjOqOBMrxM-hcS/view?usp=drive_link)
 
 # Images and Schematic
 ![](attachment/afa9b77cc4482fdf89f3f103edac71b2.png)
