@@ -19,7 +19,7 @@ Since the project is over 25MB and GitLFS doesn't seem to work the entire projec
 ![](attachment/7c7c7de2daa7c212bad5140ab162f510.png)
 Lambda_mainboard_EXP V0.4
 
-The current version is V0.4 as of 11-9-2024. Most basic connections have been reverse engineered such as the buttons, track-pads, joystick, USB, and partial for the microcontrollers. Resistors, diodes, capacitors, and everything else has intentionally been left out for now as the basics is being worked out.
+The current version is V0.5 as of 11-26-2024. Most basic connections have been reverse engineered such as the buttons, track-pads, joystick, USB, and partial for the microcontrollers. Resistors, diodes, capacitors, and everything else has intentionally been left out for now as the basics is being worked out.
 
 
 
@@ -29,7 +29,7 @@ Most of the traces are made with AutoRouter with some manual adjustment. Also it
 
 ![](attachment/6aab1f713e77da4a4bc93c133fc36ce6.png)
 Lambda Schematic V0.4 Screenshot -Inverted because dark mode :).
-A pdf can be found here [lambda_schematic.pdf](/Lambda_Project/lambda_schematic.pdf).
+A pdf can be found here [lambda_schematic.pdf](/Lambda_Project/lambda_schematic_V0.5.pdf).
 
 
 
