@@ -14,12 +14,15 @@ This project was initially made with EasyEDA but everything has been ported to K
 # KiCad Project Files:
 Since the project is over 25MB and GitLFS doesn't seem to work the entire project will be here on google drive: [Steam_Controller_KiCad](https://drive.google.com/drive/folders/1pgKrxKx-PQnyL5enbXCNOBBvkrO6b2vu?usp=sharing)
 
-# Images and Schematic
-![](attachment/afa9b77cc4482fdf89f3f103edac71b2.png)
-![](attachment/7c7c7de2daa7c212bad5140ab162f510.png)
-Lambda_mainboard_EXP V0.4
+# PCB CAD File:
+There is a new folder that has a [3D model of the Lambda_mainboard](/PCB_CAD).
 
-The current version is V0.5 as of 11-26-2024. Most basic connections have been reverse engineered such as the buttons, track-pads, joystick, USB, and partial for the microcontrollers. Resistors, diodes, capacitors, and everything else has intentionally been left out for now as the basics is being worked out.
+# Images and Schematic
+![](Images/Steam_ControllerFront.png)
+![](Images/Steam_ControllerBack.png)
+Lambda_mainboard_EXP V0.5-4
+
+The current version is V0.5-4 as of 11-27-2024. Most basic connections have been reverse engineered such as the buttons, track-pads, joystick, USB, and partial for the microcontrollers. Resistors, diodes, capacitors, and everything else has intentionally been left out for now as the basics is being worked out.
 
 
 
@@ -29,7 +32,7 @@ Most of the traces are made with AutoRouter with some manual adjustment. Also it
 
 ![](attachment/6aab1f713e77da4a4bc93c133fc36ce6.png)
 Lambda Schematic V0.4 Screenshot -Inverted because dark mode :).
-A pdf can be found here [lambda_schematic.pdf](/Lambda_Project/lambda_schematic_V0.5.pdf).
+A pdf can be found here [lambda_schematic.pdf](/Lambda_Project/lambda_schematic_V0.5-4.pdf).
 
 
 
