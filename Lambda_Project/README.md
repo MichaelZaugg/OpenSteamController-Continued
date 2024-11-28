@@ -15,7 +15,7 @@ This project was initially made with EasyEDA but everything has been ported to K
 Since the project is over 25MB and GitLFS doesn't seem to work the entire project will be here on google drive: [Steam_Controller_KiCad](https://drive.google.com/drive/folders/1pgKrxKx-PQnyL5enbXCNOBBvkrO6b2vu?usp=sharing)
 
 # PCB CAD File:
-There is a new folder that has a [3D model of the Lambda_mainboard](/PCB_CAD).
+There is a new folder that has a [3D model of the Lambda_mainboard](./PCB_CAD).
 
 # Images and Schematic
 ![](Images/Steam_ControllerFront.png)
