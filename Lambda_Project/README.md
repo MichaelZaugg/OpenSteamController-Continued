@@ -26,8 +26,8 @@ The current version is V0.6-4 as of 1-20-2025. Most basic connections have been 
 
 
 
-![](attachment/c0cb34098950b1e2c450dc545c308052.png)
-Lambda_mainboard_EXP V0.4 In Editor
+![](Images/kicad_pcb.png)
+Lambda_mainboard_EXP V0.6-4 In Editor
 Most of the traces are made with AutoRouter with some manual adjustment. Also it just looks really cool.
 
 ![](attachment/6aab1f713e77da4a4bc93c133fc36ce6.png)
