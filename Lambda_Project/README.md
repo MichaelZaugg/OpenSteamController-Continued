@@ -18,8 +18,8 @@ Since the project is over 25MB and GitLFS doesn't seem to work the entire projec
 There is a new folder that has a [3D model of the Lambda_mainboard](./PCB_CAD).
 
 # Images and Schematic
-![](Images/Steam_ControllerFront.png)
-![](Images/Steam_ControllerBack.png)
+![](Images/Steam_ControllerFron.png)
+![](Images/Steam_ControllerBac.png)
 Lambda_mainboard_EXP V0.7
 
 The current version is V0.7 as of 1-26-2025. Most basic connections have been reverse engineered such as the buttons, track-pads, joystick, USB, and partial for the microcontrollers. The power circuit is roughly 90% complete with power traced all the way to the main processor.
