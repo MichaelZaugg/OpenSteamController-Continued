@@ -22,7 +22,7 @@ There is a new folder that has a [3D model of the Lambda_mainboard](./PCB_CAD).
 ![](Images/Steam_ControllerBack.png)
 Lambda_mainboard_EXP V0.6-4
 
-The current version is V0.6-4 as of 1-20-2025. Most basic connections have been reverse engineered such as the buttons, track-pads, joystick, USB, and partial for the microcontrollers. The power circuit is roughly 90% complete with power traced all the way to the main processor.
+The current version is V0.7 as of 1-26-2025. Most basic connections have been reverse engineered such as the buttons, track-pads, joystick, USB, and partial for the microcontrollers. The power circuit is roughly 90% complete with power traced all the way to the main processor.
 
 
 
@@ -32,7 +32,7 @@ Most of the traces are made with AutoRouter with some manual adjustment. Also it
 
 ![](attachment/6aab1f713e77da4a4bc93c133fc36ce6.png)
 Lambda Schematic V0.4 Screenshot -Inverted because dark mode :).
-A pdf can be found here [lambda_schematic.pdf](/Lambda_Project/lambda_schematic_V0.6-4.pdf).
+A pdf can be found here [lambda_schematic.pdf](/Lambda_Project/lambda_schematic_V0.7.pdf).
 
 
 
