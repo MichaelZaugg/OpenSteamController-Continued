@@ -1,8 +1,8 @@
-This is the pinout for the bottom of the ribbon cable (going into the motherboard). Starting with the white dot as pin 1 going to pin 12 from left to right.
+**This is the pinout for the bottom of the ribbon cable (going into the motherboard). Starting with the white dot as pin 1 going to pin 12 from left to right.**
 
-![RightTrackPad](https://github.com/MichaelZaugg/OpenSteamController-Continued/assets/26980031/8011e839-85fa-49b8-87e3-3cf58929fd1b)
+![RibbonCable](https://github.com/MichaelZaugg/OpenSteamController-Continued/ReverseEngineering/Datasheets_Documentation/Cirque-1CA027/RibbonFront.jpg)
 
-Pin(s)
+**Pin(s)**
 
 1: ATP6  -Haptics Engine 
 
@@ -28,11 +28,10 @@ Pin(s)
 
 12: SCK
 
-It looks like one side of the cable is allocated to the haptics engine and the other side is to control the trackpad
 
-For the top of the ribbin cable (labeled Trackpad) going from the white dot (Pin 1) to the left.
+**For the top of the ribbin cable (labeled Trackpad) going from the white dot (Pin 1) to the left.**
 
-Pin(s)
+**Pin(s)**
 
 1: GND
 
