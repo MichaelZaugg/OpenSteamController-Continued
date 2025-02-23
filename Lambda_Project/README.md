@@ -22,7 +22,7 @@ There is a new folder that has a [3D model of the Lambda_mainboard](./PCB_CAD).
 ![](Images/Steam_ControllerBack.png)
 Lambda_mainboard_EXP V0.7
 
-The current version is V0.8 as of 2-17-2025. Most basic connections have been reverse engineered such as the buttons, track-pads, joystick, USB, and partial for the microcontrollers. The power circuit is roughly 90% complete with power traced all the way to the main processor.
+The current version is V0.83 as of 2-22-2025. The Steam Controller is now completely traced with all major parts sourced. What's left is de-soldering the entire board, measuring values for all other components, and double checking everything. Then it is on to our very first prototype.
 
 
 
