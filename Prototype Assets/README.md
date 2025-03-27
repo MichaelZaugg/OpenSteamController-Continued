@@ -6,3 +6,5 @@ TODO: Add more to this directory.
 
 # Steam Controller Prototypes (from u/lumpex999)
 ![SteamControllerPrototypes](./controller-protos.jpg)
+
+![ChellControllerPrototypes](./Chell_Controller_Internal/Chell-Internal-Blue.png)
