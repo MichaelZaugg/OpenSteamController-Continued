@@ -12,7 +12,7 @@ I am not a professional. This project is not finished. Version 1.0 will be the f
 This project was initially made with EasyEDA but everything has been ported to KiCad version 8. All the KiCad files will be provided.
 
 # KiCad Project Files:
-Since the project is over 25MB and GitLFS doesn't seem to work the entire project will be here on google drive: [Steam_Controller_KiCad](https://drive.google.com/drive/folders/1pgKrxKx-PQnyL5enbXCNOBBvkrO6b2vu?usp=sharing)
+KiCad source files will be available in the releases along with datasheets for each component: [Steam_Controller_KiCad](https://github.com/MichaelZaugg/OpenSteamController-Continued/releases)
 
 # PCB CAD File:
 There is a new folder that has a [3D model of the Lambda_mainboard](./PCB_CAD).
