@@ -22,7 +22,7 @@ There is a new folder that has a [3D model of the Lambda_mainboard](./PCB_CAD).
 ![](Images/Steam_ControllerBack.png)
 Lambda_mainboard_EXP V0.7
 
-The current version is V0.87 as of 5-18-2025 and is roughly 87% complete. The Steam Controller is now completely traced with all major parts sourced. The board has been de-soldered and most resistors have been added. The next steps are the capacitors, inductors, diodes, and any odd ends left. Then a final round of sanity checking before ordering a V1.0 board.
+The current version is V0.9 as of 6-13-2025. The Steam Controller is now completely traced with all major parts sourced. The schematic is now more or less complete. Now it's time for a final round of sanity checking and finishing the PCB for our first prototype.
 
 
 
@@ -32,7 +32,7 @@ Most of the traces are made with AutoRouter with some manual adjustment. Also it
 
 ![](attachment/6aab1f713e77da4a4bc93c133fc36ce6.png)
 Lambda Schematic V0.4 Screenshot -Inverted because dark mode :).
-A pdf can be found here [lambda_schematic.pdf](/Lambda_Project/lambda_schematic_V0.87.pdf).
+A pdf can be found here [lambda_schematic.pdf](/Lambda_Project/lambda_schematic_V0.9.pdf).
 
 
 
