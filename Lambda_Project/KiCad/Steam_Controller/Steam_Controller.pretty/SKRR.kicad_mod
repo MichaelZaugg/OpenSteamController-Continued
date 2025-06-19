@@ -1,0 +1,165 @@
+(footprint "SKRR"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SKRR")
+	(tags "Switch")
+	(property "Reference" "S**"
+		(at 0.03 -4.14 180)
+		(layer "F.SilkS")
+		(uuid "d6288cf5-a130-49b8-942b-87baca9d6446")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+		)
+	)
+	(property "Value" "SKRR"
+		(at 0.03 8.4 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b33e4361-bee3-4200-90d4-3b50e58198af")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "42a6cc04-6940-4940-8995-58aed3895763")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fc3535a2-a2bc-4a6c-84ad-fe9be672a0b0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "97eba528-469c-4d68-820c-5aae217b0db4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.75 3.5)
+		(end 3.75 3.5)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b7858451-6c76-401e-b588-316d25ec68f8")
+	)
+	(fp_line
+		(start 3.75 -3.5)
+		(end -3.75 -3.5)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "050d6cf8-9b5d-4f8e-84d5-b486cb7427d2")
+	)
+	(fp_circle
+		(center 4.62 2.98)
+		(end 4.62 3.05305)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "e2251420-4509-4f81-8d0c-d12ef46c51db")
+	)
+	(fp_line
+		(start -3.75 -3.5)
+		(end 3.75 -3.5)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c95f1493-f1d6-4136-919f-46e72ba0d62e")
+	)
+	(fp_line
+		(start 3.75 3.5)
+		(end -3.75 3.5)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6d21485c-1ff5-49b6-9488-299f8f683514")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.13 6.55 0)
+		(layer "F.Fab")
+		(uuid "e5b8b58e-7ba0-41d1-967c-cbfa50bc2707")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -3 -2.5)
+		(size 1 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a4789e9d-0eec-4d8b-b512-cfcbe0b934c0")
+	)
+	(pad "2" smd rect
+		(at -3 2.5)
+		(size 1 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "26f22e4b-b6cb-45e8-8df3-df8547983f55")
+	)
+	(pad "3" smd rect
+		(at 3 -2.5)
+		(size 1 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d4c94741-181e-4ffa-88dd-db1f9dfaf494")
+	)
+	(pad "4" smd rect
+		(at 3 2.5)
+		(size 1 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "eb03fbec-f16c-42d2-b0b1-39d9bb9e0f3e")
+	)
+	(model "/home/michael/Desktop/SteamController PCB test/Components/SKRRAAE010/3D/skrraae010.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

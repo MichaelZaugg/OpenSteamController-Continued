@@ -1,0 +1,236 @@
+(footprint "NX2520SA16MHZSTDCSW5"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "NX2520SA-16MHZ-STD-CSW-5-1")
+	(tags "Crystal or Oscillator")
+	(property "Reference" "X**"
+		(at -0.17 -3.04 0)
+		(layer "F.SilkS")
+		(uuid "71aa82aa-d190-4cec-b26d-ca97bc27dc7f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "NX2520SA16MHZSTDCSW5"
+		(at 0.31 3.37 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "7c495d54-e13d-4d78-b818-57f6a42fddab")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4aed5ae3-1b7f-424c-bc57-b8186c1c76e3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "65800817-4f4b-4660-8f71-e03ce00cc9bd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1bb6a27c-d25d-4fc2-8d2f-fefb10ccbd86")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.85 1.5)
+		(end -0.85 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1f35c63e-3eb0-40ee-b73a-9841196909eb")
+	)
+	(fp_line
+		(start -0.85 1.6)
+		(end -0.85 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0df70287-cb61-4b39-af5f-64b3f275805e")
+	)
+	(fp_arc
+		(start -0.85 1.5)
+		(mid -0.8 1.55)
+		(end -0.85 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "06c1c847-cfcc-4b99-86d4-3646fd6c6796")
+	)
+	(fp_arc
+		(start -0.85 1.6)
+		(mid -0.9 1.55)
+		(end -0.85 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b4f02052-9e47-4f40-adfc-d7fbecad9df5")
+	)
+	(fp_line
+		(start -2.45 -2.15)
+		(end 2.45 -2.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "256baef8-3381-4b05-ae5c-96988313fa31")
+	)
+	(fp_line
+		(start -2.45 2.15)
+		(end -2.45 -2.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1741c354-7fd5-452e-8141-8a5532e668b2")
+	)
+	(fp_line
+		(start 2.45 -2.15)
+		(end 2.45 2.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3254c61e-b14a-4b85-ba91-5458052e41af")
+	)
+	(fp_line
+		(start 2.45 2.15)
+		(end -2.45 2.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3ec5daa2-c30c-4f18-861a-1ced82e434e8")
+	)
+	(fp_line
+		(start -1.25 -1)
+		(end -1.25 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6560fdf5-6085-4f6b-a58c-ea15960d5351")
+	)
+	(fp_line
+		(start -1.25 1)
+		(end 1.25 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "33edac37-f2e0-49b4-899f-9bb96a58ada2")
+	)
+	(fp_line
+		(start 1.25 -1)
+		(end -1.25 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7938787d-381a-4d9f-9c83-864bc6ad70e7")
+	)
+	(fp_line
+		(start 1.25 1)
+		(end 1.25 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c14dbc7f-ee37-4add-81df-c234fa81083d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.07 5.37 0)
+		(layer "F.Fab")
+		(uuid "e8a27013-7750-4d88-b69d-e63a78ab8a3a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.85 0.65 90)
+		(size 1 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "18bff8f3-d87e-4147-8696-c59376a20dae")
+	)
+	(pad "2" smd rect
+		(at 0.85 0.65 90)
+		(size 1 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b8019b8e-5ae5-4fea-ac00-6615db55a19e")
+	)
+	(pad "3" smd rect
+		(at 0.85 -0.65 90)
+		(size 1 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "70ade782-f20b-4e00-aa5b-9dec3d32d150")
+	)
+	(pad "4" smd rect
+		(at -0.85 -0.65 90)
+		(size 1 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "0cc82f41-0ac7-4f3b-a941-f96d639eefab")
+	)
+	(model "/home/michael/Desktop/SteamController PCB test/Components/LIB_NX2520SA-16MHZ-STD-CSW-5/NX2520SA-16MHZ-STD-CSW-5/3D/NX2520SA-16MHZ-STD-CSW-5.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
