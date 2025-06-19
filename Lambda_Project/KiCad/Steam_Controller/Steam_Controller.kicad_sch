@@ -14300,16 +14300,6 @@
 		)
 		(uuid "757d293b-7ccd-44fe-bb3f-5cf6268aef65")
 	)
-	(text "*C8 and C9 might be 10pF caps. But I measured 18pF which is very odd."
-		(exclude_from_sim no)
-		(at 318.262 42.672 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "79d04ca4-e51f-48e4-a81a-b3f03d8cedd4")
-	)
 	(text "TODO: Sanity Check, reference datasheets, measure unsure values again."
 		(exclude_from_sim no)
 		(at 513.334 51.562 0)
@@ -20320,16 +20310,6 @@
 		)
 		(uuid "4dcd8f6c-4e69-49a7-9fd0-1768900c2dcd")
 	)
-	(label "* Double Check R18"
-		(at 204.47 367.03 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "56ed8f96-0ed2-4b29-b83d-5a7c0a44f9af")
-	)
 	(label "* Double Check R26"
 		(at 215.9 325.12 0)
 		(effects
@@ -20339,26 +20319,6 @@
 			(justify left bottom)
 		)
 		(uuid "947408e4-c864-418a-af9d-8ec50edb97ab")
-	)
-	(label "* Double check R42"
-		(at 170.18 391.16 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bbd778b4-e4a0-4d64-a164-82470b2fe0da")
-	)
-	(label "* Double check C26, Capacitor went to space so using datasheet value for now"
-		(at 124.46 134.62 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c38403f7-a174-440b-aa59-97336cb1b327")
 	)
 	(global_label "LB"
 		(shape input)
@@ -31376,7 +31336,7 @@
 		(dnp no)
 		(uuid "7685bec7-f860-49c7-bd42-44ab8a1dc94e")
 		(property "Reference" "R18"
-			(at 188.468 372.364 90)
+			(at 189.738 363.982 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31384,8 +31344,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "75kΩ"
-			(at 189.23 370.078 90)
+		(property "Value" "27kΩ"
+			(at 191.008 366.268 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39976,7 +39936,7 @@
 				)
 			)
 		)
-		(property "Value" "ABM8-12.000MHZ-B2-T"
+		(property "Value" "ABM8G-12.000MHZ-18-D2Y-T"
 			(at 198.12 110.49 0)
 			(effects
 				(font
