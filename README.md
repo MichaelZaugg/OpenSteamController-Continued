@@ -1,6 +1,6 @@
 # Open Steam Controller - Continued
 
-Welcome to the Open Steam Controller Project!
+Welcome to the Open Steam Controller Continued Project!
 
 This project is a fork of the [original Open Steam Controller](https://github.com/greggersaurus/OpenSteamController) by [Greg Gluszek](https://github.com/greggersaurus).
 
