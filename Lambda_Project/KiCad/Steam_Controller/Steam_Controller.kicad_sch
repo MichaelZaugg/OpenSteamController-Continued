@@ -20301,7 +20301,7 @@
 		(uuid "39ad182a-637e-4f55-aaa6-7b43b54a8d66")
 	)
 	(label "Inductor & Capacitor values taken from datasheet. These need to be high tolerance, within 1%"
-		(at 116.84 217.17 0)
+		(at 116.84 218.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
