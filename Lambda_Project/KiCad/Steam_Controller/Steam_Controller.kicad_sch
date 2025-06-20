@@ -14300,7 +14300,7 @@
 		)
 		(uuid "757d293b-7ccd-44fe-bb3f-5cf6268aef65")
 	)
-	(text "TODO: Sanity Check, reference datasheets, measure unsure values again."
+	(text "TODO: While tracing, keep an eye on the schematic and make sure it is correctt"
 		(exclude_from_sim no)
 		(at 513.334 51.562 0)
 		(effects
@@ -20301,7 +20301,7 @@
 		(uuid "39ad182a-637e-4f55-aaa6-7b43b54a8d66")
 	)
 	(label "Inductor & Capacitor values taken from datasheet. These need to be high tolerance, within 1%"
-		(at 116.84 218.44 0)
+		(at 116.84 217.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
