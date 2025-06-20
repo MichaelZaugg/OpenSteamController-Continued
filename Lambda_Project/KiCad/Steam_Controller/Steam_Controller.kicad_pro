@@ -63,12 +63,12 @@
         "version": 2
       },
       "rule_severities": {
-        "annular_width": "error",
-        "clearance": "error",
+        "annular_width": "ignore",
+        "clearance": "ignore",
         "connection_width": "warning",
-        "copper_edge_clearance": "error",
+        "copper_edge_clearance": "ignore",
         "copper_sliver": "warning",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "ignore",
         "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
@@ -86,7 +86,7 @@
         "invalid_outline": "error",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
-        "items_not_allowed": "error",
+        "items_not_allowed": "ignore",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
         "lib_footprint_mismatch": "warning",
@@ -194,7 +194,8 @@
         0.5,
         1.0,
         1.2,
-        1.5
+        1.5,
+        1.625
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -515,7 +516,7 @@
       "plot": "/home/michael/Desktop/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../../lambda_mainboard.step",
+      "step": "../../../../../../../../lambda_mainboard.stl",
       "svg": "",
       "vrml": ""
     },

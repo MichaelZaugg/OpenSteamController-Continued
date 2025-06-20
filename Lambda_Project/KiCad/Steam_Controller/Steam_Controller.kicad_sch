@@ -20310,16 +20310,6 @@
 		)
 		(uuid "4dcd8f6c-4e69-49a7-9fd0-1768900c2dcd")
 	)
-	(label "* Double Check R26"
-		(at 215.9 325.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "947408e4-c864-418a-af9d-8ec50edb97ab")
-	)
 	(global_label "LB"
 		(shape input)
 		(at 387.35 52.07 0)
