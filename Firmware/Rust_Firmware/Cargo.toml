@@ -1,0 +1,23 @@
+[package]
+name = "steamcontroller-firmware"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+cortex-m = "0.7.7"
+cortex-m-rt = "0.7.5"
+embedded-hal = "1.0.0"
+lpc11xx = "0.2.0"
+nb = "1.1.0"
+panic-halt = "1.0.0"
+libm = "0.2.8"
+
+[profile.dev]
+codegen-units = 1
+debug = true
+lto = false
+
+[profile.release]
+codegen-units = 1
+debug = true
+lto = true

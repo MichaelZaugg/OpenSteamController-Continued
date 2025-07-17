@@ -1,0 +1,11 @@
+/home/sashad/Documents/Code/steamcontroller-firmware/target/thumbv6m-none-eabi/debug/deps/cortex_m-2e5d044e95582b2f.d: /home/sashad/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cortex-m-0.6.7/src/lib.rs /home/sashad/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cortex-m-0.6.7/src/macros.rs /home/sashad/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cortex-m-0.6.7/src/peripheral/mod.rs /home/sashad/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cortex-m-0.6.7/src/peripheral/mpu.rs /home/sashad/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cortex-m-0.6.7/src/peripheral/nvic.rs /home/sashad/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cortex-m-0.6.7/src/peripheral/scb.rs /home/sashad/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cortex-m-0.6.7/src/register/mod.rs
+
+/home/sashad/Documents/Code/steamcontroller-firmware/target/thumbv6m-none-eabi/debug/deps/libcortex_m-2e5d044e95582b2f.rmeta: /home/sashad/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cortex-m-0.6.7/src/lib.rs /home/sashad/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cortex-m-0.6.7/src/macros.rs /home/sashad/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cortex-m-0.6.7/src/peripheral/mod.rs /home/sashad/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cortex-m-0.6.7/src/peripheral/mpu.rs /home/sashad/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cortex-m-0.6.7/src/peripheral/nvic.rs /home/sashad/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cortex-m-0.6.7/src/peripheral/scb.rs /home/sashad/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cortex-m-0.6.7/src/register/mod.rs
+
+/home/sashad/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cortex-m-0.6.7/src/lib.rs:
+/home/sashad/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cortex-m-0.6.7/src/macros.rs:
+/home/sashad/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cortex-m-0.6.7/src/peripheral/mod.rs:
+/home/sashad/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cortex-m-0.6.7/src/peripheral/mpu.rs:
+/home/sashad/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cortex-m-0.6.7/src/peripheral/nvic.rs:
+/home/sashad/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cortex-m-0.6.7/src/peripheral/scb.rs:
+/home/sashad/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cortex-m-0.6.7/src/register/mod.rs:

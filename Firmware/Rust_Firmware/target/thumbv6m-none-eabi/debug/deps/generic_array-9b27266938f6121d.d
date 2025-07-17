@@ -1,0 +1,11 @@
+/home/sashad/Documents/Code/steamcontroller-firmware/target/thumbv6m-none-eabi/debug/deps/generic_array-9b27266938f6121d.d: /home/sashad/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/generic-array-0.12.4/src/lib.rs /home/sashad/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/generic-array-0.12.4/src/hex.rs /home/sashad/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/generic-array-0.12.4/src/impls.rs /home/sashad/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/generic-array-0.12.4/src/arr.rs /home/sashad/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/generic-array-0.12.4/src/functional.rs /home/sashad/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/generic-array-0.12.4/src/iter.rs /home/sashad/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/generic-array-0.12.4/src/sequence.rs
+
+/home/sashad/Documents/Code/steamcontroller-firmware/target/thumbv6m-none-eabi/debug/deps/libgeneric_array-9b27266938f6121d.rmeta: /home/sashad/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/generic-array-0.12.4/src/lib.rs /home/sashad/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/generic-array-0.12.4/src/hex.rs /home/sashad/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/generic-array-0.12.4/src/impls.rs /home/sashad/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/generic-array-0.12.4/src/arr.rs /home/sashad/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/generic-array-0.12.4/src/functional.rs /home/sashad/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/generic-array-0.12.4/src/iter.rs /home/sashad/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/generic-array-0.12.4/src/sequence.rs
+
+/home/sashad/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/generic-array-0.12.4/src/lib.rs:
+/home/sashad/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/generic-array-0.12.4/src/hex.rs:
+/home/sashad/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/generic-array-0.12.4/src/impls.rs:
+/home/sashad/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/generic-array-0.12.4/src/arr.rs:
+/home/sashad/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/generic-array-0.12.4/src/functional.rs:
+/home/sashad/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/generic-array-0.12.4/src/iter.rs:
+/home/sashad/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/generic-array-0.12.4/src/sequence.rs:
