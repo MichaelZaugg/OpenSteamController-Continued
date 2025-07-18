@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["FUNC_A","I2CMODE_A"],"struct":["FUNC_W","I2CMODE_W"],"type":["FUNC_R","I2CMODE_R","R","W"]};

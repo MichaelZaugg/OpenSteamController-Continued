@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"type":["R","SIG_DONE_R"]};

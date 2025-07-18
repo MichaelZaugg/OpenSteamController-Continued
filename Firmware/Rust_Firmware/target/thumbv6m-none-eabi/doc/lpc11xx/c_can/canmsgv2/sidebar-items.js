@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"type":["MSGVAL_32_17_R","R"]};

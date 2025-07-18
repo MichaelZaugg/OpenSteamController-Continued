@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"mod":["ccr","cr","ctcr","emr","ir","mcr","mr","pc","pr","pwmc","tc","tcr"],"struct":["RegisterBlock"],"type":["CCR","CR","CTCR","EMR","IR","MCR","MR","PC","PR","PWMC","TC","TCR"]};

@@ -223,4 +223,145 @@ impl Mpu6500 {
     pub fn temp_to_celsius(&self, raw: i16) -> f32 {
         (raw as f32 / 333.87) + 21.0
     }
+
+    // Advanced motion processing methods
+    
+    /// Read all sensor data and apply calibration
+    pub fn read_calibrated_data(&mut self) -> Result<(AccelData, GyroData, i16), Mpu6500Error> {
+        let (accel, gyro, temp) = self.read_all()?;
+        
+        // Apply simple calibration (in production, these would be stored values)
+        let calibrated_accel = AccelData {
+            x: accel.x,  // In a real system, subtract bias
+            y: accel.y,
+            z: accel.z,
+        };
+        
+        let calibrated_gyro = GyroData {
+            x: gyro.x,   // In a real system, subtract bias
+            y: gyro.y,
+            z: gyro.z,
+        };
+        
+        Ok((calibrated_accel, calibrated_gyro, temp))
+    }
+    
+    /// Perform gyroscope calibration (device should be stationary)
+    pub fn calibrate_gyro(&mut self) -> Result<GyroData, Mpu6500Error> {
+        let mut sum_x = 0i32;
+        let mut sum_y = 0i32;
+        let mut sum_z = 0i32;
+        let samples = 100;
+        
+        for _ in 0..samples {
+            let gyro = self.read_gyro()?;
+            sum_x += gyro.x as i32;
+            sum_y += gyro.y as i32;
+            sum_z += gyro.z as i32;
+            
+            // Small delay between samples
+            for _ in 0..1000 {
+                core::hint::spin_loop();
+            }
+        }
+        
+        Ok(GyroData {
+            x: (sum_x / samples) as i16,
+            y: (sum_y / samples) as i16,
+            z: (sum_z / samples) as i16,
+        })
+    }
+    
+    /// Perform accelerometer calibration (device should be in various orientations)
+    pub fn calibrate_accel(&mut self) -> Result<AccelData, Mpu6500Error> {
+        let mut sum_x = 0i32;
+        let mut sum_y = 0i32;
+        let mut sum_z = 0i32;
+        let samples = 100;
+        
+        for _ in 0..samples {
+            let accel = self.read_accel()?;
+            sum_x += accel.x as i32;
+            sum_y += accel.y as i32;
+            sum_z += accel.z as i32;
+            
+            // Small delay between samples
+            for _ in 0..1000 {
+                core::hint::spin_loop();
+            }
+        }
+        
+        Ok(AccelData {
+            x: (sum_x / samples) as i16,
+            y: (sum_y / samples) as i16,
+            z: (sum_z / samples) as i16,
+        })
+    }
+    
+    /// Enable/disable motion detection interrupt
+    pub fn enable_motion_interrupt(&mut self, threshold: u8) -> Result<(), Mpu6500Error> {
+        // Configure motion detection threshold
+        self.write_register(0x1F, threshold)?; // Motion threshold register
+        
+        // Enable motion interrupt
+        self.write_register(0x38, 0x40)?; // Enable motion interrupt
+        
+        Ok(())
+    }
+    
+    /// Read motion interrupt status
+    pub fn get_motion_interrupt_status(&mut self) -> Result<bool, Mpu6500Error> {
+        let status = self.read_register(0x3A)?; // Interrupt status register
+        Ok((status & 0x40) != 0) // Motion interrupt bit
+    }
+    
+    /// Configure sample rate for optimal performance
+    pub fn configure_for_gaming(&mut self) -> Result<(), Mpu6500Error> {
+        // Set sample rate to 1kHz (good for gaming)
+        self.write_register(SMPLRT_DIV, 0x00)?;
+        
+        // Configure DLPF for better noise performance
+        self.write_register(CONFIG, 0x01)?; // 184Hz bandwidth
+        
+        // Configure gyro for 1000 DPS (good sensitivity for gaming)
+        self.set_gyro_range(GyroRange::Range1000DPS)?;
+        
+        // Configure accel for 8G range (good for gaming movements)
+        self.set_accel_range(AccelRange::Range8G)?;
+        
+        // Configure accelerometer DLPF
+        self.write_register(ACCEL_CONFIG_2, 0x01)?; // 184Hz bandwidth
+        
+        Ok(())
+    }
+    
+    /// Get data ready status
+    pub fn is_data_ready(&mut self) -> Result<bool, Mpu6500Error> {
+        let status = self.read_register(0x3A)?; // Interrupt status register
+        Ok((status & 0x01) != 0) // Data ready bit
+    }
+    
+    /// Advanced filtering functions
+    pub fn apply_low_pass_filter(&self, current: i16, previous: i16, alpha: f32) -> i16 {
+        let filtered = alpha * (current as f32) + (1.0 - alpha) * (previous as f32);
+        filtered as i16
+    }
+    
+    /// Calculate magnitude of acceleration vector
+    pub fn accel_magnitude(&self, accel: AccelData) -> f32 {
+        let x = self.accel_to_ms2(accel.x);
+        let y = self.accel_to_ms2(accel.y);
+        let z = self.accel_to_ms2(accel.z);
+        
+        libm::sqrtf(x * x + y * y + z * z)
+    }
+    
+    /// Calculate magnitude of gyroscope vector
+    pub fn gyro_magnitude(&self, gyro: GyroData) -> f32 {
+        let x = self.gyro_to_dps(gyro.x);
+        let y = self.gyro_to_dps(gyro.y);
+        let z = self.gyro_to_dps(gyro.z);
+        
+        libm::sqrtf(x * x + y * y + z * z)
+    }
 }

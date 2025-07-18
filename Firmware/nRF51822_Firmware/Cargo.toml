@@ -1,0 +1,25 @@
+[package]
+name = "steamcontroller-nrf51822-firmware"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+cortex-m = "0.7.7"
+cortex-m-rt = "0.7.5"
+embedded-hal = "1.0.0"
+nrf51 = "0.12.2"  # Hardware support crate for nRF51 series
+nrf51-hal = "0.14.0"  # HAL implementation for nRF51
+panic-halt = "0.2.0"
+nb = "1.1.0"
+rubble = "0.0.5"  # Rust Bluetooth Low Energy implementation
+rubble-nrf5x = "0.0.4"  # nRF5x support for Rubble
+
+[profile.dev]
+codegen-units = 1
+debug = true
+lto = false
+
+[profile.release]
+codegen-units = 1
+debug = true
+lto = true

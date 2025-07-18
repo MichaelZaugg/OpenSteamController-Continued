@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"type":["ADINT_R","DONE_R","OVERRUN_R","R"]};

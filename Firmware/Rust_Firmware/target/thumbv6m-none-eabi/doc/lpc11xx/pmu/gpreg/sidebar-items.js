@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"struct":["GPDATA_W"],"type":["GPDATA_R","R","W"]};

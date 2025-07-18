@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["CT32B0_CAP0LOC_A"],"struct":["CT32B0_CAP0LOC_W"],"type":["CT32B0_CAP0LOC_R","R","W"]};

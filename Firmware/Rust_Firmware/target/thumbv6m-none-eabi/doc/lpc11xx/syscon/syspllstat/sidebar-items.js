@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["LOCK_A"],"type":["LOCK_R","R"]};

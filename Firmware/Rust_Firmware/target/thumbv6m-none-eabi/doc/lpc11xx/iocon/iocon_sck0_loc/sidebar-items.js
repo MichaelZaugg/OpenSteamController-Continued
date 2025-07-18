@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["SCKLOC_A"],"struct":["SCKLOC_W"],"type":["R","SCKLOC_R","W"]};

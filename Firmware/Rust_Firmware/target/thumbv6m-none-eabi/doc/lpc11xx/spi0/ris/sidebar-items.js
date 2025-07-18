@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"type":["R","RORRIS_R","RTRIS_R","RXRIS_R","TXRIS_R"]};

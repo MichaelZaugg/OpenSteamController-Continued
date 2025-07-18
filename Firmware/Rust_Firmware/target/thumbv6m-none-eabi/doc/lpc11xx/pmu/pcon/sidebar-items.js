@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["DPDEN_A","DPDFLAG_A","SLEEPFLAG_A"],"struct":["DPDEN_W","DPDFLAG_W","SLEEPFLAG_W"],"type":["DPDEN_R","DPDFLAG_R","R","SLEEPFLAG_R","W"]};

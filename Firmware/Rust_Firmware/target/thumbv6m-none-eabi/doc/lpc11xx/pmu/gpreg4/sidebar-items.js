@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["WAKEUPHYS_A"],"struct":["GPDATA_W","WAKEUPHYS_W"],"type":["GPDATA_R","R","W","WAKEUPHYS_R"]};

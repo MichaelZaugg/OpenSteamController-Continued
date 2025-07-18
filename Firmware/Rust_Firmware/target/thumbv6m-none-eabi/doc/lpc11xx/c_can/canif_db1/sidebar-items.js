@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"struct":["DATA4_W","DATA5_W"],"type":["DATA4_R","DATA5_R","R","W"]};

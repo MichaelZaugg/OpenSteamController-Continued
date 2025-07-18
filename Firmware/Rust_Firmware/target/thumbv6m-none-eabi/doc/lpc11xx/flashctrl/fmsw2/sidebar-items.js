@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"type":["R","SW2_95_64_R"]};

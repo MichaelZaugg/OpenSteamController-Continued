@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["BYPASS_A","FREQRANGE_A"],"struct":["BYPASS_W","FREQRANGE_W"],"type":["BYPASS_R","FREQRANGE_R","R","W"]};

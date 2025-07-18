@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["EMC0_A","EMC1_A","EMC2_A","EMC3_A"],"struct":["EM0_W","EM1_W","EM2_W","EM3_W","EMC0_W","EMC1_W","EMC2_W","EMC3_W"],"type":["EM0_R","EM1_R","EM2_R","EM3_R","EMC0_R","EMC1_R","EMC2_R","EMC3_R","R","W"]};

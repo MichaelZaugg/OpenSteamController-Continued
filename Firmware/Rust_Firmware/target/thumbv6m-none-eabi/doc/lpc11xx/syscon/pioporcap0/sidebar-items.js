@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"type":["CAPPIO0_N_R","CAPPIO1_N_R","CAPPIO2_N_R","R"]};

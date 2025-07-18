@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"type":["NEWDAT_16_1_R","R"]};

@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["MOSI1LOC_A"],"struct":["MOSI1LOC_W"],"type":["MOSI1LOC_R","R","W"]};

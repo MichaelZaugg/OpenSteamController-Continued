@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"type":["R","TXRQST_32_17_R"]};

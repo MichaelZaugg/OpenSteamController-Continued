@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["INTID_A","INTSTATUS_A"],"type":["ABEOINT_R","ABTOINT_R","FIFOENABLE_R","INTID_R","INTSTATUS_R","R"]};

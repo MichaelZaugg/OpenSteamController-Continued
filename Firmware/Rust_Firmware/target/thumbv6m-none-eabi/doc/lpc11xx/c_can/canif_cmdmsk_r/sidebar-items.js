@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["ARB_A","CLRINTPND_A","CTRL_A","DATA_A_A","DATA_B_A","MASK_A","NEWDAT_A"],"struct":["ARB_W","CLRINTPND_W","CTRL_W","DATA_A_W","DATA_B_W","MASK_W","NEWDAT_W","WR_RD_W"],"type":["ARB_R","CLRINTPND_R","CTRL_R","DATA_A_R","DATA_B_R","MASK_R","NEWDAT_R","R","W","WR_RD_R"]};

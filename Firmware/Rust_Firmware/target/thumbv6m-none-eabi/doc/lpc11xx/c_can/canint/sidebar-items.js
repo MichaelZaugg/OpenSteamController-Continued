@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"type":["INTID_R","R"]};
