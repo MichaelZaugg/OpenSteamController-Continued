@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":["ADRMATCH_W"],"type":["ADRMATCH_R","R","W"]};

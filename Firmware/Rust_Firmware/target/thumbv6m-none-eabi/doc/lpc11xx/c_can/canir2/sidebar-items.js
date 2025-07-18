@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"type":["INTPND_32_17_R","R"]};

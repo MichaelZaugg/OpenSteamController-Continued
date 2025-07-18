@@ -19,8 +19,12 @@ critical-section = "1.1.1"
 codegen-units = 1
 debug = true
 lto = false
+opt-level = "s"
 
 [profile.release]
 codegen-units = 1
-debug = true
+debug = false
 lto = true
+opt-level = "z"
+panic = "abort"
+strip = true

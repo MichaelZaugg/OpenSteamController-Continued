@@ -3,3 +3,13 @@ target = "thumbv6m-none-eabi"
 
 [target.thumbv6m-none-eabi]
 runner = "probe-rs run"
+rustflags = [
+  "-C", "link-arg=-Tlink.x",
+  "-C", "link-arg=-Map=firmware.map",
+  "-C", "link-arg=--gc-sections",
+  "-C", "link-arg=--print-gc-sections",
+  "-C", "inline-threshold=5",
+  "-C", "no-vectorize-loops",
+  "-C", "no-vectorize-slp",
+  "-C", "no-redzone",
+]

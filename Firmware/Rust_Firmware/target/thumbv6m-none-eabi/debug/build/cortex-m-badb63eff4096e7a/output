@@ -1,4 +1,0 @@
-cargo:rustc-link-lib=static=cortex-m
-cargo:rustc-link-search=/home/sashad/Documents/Code/steamcontroller-firmware/target/thumbv6m-none-eabi/debug/build/cortex-m-badb63eff4096e7a/out
-cargo:rustc-cfg=cortex_m
-cargo:rustc-cfg=armv6m

@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"mod":["cpsr","cr0","cr1","dr","icr","imsc","mis","ris","sr"],"struct":["RegisterBlock"],"type":["CPSR","CR0","CR1","DR","ICR","IMSC","MIS","RIS","SR"]};

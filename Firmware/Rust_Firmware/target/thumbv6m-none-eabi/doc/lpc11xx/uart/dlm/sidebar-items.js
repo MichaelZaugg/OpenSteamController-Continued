@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":["DLMSB_W"],"type":["DLMSB_R","R","W"]};

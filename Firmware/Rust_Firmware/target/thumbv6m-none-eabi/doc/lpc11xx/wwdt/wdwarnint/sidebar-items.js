@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":["WARNINT_W"],"type":["R","W","WARNINT_R"]};

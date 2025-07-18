@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"mod":["adr","adr0","conclr","conset","dat","data_buffer","mask","mmctrl","sclh","scll","stat"],"struct":["RegisterBlock"],"type":["ADR","ADR0","CONCLR","CONSET","DAT","DATA_BUFFER","MASK","MMCTRL","SCLH","SCLL","STAT"]};

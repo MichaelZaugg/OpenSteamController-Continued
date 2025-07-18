@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"type":["NEWDAT_32_17_R","R"]};

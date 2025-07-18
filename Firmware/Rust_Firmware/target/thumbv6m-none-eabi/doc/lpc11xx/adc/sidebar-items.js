@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"mod":["cr","dr","gdr","inten","stat"],"struct":["RegisterBlock"],"type":["CR","DR","GDR","INTEN","STAT"]};

@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"mod":["gpreg","gpreg4","pcon"],"struct":["RegisterBlock"],"type":["GPREG","GPREG4","PCON"]};

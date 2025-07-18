@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":["CriticalSection","Mutex","Peripheral"],"trait":["Nr"]};

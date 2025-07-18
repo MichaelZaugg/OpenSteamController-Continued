@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":["RORIM_W","RTIM_W","RXIM_W","TXIM_W"],"type":["R","RORIM_R","RTIM_R","RXIM_R","TXIM_R","W"]};

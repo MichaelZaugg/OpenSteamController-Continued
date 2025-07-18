@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":["SIG_DONE_CLR_W"],"type":["W"]};

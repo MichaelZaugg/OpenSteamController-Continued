@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"mod":["flashcfg","fmsstart","fmsstop","fmstat","fmstatclr","fmsw0","fmsw1","fmsw2","fmsw3"],"struct":["RegisterBlock"],"type":["FLASHCFG","FMSSTART","FMSSTOP","FMSTAT","FMSTATCLR","FMSW0","FMSW1","FMSW2","FMSW3"]};

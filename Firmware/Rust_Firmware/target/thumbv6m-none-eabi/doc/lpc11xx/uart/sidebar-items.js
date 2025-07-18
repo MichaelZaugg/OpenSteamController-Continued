@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"mod":["acr","dll","dlm","fcr","fdr","ier","iir","lcr","lsr","mcr","msr","rbr","rs485adrmatch","rs485ctrl","rs485dly","scr","ter","thr"],"struct":["RegisterBlock"],"type":["ACR","DLL","DLM","FCR","FDR","IER","IIR","LCR","LSR","MCR","MSR","RBR","RS485ADRMATCH","RS485CTRL","RS485DLY","SCR","TER","THR"]};

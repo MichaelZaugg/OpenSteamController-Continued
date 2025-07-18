@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"enum":["MDIR_A","MSK_28_16_A","MXTD_A"],"struct":["MDIR_W","MSK_28_16_W","MXTD_W"],"type":["MDIR_R","MSK_28_16_R","MXTD_R","R","W"]};

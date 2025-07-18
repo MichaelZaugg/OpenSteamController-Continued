@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"enum":["RP_A"],"type":["R","REC_6_0_R","RP_R","TEC_7_0_R"]};

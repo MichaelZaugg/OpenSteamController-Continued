@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"enum":["FIFOEN_AW","RXFIFORES_AW","RXTL_AW","TXFIFORES_AW"],"struct":["FIFOEN_W","RXFIFORES_W","RXTL_W","TXFIFORES_W"],"type":["W"]};

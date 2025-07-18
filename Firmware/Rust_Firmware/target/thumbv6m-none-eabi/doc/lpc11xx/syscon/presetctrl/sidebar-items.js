@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"enum":["CAN_RST_N_A","I2C_RST_N_A","SSP0_RST_N_A","SSP1_RST_N_A"],"struct":["CAN_RST_N_W","I2C_RST_N_W","SSP0_RST_N_W","SSP1_RST_N_W"],"type":["CAN_RST_N_R","I2C_RST_N_R","R","SSP0_RST_N_R","SSP1_RST_N_R","W"]};

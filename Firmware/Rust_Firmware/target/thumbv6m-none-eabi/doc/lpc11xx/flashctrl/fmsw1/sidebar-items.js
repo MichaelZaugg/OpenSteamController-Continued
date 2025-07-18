@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"type":["R","SW1_63_32_R"]};
