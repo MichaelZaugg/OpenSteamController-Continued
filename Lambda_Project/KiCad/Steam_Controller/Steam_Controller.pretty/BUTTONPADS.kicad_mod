@@ -1,7 +1,7 @@
 (footprint "BUTTONPADS"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "X"
 		(at 1.016 -4.2164 0)
@@ -27,18 +27,6 @@
 				(thickness 0.1524)
 			)
 			(justify left top)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d51e7a62-2116-4651-908d-14803a9f63e9")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -197,7 +185,7 @@
 	)
 	(fp_line
 		(start 0 2.794)
-		(end 0 3.937)
+		(end 0 3.3005)
 		(stroke
 			(width 0.2)
 			(type default)
@@ -287,7 +275,7 @@
 	)
 	(fp_line
 		(start 2.954 0.0178)
-		(end 4.826 0)
+		(end 4.2681 0)
 		(stroke
 			(width 0.2)
 			(type default)
@@ -550,7 +538,7 @@
 	(pad "1" smd custom
 		(at 0 3.937)
 		(size 0.000001 0.000001)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0508)
 		(thermal_bridge_angle 0)
 		(options
@@ -592,7 +580,7 @@
 	(pad "2" smd custom
 		(at 4.826 0)
 		(size 0.000001 0.000001)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0508)
 		(thermal_bridge_angle 0)
 		(options
@@ -628,6 +616,53 @@
 			)
 		)
 		(uuid "5f9c21db-4594-4def-9a8c-91b3f9a8f615")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "a9f2b504-c1f5-42a5-8132-d9f7fd99fba3")
+		(hatch edge 0.5)
+		(priority 100)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(arc
+					(start -0.6 0)
+					(mid 0 -0.6)
+					(end 0.6 0)
+				)
+				(arc
+					(start 0.6 0)
+					(mid 0 0.6)
+					(end -0.6 0)
+				)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(island)
+			(pts
+				(arc
+					(start -0.6 0)
+					(mid 0 -0.6)
+					(end 0.6 0)
+				)
+				(arc
+					(start 0.6 0)
+					(mid 0 0.6)
+					(end -0.6 0)
+				)
+			)
+		)
 	)
 	(zone
 		(net 0)
@@ -679,8 +714,8 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layer "F.Cu")
-		(uuid "a9f2b504-c1f5-42a5-8132-d9f7fd99fba3")
+		(layer "F.Mask")
+		(uuid "098a8da8-806b-46e7-8e56-3808777bb472")
 		(hatch edge 0.5)
 		(priority 100)
 		(connect_pads yes
@@ -707,7 +742,54 @@
 			)
 		)
 		(filled_polygon
-			(layer "F.Cu")
+			(layer "F.Mask")
+			(island)
+			(pts
+				(arc
+					(start -0.6 0)
+					(mid 0 -0.6)
+					(end 0.6 0)
+				)
+				(arc
+					(start 0.6 0)
+					(mid 0 0.6)
+					(end -0.6 0)
+				)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Mask")
+		(uuid "9085954f-05c4-42d9-9bbc-0b49a8d53220")
+		(hatch edge 0.5)
+		(priority 100)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(arc
+					(start -0.6 0)
+					(mid 0 -0.6)
+					(end 0.6 0)
+				)
+				(arc
+					(start 0.6 0)
+					(mid 0 0.6)
+					(end -0.6 0)
+				)
+			)
+		)
+		(filled_polygon
+			(layer "F.Mask")
 			(island)
 			(pts
 				(arc
@@ -911,98 +993,5 @@
 			)
 		)
 	)
-	(zone
-		(net 0)
-		(net_name "")
-		(layer "F.Mask")
-		(uuid "098a8da8-806b-46e7-8e56-3808777bb472")
-		(hatch edge 0.5)
-		(priority 100)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-		)
-		(polygon
-			(pts
-				(arc
-					(start -0.6 0)
-					(mid 0 -0.6)
-					(end 0.6 0)
-				)
-				(arc
-					(start 0.6 0)
-					(mid 0 0.6)
-					(end -0.6 0)
-				)
-			)
-		)
-		(filled_polygon
-			(layer "F.Mask")
-			(island)
-			(pts
-				(arc
-					(start -0.6 0)
-					(mid 0 -0.6)
-					(end 0.6 0)
-				)
-				(arc
-					(start 0.6 0)
-					(mid 0 0.6)
-					(end -0.6 0)
-				)
-			)
-		)
-	)
-	(zone
-		(net 0)
-		(net_name "")
-		(layer "F.Mask")
-		(uuid "9085954f-05c4-42d9-9bbc-0b49a8d53220")
-		(hatch edge 0.5)
-		(priority 100)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-		)
-		(polygon
-			(pts
-				(arc
-					(start -0.6 0)
-					(mid 0 -0.6)
-					(end 0.6 0)
-				)
-				(arc
-					(start 0.6 0)
-					(mid 0 0.6)
-					(end -0.6 0)
-				)
-			)
-		)
-		(filled_polygon
-			(layer "F.Mask")
-			(island)
-			(pts
-				(arc
-					(start -0.6 0)
-					(mid 0 -0.6)
-					(end 0.6 0)
-				)
-				(arc
-					(start 0.6 0)
-					(mid 0 0.6)
-					(end -0.6 0)
-				)
-			)
-		)
-	)
+	(embedded_fonts no)
 )

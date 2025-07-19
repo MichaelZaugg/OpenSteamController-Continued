@@ -1,7 +1,7 @@
 (footprint "STEAM"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "STEAM"
 		(at -1.016 -8.2804 0)
@@ -26,18 +26,6 @@
 				(thickness 0.1524)
 			)
 			(justify left top)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "699f1510-9a0d-4c71-b12c-1c709576afc6")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -65,14 +53,14 @@
 		)
 	)
 	(fp_line
-		(start -4.953 0)
-		(end -6.35 0)
+		(start -5 0)
+		(end -5.848 0)
 		(stroke
-			(width 0.254)
+			(width 0.2)
 			(type default)
 		)
 		(layer "F.Cu")
-		(uuid "78c15de2-c610-4f2f-81ca-da0872854fc3")
+		(uuid "8d640c55-d200-4ab1-a6e9-d18d991d6a6d")
 	)
 	(fp_line
 		(start -4.0675 2.9078)
@@ -135,16 +123,6 @@
 		(uuid "a3af2c66-fdd2-4986-92ee-e1d4c07c88b3")
 	)
 	(fp_line
-		(start -0.0087 -5)
-		(end 0 -6.35)
-		(stroke
-			(width 0.25)
-			(type default)
-		)
-		(layer "F.Cu")
-		(uuid "0a550d12-0497-4dac-a9f4-d8ce0e179bcd")
-	)
-	(fp_line
 		(start -0.0086 5)
 		(end -0.0086 3.175)
 		(stroke
@@ -153,6 +131,16 @@
 		)
 		(layer "F.Cu")
 		(uuid "83bf5b8e-6489-41ee-8607-2da803d51b10")
+	)
+	(fp_line
+		(start 0 -5)
+		(end 0 -6.102)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "68806167-8ccb-47d8-9b6e-f741207549c6")
 	)
 	(fp_line
 		(start 1.084 -2.2528)
@@ -224,7 +212,6 @@
 			(type default)
 		)
 		(layer "F.Cu")
-		(net 209)
 		(uuid "c2f3ab43-6da1-43a2-a2f8-d7519641078d")
 	)
 	(fp_arc
@@ -236,7 +223,6 @@
 			(type default)
 		)
 		(layer "F.Cu")
-		(net 208)
 		(uuid "3b3a81d4-cc6c-42f6-bfc0-8b166ac89e8c")
 	)
 	(fp_line
@@ -406,7 +392,7 @@
 	(pad "1" smd oval
 		(at -6.223 0)
 		(size 0.75 0.75)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0508)
 		(thermal_bridge_angle 0)
 		(uuid "5e44ba7f-c79a-46e5-83e0-adf41acb8bbb")
@@ -414,9 +400,10 @@
 	(pad "2" smd oval
 		(at 0 -6.477)
 		(size 0.75 0.75)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0508)
 		(thermal_bridge_angle 0)
 		(uuid "6f0d099d-40d8-4a78-b622-f8715f4a08b0")
 	)
+	(embedded_fonts no)
 )

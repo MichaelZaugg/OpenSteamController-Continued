@@ -2026,6 +2026,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -14300,16 +14407,6 @@
 		)
 		(uuid "757d293b-7ccd-44fe-bb3f-5cf6268aef65")
 	)
-	(text "TODO: While tracing, keep an eye on the schematic and make sure it is correctt"
-		(exclude_from_sim no)
-		(at 513.334 51.562 0)
-		(effects
-			(font
-				(size 2 2)
-			)
-		)
-		(uuid "840dfe78-1310-41e0-b868-7b7e39ebba72")
-	)
 	(text "Pin 30 leads to R9 (unpop) then LED2 (unpop)"
 		(exclude_from_sim no)
 		(at 255.27 173.99 0)
@@ -14364,16 +14461,6 @@
 		)
 		(uuid "de2445b5-94d0-4a61-bb61-824c3169c2fc")
 	)
-	(text "Front Left"
-		(exclude_from_sim no)
-		(at 340.106 307.086 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "e30f5a4a-3501-4853-8224-421fc63656ef")
-	)
 	(text "C21, R56, C7, R55 Unpop."
 		(exclude_from_sim no)
 		(at 408.432 152.654 0)
@@ -14411,6 +14498,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "055fac16-8211-499e-8406-f1ac7c3ce467")
+	)
+	(junction
+		(at 187.96 203.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "084793fc-0f2c-4a5e-8960-02fa7c6e3d9e")
 	)
 	(junction
 		(at 424.18 52.07)
@@ -14465,6 +14558,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "15fe7312-253f-4474-a31a-2523e83a44b0")
+	)
+	(junction
+		(at 332.74 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "169ccf86-48d6-4077-8307-91ffb401aaac")
 	)
 	(junction
 		(at 397.51 25.908)
@@ -14581,6 +14680,12 @@
 		(uuid "31d5eb36-2179-4d67-a736-6f4c289ba84f")
 	)
 	(junction
+		(at 659.13 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35981c65-2119-448b-bd9d-edc76be1f1b2")
+	)
+	(junction
 		(at 160.02 196.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14629,6 +14734,12 @@
 		(uuid "3e12fdce-3517-4019-bf27-9ac26b6b01e1")
 	)
 	(junction
+		(at 615.95 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3fba1889-369e-44dc-8618-3216fd2d2035")
+	)
+	(junction
 		(at 471.17 283.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14663,6 +14774,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "42fa68c7-1834-4f93-bd2a-187041cf3c30")
+	)
+	(junction
+		(at 511.81 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43a1e262-f033-462d-8566-0843c4d9c7cb")
+	)
+	(junction
+		(at 344.17 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47936914-1d67-43cf-98c2-7b45e25b47c6")
 	)
 	(junction
 		(at 167.64 196.85)
@@ -14731,6 +14854,12 @@
 		(uuid "56d449f9-cb75-411f-a35e-d0b138c80cf6")
 	)
 	(junction
+		(at 265.43 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "584cfe05-7381-49f7-8d93-95cc33861c41")
+	)
+	(junction
 		(at 247.65 381)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14747,6 +14876,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f681489-98d6-468e-92f1-7535123755b0")
+	)
+	(junction
+		(at 267.97 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60322fd7-98a9-4efa-a080-599ea5d74e6b")
 	)
 	(junction
 		(at 480.06 283.21)
@@ -14857,6 +14992,12 @@
 		(uuid "7fec83cc-ccf9-4b9f-9225-698225ebef2b")
 	)
 	(junction
+		(at 430.53 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "824faa02-81f4-457d-9b8a-9e899a96b5dc")
+	)
+	(junction
 		(at 419.1 22.098)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14867,6 +15008,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "84cac001-5443-4b94-9f39-c70bcf428406")
+	)
+	(junction
+		(at 614.68 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8861bdc4-7210-47d0-8cd8-d40aad7c7c5d")
 	)
 	(junction
 		(at 375.92 23.368)
@@ -14911,6 +15058,12 @@
 		(uuid "99ac6ca4-020d-4114-a5a9-0c5f428bb1b4")
 	)
 	(junction
+		(at 342.9 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b2dfd7b-ac4e-4dc5-a051-f22aa614e3d4")
+	)
+	(junction
 		(at 467.36 283.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14927,6 +15080,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ecd469a-61c7-4395-8532-1ec4a994df84")
+	)
+	(junction
+		(at 306.07 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2c5c9f2-c5ae-4c6e-a5e0-24861d9ce785")
 	)
 	(junction
 		(at 270.51 284.48)
@@ -15073,6 +15232,12 @@
 		(uuid "c82c0a83-817d-4256-b6ba-1efd848c18f5")
 	)
 	(junction
+		(at 266.7 337.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8c20851-6677-4108-9c72-f71662f78e8a")
+	)
+	(junction
 		(at 407.67 297.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -15121,22 +15286,28 @@
 		(uuid "d437019b-2cc2-4806-879b-19e5299c7b8b")
 	)
 	(junction
+		(at 271.78 440.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d56b465e-9ac8-4878-9b58-daeeffc7d2b0")
+	)
+	(junction
 		(at 254 344.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d6849300-df8e-404b-83f0-5de4e6ca010f")
 	)
 	(junction
+		(at 269.24 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dca5b854-734c-4c26-b2b9-d5fa265f55c1")
+	)
+	(junction
 		(at 510.54 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de7e6033-4205-4177-be04-38bab5acb717")
-	)
-	(junction
-		(at 187.96 203.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e01b4198-5861-4d62-97f9-87cba6a71acd")
 	)
 	(junction
 		(at 293.37 345.44)
@@ -15199,10 +15370,22 @@
 		(uuid "f4b20bfe-95c6-406b-8cc2-14e45f62c871")
 	)
 	(junction
+		(at 660.4 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7a56a83-44c2-4d25-9a14-dbb9ac4e8965")
+	)
+	(junction
 		(at 328.93 342.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f9e83cb3-1ead-4464-b293-d603c56105a6")
+	)
+	(junction
+		(at 335.28 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fca1be32-e095-4f70-b353-66f6a0285fa0")
 	)
 	(junction
 		(at 368.3 20.828)
@@ -15262,6 +15445,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 203.2) (xy 189.23 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "031c84ce-d995-4e63-89e0-499a2e4d1f3c")
+	)
+	(wire
+		(pts
 			(xy 279.4 181.61) (xy 279.4 179.07)
 		)
 		(stroke
@@ -15312,6 +15505,16 @@
 	)
 	(wire
 		(pts
+			(xy 430.53 72.39) (xy 430.53 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04e656da-3319-4756-bc8a-2b2b814cb809")
+	)
+	(wire
+		(pts
 			(xy 227.33 370.84) (xy 227.33 355.6)
 		)
 		(stroke
@@ -15342,6 +15545,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 173.99) (xy 279.4 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0834e8dc-975e-410e-9c95-168278373df7")
+	)
+	(wire
+		(pts
 			(xy 655.32 190.5) (xy 665.48 190.5)
 		)
 		(stroke
@@ -15349,6 +15562,16 @@
 			(type default)
 		)
 		(uuid "08adc0f3-617c-4b1c-8711-272f7d3ce54a")
+	)
+	(wire
+		(pts
+			(xy 335.28 171.45) (xy 349.25 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08e1226a-1994-4987-868c-45399471f567")
 	)
 	(wire
 		(pts
@@ -15632,6 +15855,16 @@
 	)
 	(wire
 		(pts
+			(xy 650.24 173.99) (xy 664.21 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1548ff06-b1e5-46c7-896d-42310240e4a4")
+	)
+	(wire
+		(pts
 			(xy 397.51 25.908) (xy 397.51 27.94)
 		)
 		(stroke
@@ -15752,6 +15985,16 @@
 	)
 	(wire
 		(pts
+			(xy 652.78 185.42) (xy 652.78 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b484e3b-b69d-4d50-889e-79aec17f2c5e")
+	)
+	(wire
+		(pts
 			(xy 480.06 151.13) (xy 480.06 138.43)
 		)
 		(stroke
@@ -15852,16 +16095,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 205.74) (xy 187.96 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2020f03e-e3bf-441d-8278-fd6d0400f6c3")
-	)
-	(wire
-		(pts
 			(xy 325.12 266.7) (xy 325.12 270.51)
 		)
 		(stroke
@@ -15909,6 +16142,16 @@
 			(type default)
 		)
 		(uuid "2186439c-3505-4b82-bfe7-95b5d3ba098b")
+	)
+	(wire
+		(pts
+			(xy 652.78 186.69) (xy 648.97 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21b136e1-b710-414a-bc42-951381c88b67")
 	)
 	(wire
 		(pts
@@ -16062,6 +16305,16 @@
 	)
 	(wire
 		(pts
+			(xy 610.87 187.96) (xy 607.06 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b02a4ea-173c-4097-872c-e12ace88c794")
+	)
+	(wire
+		(pts
 			(xy 255.27 381) (xy 247.65 381)
 		)
 		(stroke
@@ -16069,6 +16322,16 @@
 			(type default)
 		)
 		(uuid "2b96f97a-692b-4c1c-b5b5-40a887a59f19")
+	)
+	(wire
+		(pts
+			(xy 184.15 205.74) (xy 189.23 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bd5e832-2a0d-4c78-af6f-984564654ca5")
 	)
 	(wire
 		(pts
@@ -16179,6 +16442,16 @@
 			(type default)
 		)
 		(uuid "31068529-2b74-487b-b6ea-ccf57aabf4fc")
+	)
+	(wire
+		(pts
+			(xy 615.95 185.42) (xy 610.87 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31ce4418-8dce-4c76-ac6e-c07c070563ab")
 	)
 	(wire
 		(pts
@@ -16502,6 +16775,16 @@
 	)
 	(wire
 		(pts
+			(xy 497.84 177.8) (xy 497.84 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43b7bf14-7922-446a-b84f-b0ed7564da6c")
+	)
+	(wire
+		(pts
 			(xy 510.54 110.49) (xy 511.81 110.49)
 		)
 		(stroke
@@ -16612,6 +16895,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 158.75) (xy 269.24 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "497b57c5-2c31-4e40-8680-7007f5fd6eb2")
+	)
+	(wire
+		(pts
 			(xy 123.19 142.24) (xy 123.19 110.49)
 		)
 		(stroke
@@ -16639,6 +16932,16 @@
 			(type default)
 		)
 		(uuid "4aa02411-2aa7-4008-ae71-248aa67d0fec")
+	)
+	(wire
+		(pts
+			(xy 608.33 194.31) (xy 608.33 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ac1c8ef-b01a-4f10-a172-9c3f77b8b2fc")
 	)
 	(wire
 		(pts
@@ -16679,6 +16982,16 @@
 			(type default)
 		)
 		(uuid "4cdcdc46-8b5c-4e81-8fd8-a639aaf947e4")
+	)
+	(wire
+		(pts
+			(xy 607.06 191.77) (xy 605.79 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d7e42ef-7beb-46da-b403-46b15d3c17d6")
 	)
 	(wire
 		(pts
@@ -16842,6 +17155,16 @@
 	)
 	(wire
 		(pts
+			(xy 610.87 185.42) (xy 610.87 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53866594-4a28-45d7-ae78-84dab8c1d8c2")
+	)
+	(wire
+		(pts
 			(xy 265.43 168.91) (xy 279.4 168.91)
 		)
 		(stroke
@@ -16952,6 +17275,16 @@
 	)
 	(wire
 		(pts
+			(xy 332.74 46.99) (xy 332.74 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a7a4f30-428d-4f6b-9710-0d1dd1e175d2")
+	)
+	(wire
+		(pts
 			(xy 487.68 151.13) (xy 490.22 151.13)
 		)
 		(stroke
@@ -16959,6 +17292,16 @@
 			(type default)
 		)
 		(uuid "5a81ef7e-9341-4f42-95e1-6def785238c2")
+	)
+	(wire
+		(pts
+			(xy 664.21 173.99) (xy 664.21 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b102987-ec28-48d2-8cbb-938f2e3521e8")
 	)
 	(wire
 		(pts
@@ -17029,6 +17372,16 @@
 			(type default)
 		)
 		(uuid "5e79f79e-0325-4978-a7dc-861b28519047")
+	)
+	(wire
+		(pts
+			(xy 607.06 187.96) (xy 607.06 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f2ce48e-26c8-4bb7-b939-af44ef284e97")
 	)
 	(wire
 		(pts
@@ -17409,6 +17762,16 @@
 			(type default)
 		)
 		(uuid "74b54ffc-b43f-49b3-8633-e68482da42a2")
+	)
+	(wire
+		(pts
+			(xy 608.33 189.23) (xy 613.41 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74ea53ef-9950-4799-8b26-1da27e95f538")
 	)
 	(wire
 		(pts
@@ -17832,6 +18195,16 @@
 	)
 	(wire
 		(pts
+			(xy 344.17 168.91) (xy 349.25 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8938dfb6-c52a-4ac7-8f44-c85625fc81da")
+	)
+	(wire
+		(pts
 			(xy 353.06 25.908) (xy 353.06 27.94)
 		)
 		(stroke
@@ -18112,6 +18485,16 @@
 	)
 	(wire
 		(pts
+			(xy 659.13 187.96) (xy 654.05 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9585b38c-f8a2-49b6-9605-0915bb533ab6")
+	)
+	(wire
+		(pts
 			(xy 655.32 181.61) (xy 656.59 181.61)
 		)
 		(stroke
@@ -18182,6 +18565,16 @@
 	)
 	(wire
 		(pts
+			(xy 388.62 68.58) (xy 392.43 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a915311-9bee-4db3-a8fe-e628018d39b4")
+	)
+	(wire
+		(pts
 			(xy 210.82 295.91) (xy 210.82 300.99)
 		)
 		(stroke
@@ -18199,6 +18592,16 @@
 			(type default)
 		)
 		(uuid "9cd89c99-0559-4bc1-86a0-8ed6154d28ba")
+	)
+	(wire
+		(pts
+			(xy 613.41 187.96) (xy 614.68 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d35f01d-7403-430c-9e88-a381b9385d67")
 	)
 	(wire
 		(pts
@@ -18279,6 +18682,16 @@
 			(type default)
 		)
 		(uuid "9eeedfbe-9416-4e10-8f2c-0a5dd74cb19c")
+	)
+	(wire
+		(pts
+			(xy 511.81 115.57) (xy 511.81 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f2bd5c5-a202-4961-912d-840c6c6bf89b")
 	)
 	(wire
 		(pts
@@ -18532,6 +18945,16 @@
 	)
 	(wire
 		(pts
+			(xy 306.07 46.99) (xy 306.07 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abd3b1cf-f776-4336-8abb-44460109f52e")
+	)
+	(wire
+		(pts
 			(xy 397.51 27.94) (xy 375.92 27.94)
 		)
 		(stroke
@@ -18582,6 +19005,16 @@
 	)
 	(wire
 		(pts
+			(xy 608.33 194.31) (xy 605.79 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad582cf6-d350-4904-bc80-8eb670c1acc9")
+	)
+	(wire
+		(pts
 			(xy 341.63 276.86) (xy 347.98 276.86)
 		)
 		(stroke
@@ -18609,6 +19042,16 @@
 			(type default)
 		)
 		(uuid "aeeb71fc-ee67-4587-8a8a-1805fae1d1f2")
+	)
+	(wire
+		(pts
+			(xy 654.05 189.23) (xy 648.97 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b12d2325-bd1f-4217-8c66-c6b708145023")
 	)
 	(wire
 		(pts
@@ -18659,6 +19102,16 @@
 			(type default)
 		)
 		(uuid "b20e6241-34a9-4d4b-8c92-853596d1fc02")
+	)
+	(wire
+		(pts
+			(xy 648.97 175.26) (xy 650.24 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b24c6058-5e83-4565-9e64-cc5a9fca7791")
 	)
 	(wire
 		(pts
@@ -18882,6 +19335,36 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 176.53) (xy 279.4 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd2ba502-e48d-472d-bfae-5ac500b2ef3e")
+	)
+	(wire
+		(pts
+			(xy 271.78 440.69) (xy 276.86 440.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdc0af9f-e04b-42d6-a4d6-f00496887552")
+	)
+	(wire
+		(pts
+			(xy 257.81 168.91) (xy 265.43 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be14836b-a984-4f3d-8a04-58df4cc00326")
+	)
+	(wire
+		(pts
 			(xy 322.58 266.7) (xy 325.12 266.7)
 		)
 		(stroke
@@ -18989,6 +19472,16 @@
 			(type default)
 		)
 		(uuid "c4f8ef72-3c59-4521-b440-a46ee87e5124")
+	)
+	(wire
+		(pts
+			(xy 660.4 185.42) (xy 652.78 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c53754da-ca54-4ab2-a12c-2c0af8270bc5")
 	)
 	(wire
 		(pts
@@ -19172,6 +19665,16 @@
 	)
 	(wire
 		(pts
+			(xy 664.21 175.26) (xy 665.48 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c97a64e9-13dd-4876-99e5-25ef2b7e0ab6")
+	)
+	(wire
+		(pts
 			(xy 203.2 295.91) (xy 203.2 300.99)
 		)
 		(stroke
@@ -19212,6 +19715,16 @@
 	)
 	(wire
 		(pts
+			(xy 306.07 58.42) (xy 307.34 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca52fc30-4717-4f34-9f94-7c71c0140f28")
+	)
+	(wire
+		(pts
 			(xy 332.74 135.89) (xy 344.17 135.89)
 		)
 		(stroke
@@ -19232,7 +19745,7 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 58.42) (xy 307.34 58.42)
+			(xy 299.72 58.42) (xy 306.07 58.42)
 		)
 		(stroke
 			(width 0)
@@ -19249,6 +19762,16 @@
 			(type default)
 		)
 		(uuid "ce4d0b69-42a2-4c76-8572-965fcf429b62")
+	)
+	(wire
+		(pts
+			(xy 264.16 151.13) (xy 267.97 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce6d5376-1be9-4bb3-b79b-d5bb7a7c8a8b")
 	)
 	(wire
 		(pts
@@ -19442,6 +19965,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 337.82) (xy 275.59 337.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2c041be-1080-48e1-91db-1da6e52417da")
+	)
+	(wire
+		(pts
 			(xy 288.29 58.42) (xy 290.83 58.42)
 		)
 		(stroke
@@ -19489,16 +20022,6 @@
 			(type default)
 		)
 		(uuid "d5e523f3-724c-4017-be5b-1bf90c7d2ea4")
-	)
-	(wire
-		(pts
-			(xy 497.84 177.8) (xy 497.84 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6895ec2-5398-4cb3-8fcf-c57c0f523f86")
 	)
 	(wire
 		(pts
@@ -19572,6 +20095,16 @@
 	)
 	(wire
 		(pts
+			(xy 342.9 158.75) (xy 349.25 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da76e0c0-042b-4a29-bf91-4bae9d5feb41")
+	)
+	(wire
+		(pts
 			(xy 182.88 360.68) (xy 194.31 360.68)
 		)
 		(stroke
@@ -19579,6 +20112,16 @@
 			(type default)
 		)
 		(uuid "db4edd2d-7e02-4289-925a-2206fe5b87cf")
+	)
+	(wire
+		(pts
+			(xy 593.09 175.26) (xy 619.76 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbc6f776-2a38-478b-860f-cae8e8fa0333")
 	)
 	(wire
 		(pts
@@ -19932,6 +20475,16 @@
 	)
 	(wire
 		(pts
+			(xy 654.05 187.96) (xy 654.05 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8981cc4-2987-4165-8e86-461729b34713")
+	)
+	(wire
+		(pts
 			(xy 660.4 185.42) (xy 665.48 185.42)
 		)
 		(stroke
@@ -20252,6 +20805,26 @@
 	)
 	(wire
 		(pts
+			(xy 650.24 175.26) (xy 650.24 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbcb49e9-e591-4402-9b9a-42ada4f3c0ba")
+	)
+	(wire
+		(pts
+			(xy 613.41 189.23) (xy 613.41 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc374503-55f0-4b29-abd5-d742003c2984")
+	)
+	(wire
+		(pts
 			(xy 328.93 337.82) (xy 328.93 342.9)
 		)
 		(stroke
@@ -20280,7 +20853,7 @@
 		)
 		(uuid "ff9ed985-3de0-4b47-a794-fb992928d49d")
 	)
-	(label "V0.90"
+	(label "V0.99"
 		(at 590.55 496.57 0)
 		(effects
 			(font
@@ -20309,6 +20882,28 @@
 			(justify left bottom)
 		)
 		(uuid "4dcd8f6c-4e69-49a7-9fd0-1768900c2dcd")
+	)
+	(global_label "Net-(U1-PIO1_8)"
+		(shape input)
+		(at 349.25 171.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "00097a00-0a16-45bf-8171-ef8c8b57bc26")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 369.3501 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "LB"
 		(shape input)
@@ -20345,6 +20940,50 @@
 		(uuid "06677610-da42-4ccd-bf18-620d496fea78")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 491.2262 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "JOYBTN"
+		(shape input)
+		(at 505.46 393.7 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0895bc38-3e4b-452f-87b6-1f524ae17036")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 505.46 403.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P4-SS"
+		(shape input)
+		(at 505.46 361.95 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0ddc101e-ccaf-4169-894a-3d95d98c7b8f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 505.46 371.4061 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20442,6 +21081,72 @@
 			)
 		)
 	)
+	(global_label "Net-(U1-PIO1_23)"
+		(shape input)
+		(at 619.76 393.7 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "172e992a-8747-4ec2-a112-10cfb46f7334")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 619.76 415.0096 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Net-(U1-PIO1_28)"
+		(shape input)
+		(at 214.63 176.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "18b20698-618d-4514-b998-8e53435e466b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.3204 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "JOYX"
+		(shape input)
+		(at 538.48 422.91 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1964e3b8-f56e-4aba-b385-3fc39502817c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 538.48 430.4914 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VDD"
 		(shape input)
 		(at 521.97 120.65 270)
@@ -20455,6 +21160,28 @@
 		(uuid "1c8d43fe-2fe4-4df0-adb9-477a02bcd823")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 521.97 127.2638 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P4-SS"
+		(shape input)
+		(at 648.97 189.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1d14e305-890d-4ad7-9dd9-bbb4d7f3f213")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 639.5139 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20596,6 +21323,94 @@
 			)
 		)
 	)
+	(global_label "GND"
+		(shape input)
+		(at 669.29 422.91 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "23fe9995-7166-4387-9592-7a1bf83a0735")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 669.29 429.7657 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Net-(U1-PIO1_7)"
+		(shape input)
+		(at 231.14 173.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2469fe62-4d9b-432d-93bf-84dcdbb951d1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.0399 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P4-DR"
+		(shape input)
+		(at 648.97 186.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "251a5551-b083-42d2-b059-453f5aa895be")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 639.3929 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D- USB"
+		(shape input)
+		(at 521.97 328.93 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "26f3ffbe-684e-4000-9663-a5b6fd9aadb2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 521.97 339.5352 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VBUS-Signal"
 		(shape input)
 		(at 182.88 368.3 270)
@@ -20636,6 +21451,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBUS"
+		(shape input)
+		(at 488.95 328.93 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "29042794-fa00-4f60-9535-78927764afe1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 488.95 336.8138 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -20728,6 +21565,28 @@
 			)
 		)
 	)
+	(global_label "Net-(U1-PIO1_17)"
+		(shape input)
+		(at 586.74 361.95 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2e4c4870-bf2b-4b23-9f43-e269f73c2154")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 586.74 383.2596 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LED"
 		(shape input)
 		(at 440.69 85.09 0)
@@ -20746,6 +21605,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "JOYY"
+		(shape input)
+		(at 553.72 422.91 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "359edd02-432a-4b3e-bdcb-af7d786890c2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 553.72 430.3705 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -20772,6 +21653,28 @@
 			)
 		)
 	)
+	(global_label "LED Cathode"
+		(shape input)
+		(at 619.76 422.91 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3c024a46-58cd-45c8-b10d-3dd0d4735e99")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 619.76 437.9902 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VBUS"
 		(shape input)
 		(at 332.74 71.12 0)
@@ -20790,6 +21693,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RB"
+		(shape input)
+		(at 538.48 328.93 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3cf6eeb3-0cb7-4fa8-9527-66f1c876e203")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 538.48 334.4552 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -20926,6 +21851,50 @@
 			)
 		)
 	)
+	(global_label "STEAM"
+		(shape input)
+		(at 669.29 393.7 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "440380ed-bc0f-48ca-b280-5b680ab70ac3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 669.29 402.5513 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A"
+		(shape input)
+		(at 553.72 361.95 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "445e664a-716b-48e0-841c-0df43e691f4e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 553.72 366.0238 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "AnalogTriggerEnable"
 		(shape input)
 		(at 400.05 278.13 180)
@@ -20939,28 +21908,6 @@
 		(uuid "448e7c50-0c95-4867-883b-7b6f1b9a4aef")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 377.8338 278.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "D+"
-		(shape input)
-		(at 320.04 29.21 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4557fbe2-eda9-4dd7-936c-5ec34e045972")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 320.04 35.0376 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20988,6 +21935,50 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "X"
+		(shape input)
+		(at 538.48 361.95 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4825d8e6-15e3-4b3d-8229-cf157dfc5fef")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 538.48 366.1447 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Net-(U1-PIO0_4)"
+		(shape input)
+		(at 266.7 148.59 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "49ea483d-96ab-4552-905b-59fd03a4b47e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 246.5999 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -21058,6 +22049,72 @@
 			)
 		)
 	)
+	(global_label "Net-(LED-C)"
+		(shape input)
+		(at 603.25 422.91 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4e19cee2-ecc0-4713-93d9-a17a637c6ba8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 603.25 438.5953 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 636.27 328.93 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4f264650-285d-48e0-be95-f80bff57f72e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 636.27 335.7857 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "B"
+		(shape input)
+		(at 669.29 328.93 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4fd9b4d7-90bd-4c9f-9751-074c81a8d82a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 669.29 333.1852 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VDD"
 		(shape input)
 		(at 358.14 139.7 0)
@@ -21076,6 +22133,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P1-RESET"
+		(shape input)
+		(at 511.81 120.65 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "511a02ce-536f-494e-a7a4-afe6d19224ac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 511.81 133.4322 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -21102,6 +22181,28 @@
 			)
 		)
 	)
+	(global_label "P4-ATP4"
+		(shape input)
+		(at 619.76 328.93 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "52d60c20-1458-4b08-a703-1b94626376a0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 619.76 340.5028 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "S2"
 		(shape input)
 		(at 273.05 133.35 180)
@@ -21115,6 +22216,50 @@
 		(uuid "5385f733-f0b2-4ed2-976d-ec9f7923a820")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 267.6458 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P1-RESET"
+		(shape input)
+		(at 521.97 361.95 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "54c6dea1-5d13-445f-80cd-d2c1551f0dbd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 521.97 374.7322 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Net-(U1-PIO0_4)"
+		(shape input)
+		(at 636.27 393.7 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "57131481-cb6e-40cf-8ddf-3cc7a1ee5397")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 636.27 413.8001 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21146,6 +22291,28 @@
 			)
 		)
 	)
+	(global_label "P4-DR"
+		(shape input)
+		(at 488.95 361.95 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5a169900-848e-4196-91d5-dcd74f30283f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 488.95 371.5271 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "S16"
 		(shape input)
 		(at 368.3 31.75 270)
@@ -21159,6 +22326,50 @@
 		(uuid "5c50fb03-8f59-4225-a9a0-2f38e03f52f2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 368.3 38.3637 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "HALLTRIG2"
+		(shape input)
+		(at 553.72 328.93 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5f599a92-0c6c-4f26-b573-e505072fd505")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 553.72 341.7124 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Net-(U1-PIO1_8)"
+		(shape input)
+		(at 521.97 422.91 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5f9836bb-3968-4171-b1cc-5a450bececc0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 521.97 443.0101 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21234,6 +22445,50 @@
 			)
 		)
 	)
+	(global_label "Net-(U1-PIO1_28)"
+		(shape input)
+		(at 505.46 458.47 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6994819e-f823-46e0-9c49-3ba1ac3919db")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 505.46 479.7796 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P3-ATP4"
+		(shape input)
+		(at 488.95 393.7 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6ad56e06-e497-4099-9768-001c05fbe945")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 488.95 405.2728 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LT"
 		(shape input)
 		(at 273.05 135.89 180)
@@ -21256,6 +22511,72 @@
 			)
 		)
 	)
+	(global_label "Net-(LED-C)"
+		(shape input)
+		(at 430.53 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6b7e5478-c6af-4218-a989-ae05ce5dfa89")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 446.2153 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FL"
+		(shape input)
+		(at 636.27 422.91 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6d5408df-a100-41a8-8c4b-282a5d5cd608")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 636.27 428.0119 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S5"
+		(shape input)
+		(at 586.74 328.93 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6f218514-c639-46fa-afdd-a3c18dfc80d4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 586.74 334.3342 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "S16"
 		(shape input)
 		(at 344.17 135.89 0)
@@ -21269,6 +22590,28 @@
 		(uuid "703897dc-d300-4815-92c6-8178411bf67a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 350.7837 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Net-(U1-PIO1_29)"
+		(shape input)
+		(at 349.25 158.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "721ff080-f366-4872-ad80-113fe8d6bd8f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 370.5596 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21313,6 +22656,50 @@
 		(uuid "7500a4dd-fc14-4141-99ae-aef42894d15f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 251.3172 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D3-K"
+		(shape input)
+		(at 553.72 393.7 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "757fd864-08d8-42dd-9ce3-2dd158c4beab")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 553.72 402.0071 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FR"
+		(shape input)
+		(at 521.97 458.47 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7598ace6-3a4a-4f3b-9e0f-0dccdb053240")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 521.97 463.8138 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21432,6 +22819,50 @@
 			)
 		)
 	)
+	(global_label "Net-(U1-PIO1_9)"
+		(shape input)
+		(at 349.25 168.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7a85c40f-91c3-4caa-88ff-eb4fcd52d8ff")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 369.3501 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "HALLTRIG1"
+		(shape input)
+		(at 586.74 393.7 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7c06a0c8-b262-4dbc-b0ca-d6011e834d9f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 586.74 406.4824 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "D-"
 		(shape input)
 		(at 275.59 161.29 180)
@@ -21533,6 +22964,28 @@
 		(uuid "8034b460-b4c5-433f-8c01-dd9c150fc4b2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 223.2562 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P3-DR"
+		(shape input)
+		(at 605.79 191.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "808df1c0-4780-43a5-8661-98b09407d957")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 596.2129 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21696,6 +23149,28 @@
 			)
 		)
 	)
+	(global_label "ATP6 Left Signal"
+		(shape input)
+		(at 586.74 422.91 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8da5f8c9-e5e2-436b-bcd6-7c8c62e1cf5a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 586.74 441.8607 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "HAL-VCC"
 		(shape input)
 		(at 544.83 34.29 180)
@@ -21762,28 +23237,6 @@
 			)
 		)
 	)
-	(global_label "D-"
-		(shape input)
-		(at 322.58 29.21 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "98911ee6-7f8b-43ac-9434-3d7d745a677f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 322.58 35.0376 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "STEAM_IN"
 		(shape input)
 		(at 208.28 429.26 180)
@@ -21828,6 +23281,50 @@
 			)
 		)
 	)
+	(global_label "STEAM"
+		(shape input)
+		(at 388.62 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9a480484-e7d0-4d10-b4c4-3c3befebf8fe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 379.7687 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Net-(U1-PIO1_18)"
+		(shape input)
+		(at 257.81 168.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9bcb5e9a-998f-40b0-a986-b2f990952ced")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 236.5004 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "STEAM_IN"
 		(shape input)
 		(at 270.51 105.41 180)
@@ -21846,6 +23343,72 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P3-DR"
+		(shape input)
+		(at 636.27 361.95 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a006deb3-f326-4199-b446-c5a112c1baca")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 636.27 371.5271 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Net-(U1-PIO0_5)"
+		(shape input)
+		(at 652.78 393.7 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a161f1e6-b63f-4fc6-9d6d-2830f38344dc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 652.78 413.8001 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D- USB"
+		(shape input)
+		(at 332.74 46.99 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a23fd88c-1d15-46de-8203-adc6285cb279")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 332.74 36.3848 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -21885,6 +23448,28 @@
 		(uuid "a8496839-edf9-42bb-9aff-c43469932547")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 430.53 115.4102 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDD"
+		(shape input)
+		(at 652.78 361.95 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a85b6a7b-f46a-43e6-ac98-0a317afdcf56")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 652.78 368.5638 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22048,6 +23633,50 @@
 			)
 		)
 	)
+	(global_label "Y"
+		(shape input)
+		(at 570.23 361.95 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b584311e-a3df-43cb-9f01-aa490460296c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 570.23 366.0238 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 669.29 361.95 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b5866a94-3bd8-4da7-ac96-388fa12b04cd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 669.29 368.8057 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "G1 U9"
 		(shape input)
 		(at 229.87 274.32 0)
@@ -22136,6 +23765,28 @@
 			)
 		)
 	)
+	(global_label "LT"
+		(shape input)
+		(at 570.23 393.7 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "baf6daa7-675b-4e0e-bf93-964dff82e070")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 570.23 398.6809 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "R10 Power"
 		(shape input)
 		(at 203.2 295.91 180)
@@ -22149,6 +23800,72 @@
 		(uuid "bc43ccb4-7f1c-45de-b458-31ed0e860be2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 189.9339 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P3-SS"
+		(shape input)
+		(at 605.79 194.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "be2dcf8e-2aec-4554-8258-3e35d40f9edc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 596.3339 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P3-ATP4"
+		(shape input)
+		(at 593.09 175.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c66506e3-23ad-4419-b04a-d53904f4cb94")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 581.5172 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S14"
+		(shape input)
+		(at 521.97 393.7 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c7fe4537-5bfa-4ee6-9b12-2e364eef6846")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 521.97 400.3137 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22176,6 +23893,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D+ USB"
+		(shape input)
+		(at 320.04 29.21 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c94d1c33-65d4-4de3-8fbe-db13bfdfed6d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 320.04 39.8152 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -22224,6 +23963,28 @@
 			)
 		)
 	)
+	(global_label "Net-(Bat1-Pos)"
+		(shape input)
+		(at 276.86 440.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cd347b09-6e67-4c3c-9067-dec1bd7d5665")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 295.6295 440.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ATP6 Right Signal"
 		(shape input)
 		(at 661.67 165.1 180)
@@ -22259,6 +24020,28 @@
 		(uuid "d154f5e0-fc04-4037-af4e-a13250423607")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 202.6338 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Net-(U1-PIO0_5)"
+		(shape input)
+		(at 264.16 151.13 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d1d43c30-8ec5-4492-aac0-c06d03a2a441")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 244.0599 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22312,9 +24095,9 @@
 			)
 		)
 	)
-	(global_label "STEAM"
+	(global_label "D+ USB"
 		(shape input)
-		(at 392.43 68.58 180)
+		(at 505.46 328.93 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -22322,9 +24105,9 @@
 			)
 			(justify right)
 		)
-		(uuid "d60d646b-9fab-490b-a18b-62e37e0146cb")
+		(uuid "d7fe54ac-1ba3-477d-a737-45b4e526bd71")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 383.5787 68.58 0)
+			(at 505.46 339.5352 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22356,6 +24139,28 @@
 			)
 		)
 	)
+	(global_label "Net-(U1-PIO1_9)"
+		(shape input)
+		(at 505.46 422.91 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d91cdbcd-c8f5-4710-a099-eba89b4b99aa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 505.46 443.0101 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VDD"
 		(shape input)
 		(at 46.99 144.78 270)
@@ -22369,6 +24174,28 @@
 		(uuid "dc1dc0f9-62a4-4aad-b861-54f877fa8583")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 46.99 151.3938 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Net-(U1-PIO1_23)"
+		(shape input)
+		(at 260.35 158.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dcd43713-fe12-44f4-86c6-de7196ade5a6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 239.0404 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22422,6 +24249,50 @@
 			)
 		)
 	)
+	(global_label "VDD"
+		(shape input)
+		(at 538.48 393.7 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e02ee937-3448-44ae-93dd-f113b07498c5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 538.48 400.3138 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P3-SS"
+		(shape input)
+		(at 619.76 361.95 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e1b88d3a-0b23-4ee0-bbf0-dbbef4c0b377")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 619.76 371.4061 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VBUS"
 		(shape input)
 		(at 173.99 353.06 90)
@@ -22444,6 +24315,50 @@
 			)
 		)
 	)
+	(global_label "Net-(U1-PIO1_29)"
+		(shape input)
+		(at 488.95 422.91 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e4336d7c-a8ba-47a2-8371-6db61d227ae3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 488.95 444.2196 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Net-(U1-PIO1_17)"
+		(shape input)
+		(at 262.89 156.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e46b6c93-6f15-4e40-861c-358235dcb61f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 241.5804 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RT"
 		(shape input)
 		(at 481.33 76.2 0)
@@ -22462,6 +24377,50 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Net-(U1-PIO1_7)"
+		(shape input)
+		(at 488.95 458.47 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e5f9d0a6-781e-478a-a035-714ddfac0a5f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 488.95 478.5701 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ATP6 Right Signal"
+		(shape input)
+		(at 603.25 328.93 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e6a8f6b4-2633-4873-a324-8e1ec904a356")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 603.25 349.2111 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -22501,6 +24460,28 @@
 		(uuid "e74565e3-c280-4acb-b846-013d4dca04aa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 477.6795 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RT"
+		(shape input)
+		(at 570.23 328.93 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e8b398bd-df44-41a9-af35-a9bb7ee4ee22")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 570.23 334.1528 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22554,6 +24535,50 @@
 			)
 		)
 	)
+	(global_label "D3-K"
+		(shape input)
+		(at 275.59 337.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eb9b1410-481c-4771-b37b-0254819c9f00")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 283.8971 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S16"
+		(shape input)
+		(at 652.78 328.93 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ec9244f2-4e32-4d61-aee5-3e3121b39bf0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 652.78 335.5437 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "U10-G1"
 		(shape input)
 		(at 275.59 128.27 180)
@@ -22576,6 +24601,28 @@
 			)
 		)
 	)
+	(global_label "LED"
+		(shape input)
+		(at 652.78 422.91 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f1ce8d41-1257-4369-867c-461c695aca3c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 652.78 429.3423 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VBUS-Signal"
 		(shape input)
 		(at 273.05 146.05 180)
@@ -22589,6 +24636,160 @@
 		(uuid "f2cabe5a-2aed-4420-97d6-8c15a27c3f78")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 257.6673 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D- USB"
+		(shape input)
+		(at 322.58 29.21 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f50be730-eab0-4018-b15a-c3ef95129114")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 322.58 39.8152 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P4-ATP4"
+		(shape input)
+		(at 648.97 175.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f5ed88ea-7b73-4de4-8ce0-b9a8d2af0b44")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 637.3972 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D+ USB"
+		(shape input)
+		(at 306.07 46.99 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fcabca11-f9e7-461b-b746-acb692aa45e8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 306.07 36.3848 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "U1-62"
+		(shape input)
+		(at 570.23 422.91 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fcbeb9aa-19f8-4321-b416-b992b54c93d4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 570.23 432.4266 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Net-(Bat1-Pos)"
+		(shape input)
+		(at 538.48 458.47 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fd96a7f8-635c-4dcc-a015-abcda056fc1a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 538.48 477.2395 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LB"
+		(shape input)
+		(at 603.25 393.7 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "febb1e60-675b-4ae4-bf19-e67bf882415d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 603.25 398.9833 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Net-(U1-PIO1_18)"
+		(shape input)
+		(at 603.25 361.95 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ffa02d87-6026-4a53-bea0-b90f8a97fe12")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 603.25 383.2596 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23113,6 +25314,140 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 669.29 422.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05ace384-0cb3-44be-9085-b8f10e11b881")
+		(property "Reference" "TP48"
+			(at 671.83 418.3379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 671.83 420.8779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Steam_Controller:Steam Controller Test Pad"
+			(at 674.37 422.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 674.37 422.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 669.29 422.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "adda965f-ee54-455e-8303-a5fac4e9caa8")
+		)
+		(instances
+			(project "Steam_Controller"
+				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
+					(reference "TP48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 521.97 328.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05e644c3-cfe0-4777-ae16-ddc8f6b0128c")
+		(property "Reference" "TP3"
+			(at 524.51 324.3579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 524.51 326.8979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Steam_Controller:Steam Controller Test Pad"
+			(at 527.05 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 527.05 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 521.97 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f90fac38-4419-426e-8b98-486e5ad9fcd1")
+		)
+		(instances
+			(project "Steam_Controller"
+				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 403.86 289.56 270)
 		(unit 1)
@@ -23368,6 +25703,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 619.76 393.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "087d7108-ab38-401c-a2dc-f8755163f523")
+		(property "Reference" "TP33"
+			(at 622.3 389.1279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 622.3 391.6679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Steam_Controller:Steam Controller Test Pad"
+			(at 624.84 393.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 624.84 393.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 619.76 393.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9183de26-7855-4f53-87fb-c43262e72189")
+		)
+		(instances
+			(project "Steam_Controller"
+				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
+					(reference "TP33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 293.37 341.63 180)
 		(unit 1)
@@ -23431,6 +25833,73 @@
 			(project "Steam_Controller"
 				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
 					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 553.72 422.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b568da8-6a13-49d9-9389-d0e960cdd518")
+		(property "Reference" "TP41"
+			(at 556.26 418.3379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 556.26 420.8779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Steam_Controller:Steam Controller Test Pad"
+			(at 558.8 422.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 558.8 422.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 553.72 422.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8cdf19f-0793-4236-a2f4-cb0973c97f21")
+		)
+		(instances
+			(project "Steam_Controller"
+				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
+					(reference "TP41")
 					(unit 1)
 				)
 			)
@@ -23564,6 +26033,73 @@
 			(project "Steam_Controller"
 				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
 					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 619.76 422.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f35273a-55a6-43ca-840f-203e55375924")
+		(property "Reference" "TP45"
+			(at 622.3 418.3379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 622.3 420.8779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Steam_Controller:Steam Controller Test Pad"
+			(at 624.84 422.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 624.84 422.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 619.76 422.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3865faf9-fbf4-47ab-adff-54c120d84bd0")
+		)
+		(instances
+			(project "Steam_Controller"
+				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
+					(reference "TP45")
 					(unit 1)
 				)
 			)
@@ -24099,6 +26635,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 538.48 328.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "148400b5-b74a-4258-aa38-c1964664301b")
+		(property "Reference" "TP4"
+			(at 541.02 324.3579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 541.02 326.8979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Steam_Controller:Steam Controller Test Pad"
+			(at 543.56 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 543.56 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 538.48 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2215cd43-eacd-4452-8ec5-4524786fcc89")
+		)
+		(instances
+			(project "Steam_Controller"
+				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 231.14 347.98 270)
 		(unit 1)
@@ -24227,6 +26830,73 @@
 			(project ""
 				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
 					(reference "BAT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 636.27 422.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "157ba7d4-2be6-4fc4-a88f-29191b437859")
+		(property "Reference" "TP46"
+			(at 638.81 418.3379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 638.81 420.8779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Steam_Controller:Steam Controller Test Pad"
+			(at 641.35 422.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 641.35 422.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 636.27 422.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b43f55d-a55d-488a-8368-00f505b3c4de")
+		)
+		(instances
+			(project "Steam_Controller"
+				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
+					(reference "TP46")
 					(unit 1)
 				)
 			)
@@ -24494,6 +27164,140 @@
 			(project ""
 				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 652.78 422.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "199325d2-fd7e-48ac-b6cd-5e90ea165a10")
+		(property "Reference" "TP47"
+			(at 655.32 418.3379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 655.32 420.8779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Steam_Controller:Steam Controller Test Pad"
+			(at 657.86 422.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 657.86 422.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 652.78 422.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ad3512c-0c12-4641-9d1e-26ef2594fe73")
+		)
+		(instances
+			(project "Steam_Controller"
+				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
+					(reference "TP47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 603.25 422.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a643c07-b1e6-4395-9c82-ce18616a9852")
+		(property "Reference" "TP44"
+			(at 605.79 418.3379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 605.79 420.8779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Steam_Controller:Steam Controller Test Pad"
+			(at 608.33 422.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 608.33 422.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 603.25 422.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85521a64-102e-4973-a8e4-a870fc980007")
+		)
+		(instances
+			(project "Steam_Controller"
+				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
+					(reference "TP44")
 					(unit 1)
 				)
 			)
@@ -25173,6 +27977,73 @@
 			(project "Steam_Controller"
 				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 521.97 422.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25182764-949c-4012-bc49-7561d176b0ad")
+		(property "Reference" "TP39"
+			(at 524.51 418.3379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 524.51 420.8779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Steam_Controller:Steam Controller Test Pad"
+			(at 527.05 422.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 527.05 422.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 521.97 422.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "949026dc-3f46-4870-babf-fec58fc2876f")
+		)
+		(instances
+			(project "Steam_Controller"
+				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
+					(reference "TP39")
 					(unit 1)
 				)
 			)
@@ -26624,6 +29495,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 570.23 422.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "374df3b8-85bb-4efb-8ab8-52966beb60e8")
+		(property "Reference" "TP42"
+			(at 572.77 418.3379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 572.77 420.8779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Steam_Controller:Steam Controller Test Pad"
+			(at 575.31 422.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 575.31 422.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 570.23 422.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b2953769-a955-4ff6-bf74-82968e207364")
+		)
+		(instances
+			(project "Steam_Controller"
+				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
+					(reference "TP42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 604.52 177.8 270)
 		(unit 1)
@@ -26896,6 +29834,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 505.46 422.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3942088d-f8fe-4a6f-a645-321d81941ba9")
+		(property "Reference" "TP38"
+			(at 508 418.3379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 508 420.8779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Steam_Controller:Steam Controller Test Pad"
+			(at 510.54 422.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 510.54 422.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 505.46 422.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f3c9fbd-47fa-4392-83ce-e35e419856d0")
+		)
+		(instances
+			(project "Steam_Controller"
+				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
+					(reference "TP38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 341.63 317.5 0)
 		(unit 1)
@@ -27031,6 +30036,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 488.95 422.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3cd9b406-6009-4ca1-93f5-877ecb03e651")
+		(property "Reference" "TP37"
+			(at 491.49 418.3379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 491.49 420.8779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Steam_Controller:Steam Controller Test Pad"
+			(at 494.03 422.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 494.03 422.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 488.95 422.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25da65b8-e899-4678-b27d-64042a2ac47f")
+		)
+		(instances
+			(project "Steam_Controller"
+				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
+					(reference "TP37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Steam_Controller_Symbols:DMP2035U-7")
 		(at 257.81 407.67 0)
 		(unit 1)
@@ -27150,6 +30222,73 @@
 			(project ""
 				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
 					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 521.97 458.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d85f2de-7e6f-4dca-aaa0-c69cadb998be")
+		(property "Reference" "TP51"
+			(at 524.51 453.8979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 524.51 456.4379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Steam_Controller:Steam Controller Test Pad"
+			(at 527.05 458.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 527.05 458.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 521.97 458.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09fa3bff-0d91-49be-b0be-6acf5a99abbd")
+		)
+		(instances
+			(project "Steam_Controller"
+				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
+					(reference "TP51")
 					(unit 1)
 				)
 			)
@@ -28502,6 +31641,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 586.74 361.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50ec7e09-792e-4329-8699-f5289fb03b72")
+		(property "Reference" "TP19"
+			(at 589.28 357.3779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 589.28 359.9179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Steam_Controller:Steam Controller Test Pad"
+			(at 591.82 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 591.82 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 586.74 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e240638-d8ab-4d0e-b0fb-1bf28837c079")
+		)
+		(instances
+			(project ""
+				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
+					(reference "TP19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 480.06 287.02 0)
 		(unit 1)
@@ -28632,6 +31838,73 @@
 			(project "Steam_Controller"
 				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 570.23 361.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5291a41e-0d58-4e7a-a441-605ec09b45bd")
+		(property "Reference" "TP18"
+			(at 572.77 357.3779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 572.77 359.9179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Steam_Controller:Steam Controller Test Pad"
+			(at 575.31 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 575.31 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 570.23 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62acbdd4-2bf6-4774-9f01-4047ae24a7a4")
+		)
+		(instances
+			(project "Steam_Controller"
+				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
+					(reference "TP18")
 					(unit 1)
 				)
 			)
@@ -28973,6 +32246,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 488.95 361.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5528feec-43aa-4249-a676-c78ab48362d6")
+		(property "Reference" "TP13"
+			(at 491.49 357.3779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 491.49 359.9179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Steam_Controller:Steam Controller Test Pad"
+			(at 494.03 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 494.03 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 488.95 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d9d7d64-cf06-4067-b68f-4dfbca88e526")
+		)
+		(instances
+			(project "Steam_Controller"
+				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
+					(reference "TP13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 212.09 436.88 0)
 		(unit 1)
@@ -29033,6 +32373,73 @@
 			(project "Steam_Controller"
 				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 619.76 328.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5697444b-22cf-4cfa-91d6-cf4699a040b2")
+		(property "Reference" "TP9"
+			(at 622.3 324.3579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 622.3 326.8979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Steam_Controller:Steam Controller Test Pad"
+			(at 624.84 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 624.84 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 619.76 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ffa2890-a30e-4f91-89d8-725c821c9b87")
+		)
+		(instances
+			(project ""
+				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -29974,6 +33381,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 505.46 458.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60c89140-c487-426f-be7a-3ffa1e5f805c")
+		(property "Reference" "TP50"
+			(at 508 453.8979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 508 456.4379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Steam_Controller:Steam Controller Test Pad"
+			(at 510.54 458.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 510.54 458.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 505.46 458.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "45fbe5b6-b3b2-4088-b6a3-7bd9011d8c6b")
+		)
+		(instances
+			(project "Steam_Controller"
+				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
+					(reference "TP50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 43.18 118.11 270)
 		(unit 1)
@@ -30104,6 +33578,73 @@
 			(project "Steam_Controller"
 				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
 					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 669.29 393.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6304eaf2-e6fd-4404-a570-e435a6e58317")
+		(property "Reference" "TP36"
+			(at 671.83 389.1279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 671.83 391.6679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Steam_Controller:Steam Controller Test Pad"
+			(at 674.37 393.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 674.37 393.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 669.29 393.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3bcd707b-6d3a-486f-bf33-5864135ce953")
+		)
+		(instances
+			(project "Steam_Controller"
+				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
+					(reference "TP36")
 					(unit 1)
 				)
 			)
@@ -30287,6 +33828,73 @@
 			(project ""
 				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 652.78 393.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66904b23-1886-48a0-8305-efb3dbbe6caa")
+		(property "Reference" "TP35"
+			(at 655.32 389.1279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 655.32 391.6679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Steam_Controller:Steam Controller Test Pad"
+			(at 657.86 393.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 657.86 393.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 652.78 393.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a8e151b-cb08-4b27-862a-7b972db6c7fa")
+		)
+		(instances
+			(project "Steam_Controller"
+				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
+					(reference "TP35")
 					(unit 1)
 				)
 			)
@@ -30760,6 +34368,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 652.78 328.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6afd7fed-17df-4082-919d-72ac41cd7120")
+		(property "Reference" "TP11"
+			(at 655.32 324.3579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 655.32 326.8979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Steam_Controller:Steam Controller Test Pad"
+			(at 657.86 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 657.86 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 652.78 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f8307bf2-f5a3-4703-a2a8-b78333800830")
+		)
+		(instances
+			(project ""
+				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "C0402C120F5GACTU_1")
 		(lib_id "Steam_Controller_Symbols:C0402C120F5GACTU")
 		(at 140.97 156.21 0)
@@ -30903,6 +34578,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 521.97 393.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "701fc342-344c-40f3-8443-e1affe6299ac")
+		(property "Reference" "TP27"
+			(at 524.51 389.1279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 524.51 391.6679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Steam_Controller:Steam Controller Test Pad"
+			(at 527.05 393.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 527.05 393.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 521.97 393.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1ed0aa2-be27-4fbe-ac8f-0a1082762e1d")
+		)
+		(instances
+			(project "Steam_Controller"
+				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
+					(reference "TP27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 184.15 203.2 90)
 		(unit 1)
@@ -31035,6 +34777,73 @@
 			(project "Steam_Controller"
 				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
 					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 505.46 361.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "721f54db-d0d8-4f7b-a055-36c49228570e")
+		(property "Reference" "TP14"
+			(at 508 357.3779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 508 359.9179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Steam_Controller:Steam Controller Test Pad"
+			(at 510.54 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 510.54 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 505.46 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17210944-5161-4335-a8ac-f4f6a763080a")
+		)
+		(instances
+			(project "Steam_Controller"
+				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
+					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -31326,7 +35135,7 @@
 		(dnp no)
 		(uuid "7685bec7-f860-49c7-bd42-44ab8a1dc94e")
 		(property "Reference" "R18"
-			(at 189.738 363.982 90)
+			(at 188.468 372.364 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31335,7 +35144,7 @@
 			)
 		)
 		(property "Value" "27kΩ"
-			(at 191.008 366.268 90)
+			(at 189.23 370.078 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32728,6 +36537,140 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 505.46 328.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "823f5b80-b8ee-497c-8995-19d4ad1841b0")
+		(property "Reference" "TP2"
+			(at 508 324.3579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 508 326.8979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Steam_Controller:Steam Controller Test Pad"
+			(at 510.54 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 510.54 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 505.46 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e86c3e30-bff0-498d-80af-069d27669fb4")
+		)
+		(instances
+			(project "Steam_Controller"
+				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 488.95 393.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82bf2827-8f85-47c3-a038-fca751bfe4ca")
+		(property "Reference" "TP25"
+			(at 491.49 389.1279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 491.49 391.6679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Steam_Controller:Steam Controller Test Pad"
+			(at 494.03 393.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 494.03 393.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 488.95 393.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8837678-25eb-4846-ab3b-2f7dc6356967")
+		)
+		(instances
+			(project "Steam_Controller"
+				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
+					(reference "TP25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Steam_Controller_Symbols:5134TR")
 		(at 426.72 22.86 0)
 		(unit 1)
@@ -32800,6 +36743,73 @@
 			(project "Steam_Controller"
 				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
 					(reference "S2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 586.74 393.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84f8e2a1-e3da-4888-b1fd-18f2a0da046b")
+		(property "Reference" "TP31"
+			(at 589.28 389.1279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 589.28 391.6679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Steam_Controller:Steam Controller Test Pad"
+			(at 591.82 393.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 591.82 393.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 586.74 393.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4ab0c7c-08da-40c7-969f-33349c5a6c2b")
+		)
+		(instances
+			(project "Steam_Controller"
+				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
+					(reference "TP31")
 					(unit 1)
 				)
 			)
@@ -33001,6 +37011,73 @@
 			(project "Steam_Controller"
 				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 553.72 393.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8969d471-c2fb-4fc0-b70a-02b1a7ffa0ae")
+		(property "Reference" "TP29"
+			(at 556.26 389.1279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 556.26 391.6679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Steam_Controller:Steam Controller Test Pad"
+			(at 558.8 393.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 558.8 393.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 553.72 393.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0dc3c17-5bee-4be6-a5d4-be3eee021200")
+		)
+		(instances
+			(project "Steam_Controller"
+				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
+					(reference "TP29")
 					(unit 1)
 				)
 			)
@@ -33452,6 +37529,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 603.25 393.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f64279e-076b-4225-8511-920a6ffa72fd")
+		(property "Reference" "TP32"
+			(at 605.79 389.1279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 605.79 391.6679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Steam_Controller:Steam Controller Test Pad"
+			(at 608.33 393.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 608.33 393.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 603.25 393.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e025dead-706a-4a30-8a86-c6faef9bdc78")
+		)
+		(instances
+			(project "Steam_Controller"
+				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
+					(reference "TP32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Steam_Controller_Symbols:FDV304P")
 		(at 213.36 289.56 0)
 		(unit 1)
@@ -33661,6 +37805,73 @@
 			(project "Steam_Controller"
 				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 570.23 328.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92e0c100-a849-430f-9560-e0416d15b2cc")
+		(property "Reference" "TP6"
+			(at 572.77 324.3579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 572.77 326.8979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Steam_Controller:Steam Controller Test Pad"
+			(at 575.31 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 575.31 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 570.23 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b803b3df-6195-48f0-af8d-a5bedabc4a3c")
+		)
+		(instances
+			(project "Steam_Controller"
+				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -34750,6 +38961,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 586.74 328.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4bc7984-2c8e-43c8-b7b2-3906f53160bc")
+		(property "Reference" "TP7"
+			(at 589.28 324.3579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 589.28 326.8979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Steam_Controller:Steam Controller Test Pad"
+			(at 591.82 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 591.82 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 586.74 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "82160373-4e2a-41cd-9f3c-77db8aa790eb")
+		)
+		(instances
+			(project "Steam_Controller"
+				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 408.94 55.88 0)
 		(unit 1)
@@ -34810,6 +39088,73 @@
 			(project "Steam_Controller"
 				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 538.48 458.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a60c50f8-09d3-4533-877d-a35ba42b45fd")
+		(property "Reference" "TP52"
+			(at 541.02 453.8979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 541.02 456.4379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Steam_Controller:Steam Controller Test Pad"
+			(at 543.56 458.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 543.56 458.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 538.48 458.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "092b77d6-58ad-4a51-8301-db321447681b")
+		)
+		(instances
+			(project "Steam_Controller"
+				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
+					(reference "TP52")
 					(unit 1)
 				)
 			)
@@ -34943,6 +39288,73 @@
 			(project "Steam_Controller"
 				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 570.23 393.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a81ceb25-985d-4707-bb99-9b3026000abd")
+		(property "Reference" "TP30"
+			(at 572.77 389.1279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 572.77 391.6679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Steam_Controller:Steam Controller Test Pad"
+			(at 575.31 393.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 575.31 393.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 570.23 393.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a749155f-8449-4287-9c77-354df928a18a")
+		)
+		(instances
+			(project "Steam_Controller"
+				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
+					(reference "TP30")
 					(unit 1)
 				)
 			)
@@ -35187,6 +39599,73 @@
 			(project "Steam_Controller"
 				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
 					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 603.25 328.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa49aa3f-ce9b-40ec-b6d0-8bfe1e824bad")
+		(property "Reference" "TP8"
+			(at 605.79 324.3579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 605.79 326.8979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Steam_Controller:Steam Controller Test Pad"
+			(at 608.33 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 608.33 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 603.25 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f004969c-05d4-44ab-a536-3bad2480617f")
+		)
+		(instances
+			(project "Steam_Controller"
+				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -35868,6 +40347,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 505.46 393.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af4e3267-ad4a-4670-b144-4563fcaf3712")
+		(property "Reference" "TP26"
+			(at 508 389.1279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 508 391.6679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Steam_Controller:Steam Controller Test Pad"
+			(at 510.54 393.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 510.54 393.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 505.46 393.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4badd4b-2164-424d-a2ad-3b34f094d7b2")
+		)
+		(instances
+			(project "Steam_Controller"
+				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
+					(reference "TP26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 130.81 200.66 0)
 		(unit 1)
@@ -36472,6 +41018,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 586.74 422.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b818d193-f90a-4922-b1c4-9f00e530090f")
+		(property "Reference" "TP43"
+			(at 589.28 418.3379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 589.28 420.8779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Steam_Controller:Steam Controller Test Pad"
+			(at 591.82 422.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 591.82 422.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 586.74 422.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1040093e-4fcc-4472-93ab-1ec1085b90cc")
+		)
+		(instances
+			(project "Steam_Controller"
+				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
+					(reference "TP43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 610.87 207.01 0)
 		(unit 1)
@@ -36799,6 +41412,73 @@
 			(project "Steam_Controller"
 				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 538.48 393.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb2ad197-42d6-424d-bf88-6a79f6978691")
+		(property "Reference" "TP28"
+			(at 541.02 389.1279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 541.02 391.6679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Steam_Controller:Steam Controller Test Pad"
+			(at 543.56 393.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 543.56 393.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 538.48 393.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb3f4b2b-6e1c-4a17-8215-d5594e08bcc7")
+		)
+		(instances
+			(project "Steam_Controller"
+				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
+					(reference "TP28")
 					(unit 1)
 				)
 			)
@@ -37256,6 +41936,140 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 488.95 458.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2b48625-5f6d-4f0a-b215-c0945957601b")
+		(property "Reference" "TP49"
+			(at 491.49 453.8979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 491.49 456.4379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Steam_Controller:Steam Controller Test Pad"
+			(at 494.03 458.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 494.03 458.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 488.95 458.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "feecaecc-c2b1-4d95-85a6-ca07e7ce355e")
+		)
+		(instances
+			(project "Steam_Controller"
+				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
+					(reference "TP49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 652.78 361.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3798f3e-c900-49f1-bae4-b1f818e3bbd3")
+		(property "Reference" "TP23"
+			(at 655.32 357.3779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 655.32 359.9179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Steam_Controller:Steam Controller Test Pad"
+			(at 657.86 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 657.86 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 652.78 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "018ff782-0d58-457b-a534-84586d0bb08c")
+		)
+		(instances
+			(project "Steam_Controller"
+				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
+					(reference "TP23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 403.86 283.21 270)
 		(unit 1)
@@ -37388,6 +42202,73 @@
 			(project "Steam_Controller"
 				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
 					(reference "C39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 521.97 361.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5de2238-9e3c-41da-b0ad-fb5886205ac6")
+		(property "Reference" "TP15"
+			(at 524.51 357.3779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 524.51 359.9179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Steam_Controller:Steam Controller Test Pad"
+			(at 527.05 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 527.05 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 521.97 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c5ca8de-8268-4784-a3e7-cb135aaeffa1")
+		)
+		(instances
+			(project "Steam_Controller"
+				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
+					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -38081,6 +42962,140 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 603.25 361.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cea1ed2f-9469-4e8f-a135-afc1d894ea84")
+		(property "Reference" "TP20"
+			(at 605.79 357.3779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 605.79 359.9179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Steam_Controller:Steam Controller Test Pad"
+			(at 608.33 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 608.33 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 603.25 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c5e85cd-87bd-49da-985e-f20e5e9e877f")
+		)
+		(instances
+			(project "Steam_Controller"
+				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
+					(reference "TP20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 553.72 328.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d07bd97d-4229-483a-8662-eda8cf39925f")
+		(property "Reference" "TP5"
+			(at 556.26 324.3579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 556.26 326.8979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Steam_Controller:Steam Controller Test Pad"
+			(at 558.8 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 558.8 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 553.72 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6654299-46b6-4a0f-9ee7-6feb6e39578b")
+		)
+		(instances
+			(project "Steam_Controller"
+				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 167.64 204.47 0)
 		(unit 1)
@@ -38141,6 +43156,73 @@
 			(project "Steam_Controller"
 				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
 					(reference "#PWR084")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 636.27 328.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d437678e-2e29-410a-9920-fca66eb98a7b")
+		(property "Reference" "TP10"
+			(at 638.81 324.3579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 638.81 326.8979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Steam_Controller:Steam Controller Test Pad"
+			(at 641.35 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 641.35 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 636.27 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2604bfa8-9901-4a4b-9202-0fda7eba6117")
+		)
+		(instances
+			(project ""
+				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -39368,34 +44450,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Steam_Controller_Symbols:Antenna")
-		(at 193.04 203.2 270)
+		(lib_id "Connector:TestPoint")
+		(at 538.48 422.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ddac6657-4db0-455c-a0ca-40d523393463")
-		(property "Reference" "E1"
-			(at 199.644 204.47 90)
+		(fields_autoplaced yes)
+		(uuid "dd7afcde-8015-49ed-8263-0d5decc6bb80")
+		(property "Reference" "TP40"
+			(at 541.02 418.3379 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "Antenna"
-			(at 197.104 210.312 90)
+		(property "Value" "TestPoint"
+			(at 541.02 420.8779 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Steam_Controller:Antenna_footprint"
-			(at 182.626 205.994 0)
+		(property "Footprint" "Steam_Controller:Steam Controller Test Pad"
+			(at 543.56 422.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39404,7 +44487,74 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 193.04 203.2 0)
+			(at 543.56 422.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 538.48 422.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2dd3d375-21b6-49c2-adec-ebd81c745022")
+		)
+		(instances
+			(project "Steam_Controller"
+				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
+					(reference "TP40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Steam_Controller_Symbols:Antenna")
+		(at 194.31 205.74 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ddac6657-4db0-455c-a0ca-40d523393463")
+		(property "Reference" "E1"
+			(at 200.914 204.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Antenna"
+			(at 198.374 198.628 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Steam_Controller:Antenna_footprint"
+			(at 183.896 202.946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39413,7 +44563,7 @@
 			)
 		)
 		(property "Description" "Loop antenna"
-			(at 193.548 215.138 0)
+			(at 194.818 193.802 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39500,6 +44650,73 @@
 			(project "Steam_Controller"
 				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
 					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 636.27 393.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dee76d77-e79b-430c-b8a2-2e9fc957cf47")
+		(property "Reference" "TP34"
+			(at 638.81 389.1279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 638.81 391.6679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Steam_Controller:Steam Controller Test Pad"
+			(at 641.35 393.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 641.35 393.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 636.27 393.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7145485b-6d03-44fe-849b-12bda09fa1b8")
+		)
+		(instances
+			(project "Steam_Controller"
+				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
+					(reference "TP34")
 					(unit 1)
 				)
 			)
@@ -39842,6 +45059,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 636.27 361.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e44caa20-a818-481f-b8d1-11930a2555f7")
+		(property "Reference" "TP22"
+			(at 638.81 357.3779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 638.81 359.9179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Steam_Controller:Steam Controller Test Pad"
+			(at 641.35 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 641.35 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 636.27 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb5fc6f1-545c-40df-8033-777304398890")
+		)
+		(instances
+			(project "Steam_Controller"
+				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
+					(reference "TP22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 485.14 24.13 270)
 		(unit 1)
@@ -39926,7 +45210,7 @@
 				)
 			)
 		)
-		(property "Value" "ABM8G-12.000MHZ-18-D2Y-T"
+		(property "Value" "ABM8-12.000MHZ-B2-T"
 			(at 198.12 110.49 0)
 			(effects
 				(font
@@ -41073,6 +46357,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 669.29 361.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee97461b-834c-4d98-b79e-4d4f0db83a94")
+		(property "Reference" "TP24"
+			(at 671.83 357.3779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 671.83 359.9179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Steam_Controller:Steam Controller Test Pad"
+			(at 674.37 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 674.37 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 669.29 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "adf58d61-a100-430a-b711-c4169dd4df5c")
+		)
+		(instances
+			(project "Steam_Controller"
+				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
+					(reference "TP24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Steam_Controller_Symbols:5134TR")
 		(at 405.13 21.59 0)
 		(unit 1)
@@ -41491,6 +46842,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 553.72 361.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1c18a27-fb23-4b65-abd3-fdb23f331a23")
+		(property "Reference" "TP17"
+			(at 556.26 357.3779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 556.26 359.9179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Steam_Controller:Steam Controller Test Pad"
+			(at 558.8 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 558.8 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 553.72 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70085553-feb5-4cd8-abe3-c03cdb29f7b7")
+		)
+		(instances
+			(project "Steam_Controller"
+				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
+					(reference "TP17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 485.14 34.29 270)
 		(unit 1)
@@ -41884,6 +47302,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 669.29 328.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f628100c-25c1-4618-9e8c-0e3f8768e660")
+		(property "Reference" "TP12"
+			(at 671.83 324.3579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 671.83 326.8979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Steam_Controller:Steam Controller Test Pad"
+			(at 674.37 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 674.37 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 669.29 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8128a7c1-01f2-44a2-b78b-0bcd6c6633b7")
+		)
+		(instances
+			(project ""
+				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
+					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 655.32 170.18 270)
 		(unit 1)
@@ -42020,6 +47505,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 488.95 328.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f80be85c-f35d-4de1-86f8-610983119969")
+		(property "Reference" "TP1"
+			(at 491.49 324.3579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 491.49 326.8979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Steam_Controller:Steam Controller Test Pad"
+			(at 494.03 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 494.03 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 488.95 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dffa7e11-bbe7-4f86-a2e7-0fc8a73af834")
+		)
+		(instances
+			(project ""
+				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 403.86 297.18 270)
 		(unit 1)
@@ -42083,6 +47635,73 @@
 			(project "Steam_Controller"
 				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
 					(reference "R50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 538.48 361.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f963a5a1-6aa8-4209-aeb6-6c4ebb764c20")
+		(property "Reference" "TP16"
+			(at 541.02 357.3779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 541.02 359.9179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Steam_Controller:Steam Controller Test Pad"
+			(at 543.56 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 543.56 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 538.48 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a8f837e-09b9-4cbd-af57-404f796f4226")
+		)
+		(instances
+			(project "Steam_Controller"
+				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
+					(reference "TP16")
 					(unit 1)
 				)
 			)
@@ -42272,6 +47891,73 @@
 			(project ""
 				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
 					(reference "FB2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 619.76 361.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc46f1f1-a855-42fb-8ca3-a4564fdf6670")
+		(property "Reference" "TP21"
+			(at 622.3 357.3779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 622.3 359.9179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Steam_Controller:Steam Controller Test Pad"
+			(at 624.84 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 624.84 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 619.76 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5dfada1c-cb09-4cd5-b73c-1e9070756225")
+		)
+		(instances
+			(project "Steam_Controller"
+				(path "/680b32e0-fadb-4211-8775-4f20761d055a"
+					(reference "TP21")
 					(unit 1)
 				)
 			)
