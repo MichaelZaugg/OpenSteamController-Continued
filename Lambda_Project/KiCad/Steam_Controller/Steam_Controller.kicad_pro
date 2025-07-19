@@ -60,6 +60,10 @@
       ],
       "drc_exclusions": [
         [
+          "clearance|129024400|111384000|510d1ed8-6bd1-41f4-b5ce-b87b7ef1a48d|c8eb1591-8872-4d46-aade-dd5b9bb6ca80",
+          ""
+        ],
+        [
           "clearance|129365200|111724800|c8eb1591-8872-4d46-aade-dd5b9bb6ca80|d248ca86-6218-4415-b8c2-d1b10c15105b",
           ""
         ],
@@ -1097,7 +1101,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "/home/michael/Desktop/",
+      "plot": "Gerber Files/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "../../../../../../../../lambda_mainboard.step",
