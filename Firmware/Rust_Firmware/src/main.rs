@@ -120,6 +120,23 @@ fn apply_haptic(gpio0: &lpc11xx::GPIO0, gpio1: &lpc11xx::GPIO1, channel: HapticC
     }
 }
 
+// Function to toggle the Steam logo LED for debugging
+fn toggle_steam_led(gpio1: &lpc11xx::GPIO1, led_state: &mut bool) {
+    use hal::pins::LED_CONTROL;
+    
+    *led_state = !*led_state;
+    
+    unsafe {
+        if *led_state {
+            // Turn LED on
+            gpio1.data.modify(|r, w| w.bits(r.bits() | (1 << LED_CONTROL.1)));
+        } else {
+            // Turn LED off
+            gpio1.data.modify(|r, w| w.bits(r.bits() & !(1 << LED_CONTROL.1)));
+        }
+    }
+}
+
 // Function to send controller state over UART
 #[allow(dead_code)]
 fn send_controller_state(usart: &mut UsartDriver, state: &controller::input::ControllerState) {
@@ -295,6 +312,18 @@ fn main() -> ! {
         }
     }
     
+    // Initialize LED state for debugging
+    let mut led_state = false;
+    let mut led_counter = 0u32;
+    
+    // Configure LED pin as output
+    unsafe {
+        // Set LED pin as output in DIR register
+        peripherals.GPIO1.dir.modify(|r, w| w.bits(r.bits() | (1 << hal::pins::LED_CONTROL.1)));
+        // Turn LED on initially to show firmware is starting
+        peripherals.GPIO1.data.modify(|r, w| w.bits(r.bits() | (1 << hal::pins::LED_CONTROL.1)));
+    }
+    
     // Import pin definitions for clarity
     use hal::pins::*;
     
@@ -316,8 +345,19 @@ fn main() -> ! {
     }
     
     let dt_ms = 10; // 10ms loop time for ~100Hz update rate
-
+    
+    // LED state for debugging
+    let mut led_state = false;
+    let mut led_counter = 0u32;
+    
     loop {
+        // Blink LED every ~1 second for debugging (100 loops * 10ms = 1 second)
+        led_counter += 1;
+        if led_counter >= 500 {
+            led_counter = 0;
+            toggle_steam_led(&peripherals.GPIO1, &mut led_state);
+        }
+        
         // Process motion data from MPU-6500
         match controller.process_motion_data(&mut mpu, dt_ms) {
             Ok(_) => {

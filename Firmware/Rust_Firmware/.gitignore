@@ -1,0 +1,30 @@
+# Rust build artifacts
+/target/
+
+# Generated binaries
+*.bin
+*.elf
+*.map
+
+# Backup files
+*.bak
+*~
+*.tmp
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-*
+
+# Temporary files created during builds
+Cargo_recovery.toml
+Cargo_backup.toml
+memory_backup.x
+
+# Log files
+*.log
