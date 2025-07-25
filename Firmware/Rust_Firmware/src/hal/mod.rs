@@ -1,13 +1,11 @@
-pub mod gpio;
-pub mod i2c;
-pub mod usart;
-pub mod pins;
-pub mod usb_hid;
-pub mod usb;
-pub mod spi;
+use crate::chip;
 
-pub use i2c::{I2cDriver, I2cError};
-pub use usart::UsartDriver;
-pub use gpio::*;
-pub use usb::UsbDriver;
-pub use spi::{SpiDriver, SpiMode};
+pub mod peripherals;
+pub mod system;
+pub mod usb;
+
+pub mod clock;
+pub mod controller;
+pub mod error;
+pub mod init;
+pub mod sysctl;
