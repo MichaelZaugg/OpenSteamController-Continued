@@ -2903,7 +2903,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "C0402C180J3GACAUTO"
+		(property "ki_keywords" "C0402C180J3GACAUTO, 18pF"
 			(at 0 0 0)
 			(effects
 				(font
