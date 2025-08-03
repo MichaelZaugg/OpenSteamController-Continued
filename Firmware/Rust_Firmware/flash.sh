@@ -108,11 +108,11 @@ read flash_option
 
 case $flash_option in
     1|"")
-        DEST_FILE="firmware.bin"
+        INPUT_FILE="./firmware/firmware.bin"
         FLASH_TYPE="custom Rust firmware"
         ;;
     2)
-        DEST_FILE="oem_firmware.bin"
+        INPUT_FILE="./oem_firmware/firmware.bin"
         FLASH_TYPE="OEM backup firmware"
         ;;
     *)
@@ -127,8 +127,8 @@ print_warning "DO NOT disconnect the device during flashing!"
 
 # Perform the flash operation
 echo ""
-if dd conv=notrunc oflag=direct bs=512 if=./firmware/firmware.bin of="$location/$DEST_FILE" 2>/dev/null; then
-    print_success "Firmware successfully written to $location/$DEST_FILE"
+if dd conv=notrunc oflag=direct bs=512 if="$INPUT_FILE" of="$location/firmware.bin" 2>/dev/null; then
+    print_success "Firmware successfully written to $location/firmware.bin"
 else
     print_error "Flash operation failed!"
     echo "Possible causes:"
@@ -139,8 +139,8 @@ else
 fi
 
 # Verify the file was written
-if [ -f "$location/$DEST_FILE" ]; then
-    WRITTEN_SIZE=$(stat -c%s "$location/$DEST_FILE")
+if [ -f "$location/firmware.bin" ]; then
+    WRITTEN_SIZE=$(stat -c%s "$location/firmware.bin")
     print_success "Verification: File written successfully ($WRITTEN_SIZE bytes)"
 else
     print_error "Verification failed: File not found at destination!"

@@ -1,6 +1,6 @@
 use lpc11xx;
 
-
+    
 pub fn init()
 {
     let dp = lpc11xx::Peripherals::take().unwrap();

@@ -1,9 +1,10 @@
 #![no_std]
 #![no_main]
 
-use lpc11xx;
-use cortex_m_rt::{entry, exception, ExceptionFrame};
+use cortex_m_rt::{entry};
 use panic_halt as _;
+
+use crate::hal::{peripherals::led, system::firmware::*};
 
 
 mod hal;
@@ -12,14 +13,15 @@ mod hal;
 #[entry]
 fn main() -> ! {
 
-    let dp = lpc11xx::Peripherals::take().unwrap();
-
     hal::init::init();
 
+    let led_pin = Pin::new(1, 19).unwrap();
+
+    set_pin_mode(Pin::new(1, 19).unwrap(), PinMode::Output).unwrap();
+
+    gpio_digital_write(led_pin, PinValue::HIGH).unwrap();
+
     loop {
-
-        dp.GPIO0.dir.modify(|r, w| unsafe { w.bits(r.bits() ^ (1 << 5)) });
-
         cortex_m::asm::nop();
     }
 }

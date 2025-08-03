@@ -1,6 +1,7 @@
 use lpc11xx;
 
 
+
 pub struct Pin
 {
     pub dir: u8,
@@ -25,13 +26,13 @@ pub enum PinValue
 }
 
 
-#[derive(Clone, Copy)]
+#[derive(Debug, Clone, Copy)]
 pub enum PinMode {
     Input,
     Output
 }
 
-#[derive(Clone, Copy)]
+#[derive(Debug, Clone, Copy)]
 pub enum PinError
 {
     InvalidPin,
