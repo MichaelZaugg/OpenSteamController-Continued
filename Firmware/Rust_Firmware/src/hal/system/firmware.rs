@@ -51,7 +51,7 @@ pub fn set_pin_mode(pin: Pin, val: PinMode) -> Result<(), PinError>
         Some(peripherals) => peripherals,
         None => return Err(PinError::PeripheralsTaken),
     };
-    
+
     match pin.dir
     {
         0 => dp.GPIO0.dir.modify(|r, w| unsafe { w.bits((r.bits() & !(1 << pin.pin)) | ((val as u32) << pin.pin)) }),

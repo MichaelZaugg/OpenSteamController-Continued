@@ -112,7 +112,7 @@ case $flash_option in
         FLASH_TYPE="custom Rust firmware"
         ;;
     2)
-        INPUT_FILE="./oem_firmware/firmware.bin"
+        INPUT_FILE="./firmware/oem_firmware.bin"
         FLASH_TYPE="OEM backup firmware"
         ;;
     *)

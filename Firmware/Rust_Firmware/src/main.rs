@@ -19,7 +19,7 @@ fn main() -> ! {
 
     set_pin_mode(Pin::new(1, 19).unwrap(), PinMode::Output).unwrap();
 
-    gpio_digital_write(led_pin, PinValue::HIGH).unwrap();
+    gpio_digital_write(led_pin, PinValue::LOW).unwrap();
 
     loop {
         cortex_m::asm::nop();
