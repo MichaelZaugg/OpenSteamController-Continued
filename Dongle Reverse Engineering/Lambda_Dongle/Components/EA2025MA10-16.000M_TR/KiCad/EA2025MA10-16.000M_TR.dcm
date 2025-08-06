@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP EA2025MA10-16.000M_TR
+D 16 MHz +/-15ppm Crystal 8pF 80 Ohms 4-SMD, No Lead -40C +85C
+K
+F https://abracon.com/datasheets/Ecliptek/EA2025.pdf
+$ENDCMP
+#
+#End Doc Library

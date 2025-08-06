@@ -1,0 +1,18 @@
+.EA2025MA10-16.000M_TR :1 ;16 MHz +/-15ppm Crystal 8pF 80 Ohms 4-SMD, No Lead -40C +85C
+EA2025MA1016000MTR
+*STM Y
+*NGS
+*PLB 1="CRYSTAL_1" 2="COVER/GROUND_1" 3="CRYSTAL_2" 4="COVER/GROUND_2"
+*MXP 4
+*DFN EA2025MA10-16.000M_TR
+~!Manufacturer_Name (ABRACON)
+~!Manufacturer_Part_Number (EA2025MA10-16.000M TR)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://abracon.com/datasheets/Ecliptek/EA2025.pdf)
+~!Height (0.65mm)
+~!3D_Model (EA2025MA10-16.000M_TR)
+EA2025MA10-16.000M_TR
+1.1!U 2.1!U 3.1!U 4.1!U 

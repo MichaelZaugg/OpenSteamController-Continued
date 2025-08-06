@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "EA2025MA1016000MTR"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "EA2025MA1016000MTR")
+        (spec "default")
+    )
+)

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'NRF24LU1P_F32Q32_T'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Nordic Semiconductor", "NRF24LU1P-F32Q32-T" (!) = "", "QFN50P500X500X95-33N-D", "Quad Flat No-Lead", "949-NRF24LU1PF3232T", "https://www.mouser.co.uk/ProductDetail/Nordic-Semiconductor/nRF24LU1P-F32Q32-T?qs=yd0qOhnSiDcwp9bBOHQXig%3D%3D", "Nordic Semiconductor NRF24LU1P-F32Q32-T, 8 bit System On Chip SOC for Compact USB Dongles for Wireless Peripherals,", "https://componentsearchengine.com/Datasheets/1/nRF24LU1P-F32Q32-T.pdf", "0.95 mm"
+END_PART
+
+END.

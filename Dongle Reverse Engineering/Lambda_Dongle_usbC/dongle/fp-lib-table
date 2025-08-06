@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "steam_dogfoot")(type "KiCad")(uri "${KIPRJMOD}/steam_dogfoot.pretty")(options "")(descr ""))
+)

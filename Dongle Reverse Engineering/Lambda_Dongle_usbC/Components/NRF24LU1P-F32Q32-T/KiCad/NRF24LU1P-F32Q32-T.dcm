@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NRF24LU1P-F32Q32-T
+D Nordic Semiconductor NRF24LU1P-F32Q32-T, 8 bit System On Chip SOC for Compact USB Dongles for Wireless Peripherals,
+K
+F https://componentsearchengine.com/Datasheets/1/nRF24LU1P-F32Q32-T.pdf
+$ENDCMP
+#
+#End Doc Library

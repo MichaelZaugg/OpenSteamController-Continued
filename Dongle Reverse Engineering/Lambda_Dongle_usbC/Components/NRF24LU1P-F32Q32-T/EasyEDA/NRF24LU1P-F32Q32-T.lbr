@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/861216/1510757/2.50/33/4/Integrated Circuit/-->
+<!DOCTYPE curve SYSTEM "eagle.dtd">
+<eagle version="7.7.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;Nordic Semiconductor NRF24LU1P-F32Q32-T, 8 bit System On Chip SOC for Compact USB Dongles for Wireless Peripherals,&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="QFN50P500X500X95-33N">
+<description>&lt;b&gt;QFN-32&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-2.45" y="1.75" dx="0.85" dy="0.3" layer="1" rot="R0"/>
+<smd name="2" x="-2.45" y="1.25" dx="0.85" dy="0.3" layer="1" rot="R0"/>
+<smd name="3" x="-2.45" y="0.75" dx="0.85" dy="0.3" layer="1" rot="R0"/>
+<smd name="4" x="-2.45" y="0.25" dx="0.85" dy="0.3" layer="1" rot="R0"/>
+<smd name="5" x="-2.45" y="-0.25" dx="0.85" dy="0.3" layer="1" rot="R0"/>
+<smd name="6" x="-2.45" y="-0.75" dx="0.85" dy="0.3" layer="1" rot="R0"/>
+<smd name="7" x="-2.45" y="-1.25" dx="0.85" dy="0.3" layer="1" rot="R0"/>
+<smd name="8" x="-2.45" y="-1.75" dx="0.85" dy="0.3" layer="1" rot="R0"/>
+<smd name="9" x="-1.75" y="-2.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="10" x="-1.25" y="-2.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="11" x="-0.75" y="-2.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="12" x="-0.25" y="-2.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="13" x="0.25" y="-2.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="14" x="0.75" y="-2.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="15" x="1.25" y="-2.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="16" x="1.75" y="-2.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="17" x="2.45" y="-1.75" dx="0.85" dy="0.3" layer="1" rot="R0"/>
+<smd name="18" x="2.45" y="-1.25" dx="0.85" dy="0.3" layer="1" rot="R0"/>
+<smd name="19" x="2.45" y="-0.75" dx="0.85" dy="0.3" layer="1" rot="R0"/>
+<smd name="20" x="2.45" y="-0.25" dx="0.85" dy="0.3" layer="1" rot="R0"/>
+<smd name="21" x="2.45" y="0.25" dx="0.85" dy="0.3" layer="1" rot="R0"/>
+<smd name="22" x="2.45" y="0.75" dx="0.85" dy="0.3" layer="1" rot="R0"/>
+<smd name="23" x="2.45" y="1.25" dx="0.85" dy="0.3" layer="1" rot="R0"/>
+<smd name="24" x="2.45" y="1.75" dx="0.85" dy="0.3" layer="1" rot="R0"/>
+<smd name="25" x="1.75" y="2.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="26" x="1.25" y="2.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="27" x="0.75" y="2.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="28" x="0.25" y="2.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="29" x="-0.25" y="2.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="30" x="-0.75" y="2.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="31" x="-1.25" y="2.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="32" x="-1.75" y="2.45" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="33" x="0" y="0" dx="3.4" dy="3.4" layer="1" rot="R90"/>
+<text x="0" y="0" align="center" size="1.27" layer="25" rot="R0" >&gt;NAME</text>
+<text x="0" y="0" align="center" size="1.27" layer="27" rot="R0" >&gt;VALUE</text>
+<wire x1="-3.125" y1="3.125" x2="3.125" y2="3.125" width="0.05" layer="51"/>
+<wire x1="3.125" y1="3.125" x2="3.125" y2="-3.125" width="0.05" layer="51"/>
+<wire x1="3.125" y1="-3.125" x2="-3.125" y2="-3.125" width="0.05" layer="51"/>
+<wire x1="-3.125" y1="-3.125" x2="-3.125" y2="3.125" width="0.05" layer="51"/>
+<wire x1="-2.5" y1="2.5" x2="2.5" y2="2.5" width="0.1" layer="51"/>
+<wire x1="2.5" y1="2.5" x2="2.5" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="2.5" y1="-2.5" x2="-2.5" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="-2.5" y1="-2.5" x2="-2.5" y2="2.5" width="0.1" layer="51"/>
+<wire x1="-2.5" y1="2" x2="-2" y2="2.5" width="0.1" layer="51"/>
+<circle x="-2.875" y="2.5" radius="0.125" width="0.25" layer="25"/>
+</package>
+</packages>
+<symbols>
+<symbol name="NRF24LU1P-F32Q32-T">
+<wire x1="5.08" y1="12.7" x2="30.48" y2="12.7" width="0.254" layer="94"/>
+<wire x1="30.48" y1="-30.48" x2="30.48" y2="12.7" width="0.254" layer="94"/>
+<wire x1="30.48" y1="-30.48" x2="5.08" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="5.08" y1="12.7" x2="5.08" y2="-30.48" width="0.254" layer="94"/>
+<text x="31.75" y="17.78" align="center-left" size="1.778" layer="95">&gt;NAME</text>
+<text x="31.75" y="15.24" align="center-left" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="VDD_1" x="0" y="0" length="middle" direction="io" rot="R0"/>
+<pin name="VBUS" x="0" y="-2.54" length="middle" direction="io" rot="R0"/>
+<pin name="VDD_2" x="0" y="-5.08" length="middle" direction="io" rot="R0"/>
+<pin name="D+" x="0" y="-7.62" length="middle" direction="io" rot="R0"/>
+<pin name="D-" x="0" y="-10.16" length="middle" direction="io" rot="R0"/>
+<pin name="VSS_1" x="0" y="-12.7" length="middle" direction="io" rot="R0"/>
+<pin name="PROG" x="0" y="-15.24" length="middle" direction="io" rot="R0"/>
+<pin name="!RESET" x="0" y="-17.78" length="middle" direction="io" rot="R0"/>
+<pin name="VDD_3" x="7.62" y="-35.56" length="middle" direction="io" rot="R90"/>
+<pin name="P0.0" x="10.16" y="-35.56" length="middle" direction="io" rot="R90"/>
+<pin name="P0.1" x="12.7" y="-35.56" length="middle" direction="io" rot="R90"/>
+<pin name="VSS_2" x="15.24" y="-35.56" length="middle" direction="io" rot="R90"/>
+<pin name="P0.2" x="17.78" y="-35.56" length="middle" direction="io" rot="R90"/>
+<pin name="P0.3" x="20.32" y="-35.56" length="middle" direction="io" rot="R90"/>
+<pin name="P0.4" x="22.86" y="-35.56" length="middle" direction="io" rot="R90"/>
+<pin name="P0.5" x="25.4" y="-35.56" length="middle" direction="io" rot="R90"/>
+<pin name="VDD_5" x="35.56" y="0" length="middle" direction="io" rot="R180"/>
+<pin name="VSS_5" x="35.56" y="-2.54" length="middle" direction="io" rot="R180"/>
+<pin name="ANT2" x="35.56" y="-5.08" length="middle" direction="io" rot="R180"/>
+<pin name="ANT1" x="35.56" y="-7.62" length="middle" direction="io" rot="R180"/>
+<pin name="VDD_PA" x="35.56" y="-10.16" length="middle" direction="io" rot="R180"/>
+<pin name="VDD_4" x="35.56" y="-12.7" length="middle" direction="io" rot="R180"/>
+<pin name="VSS_4" x="35.56" y="-15.24" length="middle" direction="io" rot="R180"/>
+<pin name="VSS_3" x="35.56" y="-17.78" length="middle" direction="io" rot="R180"/>
+<pin name="EP" x="7.62" y="17.78" length="middle" direction="io" rot="R270"/>
+<pin name="XC1" x="10.16" y="17.78" length="middle" direction="io" rot="R270"/>
+<pin name="XC2" x="12.7" y="17.78" length="middle" direction="io" rot="R270"/>
+<pin name="VSS_7" x="15.24" y="17.78" length="middle" direction="io" rot="R270"/>
+<pin name="DEC2" x="17.78" y="17.78" length="middle" direction="io" rot="R270"/>
+<pin name="DEC1" x="20.32" y="17.78" length="middle" direction="io" rot="R270"/>
+<pin name="VDD_6" x="22.86" y="17.78" length="middle" direction="io" rot="R270"/>
+<pin name="VSS_6" x="25.4" y="17.78" length="middle" direction="io" rot="R270"/>
+<pin name="IREF" x="27.94" y="17.78" length="middle" direction="io" rot="R270"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="NRF24LU1P-F32Q32-T" prefix="IC">
+<description>&lt;b&gt;Nordic Semiconductor NRF24LU1P-F32Q32-T, 8 bit System On Chip SOC for Compact USB Dongles for Wireless Peripherals,&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/nRF24LU1P-F32Q32-T.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="NRF24LU1P-F32Q32-T" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="QFN50P500X500X95-33N">
+<connects>
+<connect gate="G$1" pin="VDD_1" pad="1"/>
+<connect gate="G$1" pin="VBUS" pad="2"/>
+<connect gate="G$1" pin="VDD_2" pad="3"/>
+<connect gate="G$1" pin="D+" pad="4"/>
+<connect gate="G$1" pin="D-" pad="5"/>
+<connect gate="G$1" pin="VSS_1" pad="6"/>
+<connect gate="G$1" pin="PROG" pad="7"/>
+<connect gate="G$1" pin="!RESET" pad="8"/>
+<connect gate="G$1" pin="VDD_3" pad="9"/>
+<connect gate="G$1" pin="P0.0" pad="10"/>
+<connect gate="G$1" pin="P0.1" pad="11"/>
+<connect gate="G$1" pin="VSS_2" pad="12"/>
+<connect gate="G$1" pin="P0.2" pad="13"/>
+<connect gate="G$1" pin="P0.3" pad="14"/>
+<connect gate="G$1" pin="P0.4" pad="15"/>
+<connect gate="G$1" pin="P0.5" pad="16"/>
+<connect gate="G$1" pin="VSS_3" pad="17"/>
+<connect gate="G$1" pin="VSS_4" pad="18"/>
+<connect gate="G$1" pin="VDD_4" pad="19"/>
+<connect gate="G$1" pin="VDD_PA" pad="20"/>
+<connect gate="G$1" pin="ANT1" pad="21"/>
+<connect gate="G$1" pin="ANT2" pad="22"/>
+<connect gate="G$1" pin="VSS_5" pad="23"/>
+<connect gate="G$1" pin="VDD_5" pad="24"/>
+<connect gate="G$1" pin="IREF" pad="25"/>
+<connect gate="G$1" pin="VSS_6" pad="26"/>
+<connect gate="G$1" pin="VDD_6" pad="27"/>
+<connect gate="G$1" pin="DEC1" pad="28"/>
+<connect gate="G$1" pin="DEC2" pad="29"/>
+<connect gate="G$1" pin="VSS_7" pad="30"/>
+<connect gate="G$1" pin="XC2" pad="31"/>
+<connect gate="G$1" pin="XC1" pad="32"/>
+<connect gate="G$1" pin="EP" pad="33"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="Mouser_Part_Number" value="949-NRF24LU1PF3232T" constant="no"/>
+<attribute name="Mouser_Price-Stock" value="https://www.mouser.co.uk/ProductDetail/Nordic-Semiconductor/nRF24LU1P-F32Q32-T?qs=yd0qOhnSiDcwp9bBOHQXig%3D%3D" constant="no"/>
+<attribute name="Manufacturer_Name" value="Nordic Semiconductor" constant="no"/>
+<attribute name="Manufacturer_Part_Number" value="NRF24LU1P-F32Q32-T" constant="no"/>
+<attribute name="Description" value="Nordic Semiconductor NRF24LU1P-F32Q32-T, 8 bit System On Chip SOC for Compact USB Dongles for Wireless Peripherals," constant="no"/>
+<attribute name="Height" value="0.95mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

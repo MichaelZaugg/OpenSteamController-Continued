@@ -1,0 +1,224 @@
+(footprint "EA2025MA1016000MTR"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "4-SMD, No Lead_2025-1")
+	(tags "Crystal or Oscillator")
+	(property "Reference" "X**"
+		(at -0.5 -3.26 0)
+		(layer "F.SilkS")
+		(uuid "e3123739-c64a-42df-9d39-ef38c6b1481e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "EA2025MA1016000MTR"
+		(at -0.02 5.29 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "874c67dc-0c4f-46e7-ba8b-aa1c310664ce")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9145315a-5c71-44ae-8406-64d030c26d17")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "42230f56-bba0-469c-bb06-5d99a35560b0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8022cff6-a7e3-4787-ab2b-abaad05fcf84")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.89 -1.32)
+		(end -1.89 -0.52)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f5451891-a57d-41ab-be9d-cb36a78ea2c7")
+	)
+	(fp_line
+		(start -1.89 -0.52)
+		(end -1.46 -0.91)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "eed7b7b3-6581-4096-b685-29a1518e5ce2")
+	)
+	(fp_line
+		(start -1.46 -0.91)
+		(end -1.89 -1.32)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0538a558-accc-4cab-be35-83db58425143")
+	)
+	(fp_line
+		(start -2.15 -2.45)
+		(end 2.15 -2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "77d3aa8c-092c-4723-a18a-f41e7f77d43e")
+	)
+	(fp_line
+		(start -2.15 2.45)
+		(end -2.15 -2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "72da6111-07d1-4074-9dd0-6f3d6fb0c1b7")
+	)
+	(fp_line
+		(start 2.15 -2.45)
+		(end 2.15 2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b32e0469-aadc-43ef-bfcf-2c6797fb38b6")
+	)
+	(fp_line
+		(start 2.15 2.45)
+		(end -2.15 2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f2fb5c22-ab1f-4ddf-b8f0-6af68cb58981")
+	)
+	(fp_line
+		(start -1 -1.25)
+		(end 1 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7c9b76ee-7396-4a46-8f79-9aefcb4ffedf")
+	)
+	(fp_line
+		(start -1 1.25)
+		(end -1 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fee590d5-be9e-4771-8791-7caaa4e023be")
+	)
+	(fp_line
+		(start 1 -1.25)
+		(end 1 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3a29b556-a3ac-4800-b9ae-6cf82daa8302")
+	)
+	(fp_line
+		(start 1 1.25)
+		(end -1 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a0e2aa75-4873-433a-a5a9-b647e128157e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "916a52f4-0827-4c42-81c6-b7a5129a1ed1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.65 -0.85)
+		(size 1 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f3f4f75a-1312-4216-b772-102b1964a443")
+	)
+	(pad "2" smd rect
+		(at -0.65 0.85)
+		(size 1 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e046b00b-f1c3-4181-a95d-6761d7faf9c2")
+	)
+	(pad "3" smd rect
+		(at 0.65 0.85)
+		(size 1 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "513315ba-4148-40be-89cb-1f2fe1e3da00")
+	)
+	(pad "4" smd rect
+		(at 0.65 -0.85)
+		(size 1 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7b25706e-9d0c-4a09-afa6-2b61e46bc968")
+	)
+	(model "/home/michael/Desktop/SteamController&Deck/SteamController PCB test/KiCad/Lambda_Dongle/Components/EA2025MA10-16.000M_TR/3D/EA2025MA10-16.000M_TR.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

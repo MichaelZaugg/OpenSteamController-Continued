@@ -1,12 +1,12 @@
 G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,9.0.3-9.0.3-0~ubuntu22.04.1*
-G04 #@! TF.CreationDate,2025-07-19T11:30:49-06:00*
+G04 #@! TF.CreationDate,2025-08-06T12:37:18-06:00*
 G04 #@! TF.ProjectId,Steam_Controller,53746561-6d5f-4436-9f6e-74726f6c6c65,rev?*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Soldermask,Top*
 G04 #@! TF.FilePolarity,Negative*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 9.0.3-9.0.3-0~ubuntu22.04.1) date 2025-07-19 11:30:49*
+G04 Created by KiCad (PCBNEW 9.0.3-9.0.3-0~ubuntu22.04.1) date 2025-08-06 12:37:18*
 %MOMM*%
 %LPD*%
 G01*

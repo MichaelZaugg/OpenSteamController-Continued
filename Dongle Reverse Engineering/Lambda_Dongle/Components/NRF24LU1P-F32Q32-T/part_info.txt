@@ -1,0 +1,9 @@
+Manufacturer=Nordic Semiconductor
+PartNumber=NRF24LU1P-F32Q32-T
+PartCategory=Integrated Circuit
+PackageCategory=Quad Flat No-Lead
+PinCount=33
+Version=1.1
+Released=2019-11-15 17:17:30
+Downloaded=2025-06-14 22:54:20
+3D=Y

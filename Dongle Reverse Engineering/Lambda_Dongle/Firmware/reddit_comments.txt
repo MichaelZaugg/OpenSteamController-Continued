@@ -1,0 +1,23 @@
+If the dongles are model 1002, then, you can do the following to flash them to work with Steam Controllers:
+
+Make sure you have SteamVR downloaded
+
+Open 2 copies of windows explorer
+
+Send 1 to whatever\Steam\controller_base and copy d0ggle.bin
+
+Open the other to whatever\Steam\steamapps\common\SteamVR\tools\lighthouse\firmware and paste d0ggle.bin there (may need to be under firmware\vr_controller\archive depending on how Steam reacts)
+
+Close Steam completely and make sure any and all VR stuff is unplugged
+
+Go back to tools\lighthouse and shift + right click, then open a Powershell window there
+
+Copy paste “bin\win32\lighthouse_watchman_update.exe -e firmware\vr_controller\archive\d0ggle.bin” there and hit enter a. You should see Windows say a Boot ldr is being loaded
+
+Open Steam back up, Windows should say it’s configuring a Steam Controller now
+
+Go to settings, controller, general controller settings, then add new controller
+
+Enjoy!
+
+I don't know if this works for "dedicated" watchman dongles and haven't been able to check, but I think it should if that's what you have.

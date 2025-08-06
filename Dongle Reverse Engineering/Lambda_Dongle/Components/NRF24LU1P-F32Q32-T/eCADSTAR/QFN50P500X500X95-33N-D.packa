@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "NRF24LU1P-F32Q32-T"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-11-15-17:17:30)
+    (mountForm default
+        (footprintRef "QFN50P500X500X95-33N-D")
+        (spec "System")
+    )
+)

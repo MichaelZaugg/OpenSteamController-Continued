@@ -1,0 +1,9 @@
+Manufacturer=ABRACON
+PartNumber=EA2025MA10-16.000M TR
+PartCategory=Crystal or Oscillator
+PackageCategory=Other
+PinCount=4
+Version=1.2
+Released=2025-06-15 13:13:23
+Downloaded=2025-06-15 15:50:29
+3D=Y

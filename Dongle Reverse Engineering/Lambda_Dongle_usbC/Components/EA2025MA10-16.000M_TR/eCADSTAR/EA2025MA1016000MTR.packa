@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "EA2025MA10-16_000M_TR"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2025-06-15-13:13:23)
+    (mountForm default
+        (footprintRef "EA2025MA1016000MTR")
+        (spec "System")
+    )
+)

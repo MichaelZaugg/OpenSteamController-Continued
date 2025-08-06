@@ -1,0 +1,16 @@
+.NRF24LU1P-F32Q32-T :1 ;Nordic Semiconductor NRF24LU1P-F32Q32-T, 8 bit System On Chip SOC for Compact USB Dongles for Wireless Peripherals,
+QFN50P500X500X95-33N-D
+*STM IC
+*NGS
+*PLB 1="VDD_1" 2="VBUS" 3="VDD_2" 4="D+" 5="D-" 6="VSS_1" 7="PROG" 8="'RESET'" 9="VDD_3" 10="P0.0" 11="P0.1" 12="VSS_2" 13="P0.2" 14="P0.3" 15="P0.4" 16="P0.5" 17="VSS_3" 18="VSS_4" 19="VDD_4" 20="VDD_PA" 21="ANT1" 22="ANT2" 23="VSS_5" 24="VDD_5" 25="IREF" 26="VSS_6" 27="VDD_6" 28="DEC1" 29="DEC2" 30="VSS_7" 31="XC2" 32="XC1" 33="EP"
+*MXP 33
+*DFN NRF24LU1P-F32Q32-T
+~!Mouser Part Number (949-NRF24LU1PF3232T)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Nordic-Semiconductor/nRF24LU1P-F32Q32-T?qs=yd0qOhnSiDcwp9bBOHQXig%3D%3D)
+~!Manufacturer_Name (Nordic Semiconductor)
+~!Manufacturer_Part_Number (NRF24LU1P-F32Q32-T)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/1/nRF24LU1P-F32Q32-T.pdf)
+~!Height (0.95mm)
+~!3D_Model (NRF24LU1P-F32Q32-T)
+NRF24LU1P-F32Q32-T
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 15.1!U 16.1!U 24.1!U 23.1!U 22.1!U 21.1!U 20.1!U 19.1!U 18.1!U 17.1!U 33.1!U 32.1!U 31.1!U 30.1!U 29.1!U 28.1!U 27.1!U 26.1!U 25.1!U 

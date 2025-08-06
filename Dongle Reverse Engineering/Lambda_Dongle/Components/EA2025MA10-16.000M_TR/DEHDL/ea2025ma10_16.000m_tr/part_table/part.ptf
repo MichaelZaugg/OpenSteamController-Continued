@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'EA2025MA10_16.000M_TR'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "ABRACON", "EA2025MA10-16.000M TR" (!) = "", "EA2025MA1016000MTR", "Other", "", "", "", "", "16 MHz +/-15ppm Crystal 8pF 80 Ohms 4-SMD, No Lead -40C +85C", "https://abracon.com/datasheets/Ecliptek/EA2025.pdf", "0.65 mm"
+END_PART
+
+END.

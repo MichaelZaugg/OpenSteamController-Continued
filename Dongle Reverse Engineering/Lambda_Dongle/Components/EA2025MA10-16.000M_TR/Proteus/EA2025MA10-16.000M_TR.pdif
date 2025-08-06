@@ -1,0 +1,108 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "EA2025MA10-16.000M_TR"
+   (description "16 MHz +/-15ppm Crystal 8pF 80 Ohms 4-SMD, No Lead -40C +85C")
+   (family "OSC")
+   (package "EA2025MA1016000MTR")
+   (attribute "Datasheet Link" "https://abracon.com/datasheets/Ecliptek/EA2025.pdf")
+   (attribute "Geometry.Height" "0.65mm")
+   (attribute "Manufacturer_Name" "ABRACON")
+   (attribute "Manufacturer_Part_Number" "EA2025MA10-16.000M TR")
+   (attribute "Mouser Part Number" "")
+   (attribute "Mouser Price/Stock" "")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (gate
+    (symbol "EA2025MA10-16.000M_TR")
+    (pin "CRYSTAL_1" 1 PS)
+    (pin "COVER/GROUND_1" 2 PS)
+    (pin "CRYSTAL_2" 3 PS)
+    (pin "COVER/GROUND_2" 4 PS)
+   )
+  )
+  (symbol "EA2025MA10-16.000M_TR"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1900 100) (pt 1900 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 2100 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 2100 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "EA2025MA1016000MTR"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1 1.25)
+      (pt 1 1.25)
+      (pt 1 -1.25)
+      (pt -1 -1.25)
+      (pt -1 1.25))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.15 2.45)
+      (pt 2.15 2.45)
+      (pt 2.15 -2.45)
+      (pt -2.15 -2.45)
+      (pt -2.15 2.45))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.6 0.85)
+      (arc (pt -1.600 0.850) (pt -1.700 0.800) (pt -1.600 0.900) (start 180.0) (sweep .0))
+      (pt -1.7 0.85)
+      (arc (pt -1.700 0.850) (pt -1.700 0.800) (pt -1.600 0.900) (start 180.0) (sweep 180.0))
+      (pt -1.6 0.85))))
+   (leg 1 (pt -0.650 0.850) (padstack 0))
+   (leg 2 (pt -0.650 -0.850) (padstack 0))
+   (leg 3 (pt 0.650 -0.850) (padstack 0))
+   (leg 4 (pt 0.650 0.850) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.000 1.200 0 0 90.000))
+   )
+   (model "EA2025MA10-16.000M_TR.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

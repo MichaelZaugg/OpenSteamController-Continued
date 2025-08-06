@@ -1,0 +1,118 @@
+
+(EDIF
+  (rename &EA2025MA10_16_000M_TR "EA2025MA10_16_000M_TR")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2025 06 15 15 50 29)
+      (dataOrigin "20620139/1510757/2.50/4/3/Crystal or Oscillator")
+      (program "SamacSys ECAD Model EA2025MA10_16_000M_TR"
+        (version "1.2"))))
+  (library
+  (rename &EA2025MA10_16_000M_TR "EA2025MA10_16_000M_TR")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition (scale 1 (e 254 -6) (unit DISTANCE)))
+      (userData GRIDRESOLUTION (integer 50 50))
+      (figureGroup DEFAULT (pathWidth 10) (textHeight 100))
+      (figureGroup PROPERTY (pathWidth 10) (textHeight 90))
+      (figureGroup PINNUMBER (pathWidth 10) (textHeight 90))
+      (figureGroup PINNAME (pathWidth 10) (textHeight 90))
+      (figureGroup COMMENT (pathWidth 10) (textHeight 90))
+      (figureGroup PIN (pathWidth 10) (textHeight 90))
+      (figureGroup GRAPHIC (pathWidth 10) (textHeight 100))
+    )
+    (cell
+      (rename &EA2025MA10_16_000M_TR "EA2025MA10_16_000M_TR")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "Y")
+          (property (rename PACKAGENAME "PackageName") (string "EA2025MA10_16_000M_TR"))
+          (property (rename ISHETEROGENEOUS "IsHeterogeneous") (string "False"))
+          (property (rename DEVICESINVIEW "DevicesInView") (string "1"))
+          (property (rename DEVICESINPACKAGE "DevicesInPackage") (string "1"))
+          (property (rename DEVICEDESIGNATOR "DeviceDesignator") (string "A"))
+          (property (rename DEVICENUMBERING "DeviceNumbering") (string "Alpha"))
+          (property (rename PCB_32_FOOTPRINT "PCB Footprint") (string "EA2025MA1016000MTR"))
+          (property (rename &Manufacturer_Name "Manufacturer_Name") (string "ABRACON"))
+          (property (rename &Manufacturer_Part_Number "Manufacturer_Part_Number") (string "EA2025MA10-16.000M TR"))
+          (property (rename &Mouser_Part_Number "Mouser Part Number") (string ""))
+          (property (rename &Mouser_Price_Stock "Mouser Price/Stock") (string ""))
+          (property (rename &Arrow_Part_Number "Arrow Part Number") (string ""))
+          (property (rename &Arrow_Price_Stock "Arrow Price/Stock") (string ""))
+          (property (rename &Description "Description") (string "16 MHz +/-15ppm Crystal 8pF 80 Ohms 4-SMD, No Lead -40C +85C"))
+          (property (rename &Datasheet_Link "Datasheet Link") (string "https://abracon.com/datasheets/Ecliptek/EA2025.pdf"))
+          (property (rename &Height "Height") (string "0.65 mm"))
+          (property (rename &_60__32_VALUE_32__62_ "Value") (string "EA2025MA10_16_000M_TR"))
+          (property (rename VALUE "Value") (string "Value"))
+          (port
+            (rename &CRYSTAL_1 "CRYSTAL_1")
+            (designator "1")
+            (property (rename ORDER "Order") (string "0") (owner "OrCAD"))
+          )
+          (port
+            (rename &COVER_GROUND_1 "COVER_GROUND_1")
+            (designator "2")
+            (property (rename ORDER "Order") (string "1") (owner "OrCAD"))
+          )
+          (port
+            (rename &CRYSTAL_2 "CRYSTAL_2")
+            (designator "3")
+            (property (rename ORDER "Order") (string "2") (owner "OrCAD"))
+          )
+          (port
+            (rename &COVER_GROUND_2 "COVER_GROUND_2")
+            (designator "4")
+            (property (rename ORDER "Order") (string "3") (owner "OrCAD"))
+          )
+          (symbol
+            (portImplementation
+              (name &CRYSTAL_1 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -100) (pt 0 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -100))))
+            )
+            (portImplementation
+              (name &COVER_GROUND_1 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -200) (pt 0 -200))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -200))))
+            )
+            (portImplementation
+              (name &CRYSTAL_2 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 1700 -200) (pt 1900 -200))))
+              (connectLocation (figure GRAPHIC (dot (pt 1900 -200))))
+            )
+            (portImplementation
+              (name &COVER_GROUND_2 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 1700 -100) (pt 1900 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt 1900 -100))))
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 0 0)
+                  (pt 1700 0)
+                  (pt 1700 -300)
+                  (pt 0 -300)
+                  (pt 0 0)
+                )
+              )
+            )
+            (keywordDisplay DESIGNATOR (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 1750 130))))
+            (propertyDisplay &_60__32_VALUE_32__62_ (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 1750 30))))
+          )
+        )
+      )
+    )
+  )
+)
