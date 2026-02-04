@@ -14992,6 +14992,12 @@
 		(uuid "7fec83cc-ccf9-4b9f-9225-698225ebef2b")
 	)
 	(junction
+		(at 203.2 309.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "823b5207-d79f-49e4-a430-fef3dad1f436")
+	)
+	(junction
 		(at 430.53 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -16535,7 +16541,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 311.15) (xy 207.01 311.15)
+			(xy 203.2 309.88) (xy 207.01 309.88)
 		)
 		(stroke
 			(width 0)
@@ -16965,7 +16971,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 311.15) (xy 207.01 321.31)
+			(xy 207.01 309.88) (xy 207.01 321.31)
 		)
 		(stroke
 			(width 0)
