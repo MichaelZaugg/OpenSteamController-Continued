@@ -3,6 +3,8 @@
     "3dviewports": [],
     "design_settings": {
       "defaults": {
+        "apply_defaults_to_fp_barcodes": false,
+        "apply_defaults_to_fp_dimensions": false,
         "apply_defaults_to_fp_fields": false,
         "apply_defaults_to_fp_shapes": false,
         "apply_defaults_to_fp_text": false,
@@ -92,10 +94,6 @@
           ""
         ],
         [
-          "clearance|138937563|81447899|b8750316-4370-49a2-a470-e984d1e7af15|78dec874-dd5f-465d-ae14-b014f15f9aaa",
-          ""
-        ],
-        [
           "clearance|138953517|81534698|78dec874-dd5f-465d-ae14-b014f15f9aaa|f14f3e70-05a6-4378-acf5-114ed51c217b",
           ""
         ],
@@ -144,19 +142,7 @@
           ""
         ],
         [
-          "clearance|143147450|78075510|fda7dc11-5dab-4a40-af12-a2b0bb8e46ee|18210b3b-acc4-4b35-a0ad-b18aa7386007",
-          ""
-        ],
-        [
-          "clearance|146980613|76435608|8491266a-59e8-499e-a454-6c474865d4b1|44e35855-84be-48b8-9ab5-600dfe57e4d9",
-          ""
-        ],
-        [
           "clearance|152820936|110510000|b7a1333a-26a1-4df0-8778-204bfe7e6dee|d7760c08-98e2-4b62-8429-29daec76cca7",
-          ""
-        ],
-        [
-          "clearance|152828613|70333608|c3fb96b8-a0aa-4d52-8500-aef2ccae4d02|6d40f40c-a6ac-467c-9506-e50ab1d72a3c",
           ""
         ],
         [
@@ -169,10 +155,6 @@
         ],
         [
           "clearance|159601298|102180000|1c298f18-62f9-424d-9205-aa0d9e9f6a1e|a55c95c6-8144-44b2-88e0-8e64cb349544",
-          ""
-        ],
-        [
-          "clearance|159601600|102180000|9c9eb7d5-d017-47dc-ab30-bc0e78492f16|1c298f18-62f9-424d-9205-aa0d9e9f6a1e",
           ""
         ],
         [
@@ -193,10 +175,6 @@
         ],
         [
           "clearance|162727772|102755281|6c77eca6-17bc-4f99-a659-75c53c7bc0c1|323baeea-e037-4377-a41f-50bf21e6e1bd",
-          ""
-        ],
-        [
-          "clearance|162900000|106448100|57e68ffc-6d73-4777-81a2-6b87dfbfbeec|380d95fd-20ca-462e-9f58-8b135c47e4f2",
           ""
         ],
         [
@@ -253,10 +231,6 @@
         ],
         [
           "clearance|166850285|77713552|e3c99c45-2b3e-4d89-a007-903afd28f0db|f35ba45e-d04d-4ae2-a043-faa6f96fac5b",
-          ""
-        ],
-        [
-          "clearance|166919999|81608400|31293e26-3e24-4b75-966c-8f655337a4fc|efc37707-b545-4506-8c9b-d72ec44d2a79",
           ""
         ],
         [
@@ -325,18 +299,6 @@
         ],
         [
           "clearance|169577465|95502535|47e75eff-e333-410f-9413-ab39bcd0d5ad|3a6e04a3-ba59-4de4-8046-32a0ea864942",
-          ""
-        ],
-        [
-          "clearance|169577679|95502321|a864a646-980c-4cef-9429-46d1588cad4d|47e75eff-e333-410f-9413-ab39bcd0d5ad",
-          ""
-        ],
-        [
-          "clearance|169735950|107553717|42ebe092-3406-4a54-a25a-56fc69703130|19ecbde3-b9fd-4d38-b8ec-178e6640550e",
-          ""
-        ],
-        [
-          "clearance|171188099|78310000|0f2d3fb3-1c1c-4ab1-bf1b-2756ecac42a3|8869cdb4-3be5-4989-8737-0fd31a40251b",
           ""
         ],
         [
@@ -428,10 +390,6 @@
           ""
         ],
         [
-          "clearance|174726499|109600800|ccc28e01-ae73-43f0-b769-9bffeea4b82b|5d8d07c3-859a-4626-93f6-8060aebaa5e3",
-          ""
-        ],
-        [
           "clearance|174726695|109600687|5d8d07c3-859a-4626-93f6-8060aebaa5e3|7d4b6c73-583f-46c8-9b2f-8b1b146a50e7",
           ""
         ],
@@ -448,15 +406,7 @@
           ""
         ],
         [
-          "clearance|174928002|96188002|69903ed2-ee9d-4750-a1d4-5e786a1b63d1|fff6bd75-721d-464a-abb2-2f423e95cf3d",
-          ""
-        ],
-        [
           "clearance|175488339|108677788|ccc28e01-ae73-43f0-b769-9bffeea4b82b|7d4b6c73-583f-46c8-9b2f-8b1b146a50e7",
-          ""
-        ],
-        [
-          "clearance|176671901|102199998|ad84428d-f1d0-4af0-8171-cb37fea4d0ff|927b7977-c46f-4d69-b0ab-abe0619a64d0",
           ""
         ],
         [
@@ -485,10 +435,6 @@
         ],
         [
           "clearance|180870285|101603552|741a9d0a-c62f-441c-9aee-25d6f2d79bbb|218ac270-1a36-4cda-9e4f-c8a342caa941",
-          ""
-        ],
-        [
-          "clearance|180940000|98901599|54ec80e6-acb9-401b-84d3-fac7226aee4d|2d2aacef-1346-43c8-87ae-a1b09ff66a90",
           ""
         ],
         [
@@ -540,14 +486,6 @@
           ""
         ],
         [
-          "hole_clearance|150433900|57814600|b031d10b-0578-44a2-b101-15aaf4d020dc|600f301e-0dd2-4193-a152-50341fb364d1",
-          ""
-        ],
-        [
-          "hole_clearance|155233700|57814600|36ede742-f5ac-40aa-a3cb-92336996cffd|c8c37a41-c124-4804-9258-b7e678431b98",
-          ""
-        ],
-        [
           "hole_clearance|159439692|102605998|a318b3b2-fd14-46aa-9098-6745a0804957|a55c95c6-8144-44b2-88e0-8e64cb349544",
           ""
         ],
@@ -557,6 +495,62 @@
         ],
         [
           "hole_clearance|180610000|110759000|2369c300-dd66-4aa3-9af6-24bd46141a86|a3f9b865-2c6a-4c64-8606-ab47eed10ad5",
+          ""
+        ],
+        [
+          "shorting_items|138937563|81447899|78dec874-dd5f-465d-ae14-b014f15f9aaa|b8750316-4370-49a2-a470-e984d1e7af15",
+          ""
+        ],
+        [
+          "shorting_items|143147450|78075510|18210b3b-acc4-4b35-a0ad-b18aa7386007|fda7dc11-5dab-4a40-af12-a2b0bb8e46ee",
+          ""
+        ],
+        [
+          "shorting_items|146980613|76435608|44e35855-84be-48b8-9ab5-600dfe57e4d9|8491266a-59e8-499e-a454-6c474865d4b1",
+          ""
+        ],
+        [
+          "shorting_items|152828613|70333608|6d40f40c-a6ac-467c-9506-e50ab1d72a3c|c3fb96b8-a0aa-4d52-8500-aef2ccae4d02",
+          ""
+        ],
+        [
+          "shorting_items|159601600|102180000|1c298f18-62f9-424d-9205-aa0d9e9f6a1e|9c9eb7d5-d017-47dc-ab30-bc0e78492f16",
+          ""
+        ],
+        [
+          "shorting_items|162900000|106448100|380d95fd-20ca-462e-9f58-8b135c47e4f2|57e68ffc-6d73-4777-81a2-6b87dfbfbeec",
+          ""
+        ],
+        [
+          "shorting_items|166919999|81608400|31293e26-3e24-4b75-966c-8f655337a4fc|efc37707-b545-4506-8c9b-d72ec44d2a79",
+          ""
+        ],
+        [
+          "shorting_items|169577679|95502321|47e75eff-e333-410f-9413-ab39bcd0d5ad|a864a646-980c-4cef-9429-46d1588cad4d",
+          ""
+        ],
+        [
+          "shorting_items|169735950|107553717|19ecbde3-b9fd-4d38-b8ec-178e6640550e|42ebe092-3406-4a54-a25a-56fc69703130",
+          ""
+        ],
+        [
+          "shorting_items|171188099|78310000|0f2d3fb3-1c1c-4ab1-bf1b-2756ecac42a3|8869cdb4-3be5-4989-8737-0fd31a40251b",
+          ""
+        ],
+        [
+          "shorting_items|174726499|109600800|5d8d07c3-859a-4626-93f6-8060aebaa5e3|ccc28e01-ae73-43f0-b769-9bffeea4b82b",
+          ""
+        ],
+        [
+          "shorting_items|174928002|96188002|69903ed2-ee9d-4750-a1d4-5e786a1b63d1|fff6bd75-721d-464a-abb2-2f423e95cf3d",
+          ""
+        ],
+        [
+          "shorting_items|176671901|102199998|927b7977-c46f-4d69-b0ab-abe0619a64d0|ad84428d-f1d0-4af0-8171-cb37fea4d0ff",
+          ""
+        ],
+        [
+          "shorting_items|180940000|98901599|2d2aacef-1346-43c8-87ae-a1b09ff66a90|54ec80e6-acb9-401b-84d3-fac7226aee4d",
           ""
         ],
         [
@@ -646,6 +640,10 @@
         [
           "track_dangling|89579971|94179971|20cc30ca-8bf7-409d-9d88-e202118985f6|00000000-0000-0000-0000-000000000000",
           ""
+        ],
+        [
+          "unconnected_items|155590000|106010000|F.Cu|4|a29959cd-ed48-4461-b419-b616e233911a|a2f9c22b-f017-4bdb-8f98-af62ac312b88",
+          ""
         ]
       ],
       "meta": {
@@ -666,6 +664,7 @@
         "extra_footprint": "warning",
         "footprint": "error",
         "footprint_filters_mismatch": "ignore",
+        "footprint_symbol_field_mismatch": "warning",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
@@ -684,6 +683,7 @@
         "mirrored_text_on_front_layer": "warning",
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
+        "missing_tuning_profile": "warning",
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
         "npth_inside_courtyard": "ignore",
@@ -703,9 +703,12 @@
         "too_many_vias": "error",
         "track_angle": "error",
         "track_dangling": "warning",
+        "track_not_centered_on_via": "ignore",
+        "track_on_post_machined_layer": "error",
         "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
+        "tuning_profile_track_geometries": "ignore",
         "unconnected_items": "warning",
         "unresolved_variable": "error",
         "via_dangling": "ignore",
@@ -820,17 +823,28 @@
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
+      "bom_rev": "",
       "dist": "",
       "distpn": "",
       "internal_id": "",
       "mfg": "",
-      "mpn": ""
+      "mpn": "",
+      "sch_revision": ""
     },
     "layer_pairs": [],
     "layer_presets": [],
     "viewports": []
   },
   "boards": [],
+  "component_class_settings": {
+    "assignments": [],
+    "meta": {
+      "version": 0
+    },
+    "sheet_component_classes": {
+      "enabled": false
+    }
+  },
   "cvpcb": {
     "equivalence_files": []
   },
@@ -1021,11 +1035,14 @@
       "duplicate_sheet_names": "error",
       "endpoint_off_grid": "warning",
       "extra_units": "error",
+      "field_name_whitespace": "warning",
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
       "four_way_junction": "ignore",
       "global_label_dangling": "warning",
+      "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
+      "isolated_pin_label": "warning",
       "label_dangling": "error",
       "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
@@ -1048,6 +1065,7 @@
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
       "single_global_label": "ignore",
+      "stacked_pin_name": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
       "undefined_netclass": "error",
@@ -1080,13 +1098,14 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
+        "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
       }
     ],
     "meta": {
-      "version": 4
+      "version": 5
     },
     "net_colors": null,
     "netclass_assignments": null,
@@ -1113,6 +1132,10 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "annotation": {
+      "method": 0,
+      "sort_order": 0
+    },
     "bom_export_filename": "/home/michael/Desktop/Steam_Controllers.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -1370,6 +1393,7 @@
       "sort_asc": true,
       "sort_field": "Reference"
     },
+    "bus_aliases": {},
     "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
@@ -1377,6 +1401,7 @@
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
+      "hop_over_size_choice": 0,
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
@@ -1400,6 +1425,7 @@
     "net_format_name": "",
     "page_layout_descr_file": "empty.kicad_wks",
     "plot_directory": "/home/michael/Desktop/SteamController PCB test/KiCad/Steam_Controller/",
+    "reuse_designators": true,
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -1408,7 +1434,16 @@
     "spice_save_all_dissipations": false,
     "spice_save_all_voltages": false,
     "subpart_first_id": 65,
-    "subpart_id_separator": 0
+    "subpart_id_separator": 0,
+    "top_level_sheets": [
+      {
+        "filename": "Steam_Controller.kicad_sch",
+        "name": "Steam_Controller",
+        "uuid": "00000000-0000-0000-0000-000000000000"
+      }
+    ],
+    "used_designators": "",
+    "variants": []
   },
   "sheets": [
     [
@@ -1416,5 +1451,11 @@
       "Root"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {},
+  "tuning_profiles": {
+    "meta": {
+      "version": 0
+    },
+    "tuning_profiles_impedance_geometric": []
+  }
 }
