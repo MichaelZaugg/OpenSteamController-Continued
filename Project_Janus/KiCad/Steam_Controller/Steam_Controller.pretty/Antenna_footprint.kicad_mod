@@ -1,0 +1,128 @@
+(footprint "Antenna_footprint"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "E**"
+		(at 7.87 0.05 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6be2ad06-68d6-4b6d-be92-ef395d7e7b3b")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Antenna_footprint"
+		(at 0.07 3.35 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e5209151-6381-4801-aedd-23750cf20045")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "195b1079-8f5e-42ee-addf-1b03cb27cc81")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "57478a13-3131-4c71-9a8d-363c56108e02")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "787dd700-7da4-431e-94f2-59d046ef064d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_text user "${REFERENCE}"
+		(at 0.37 5.06 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fd672b3b-09d9-4afc-bf65-5f77bf802947")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at 5.81 0.03)
+		(size 2 1.81)
+		(drill oval 1.5 1
+			(offset 0.003548 0.015)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 2)
+			(best_width_ratio 1)
+			(max_width 1.7)
+			(curve_points 0)
+			(filter_ratio 0.9)
+			(enabled no)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "2f3fe13d-b5bd-439b-afac-68450b92dcc9")
+	)
+	(pad "2" thru_hole oval
+		(at -2.04 0.01)
+		(size 2 1.81)
+		(drill oval 1.5 1
+			(offset 0.003548 0.015)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_width 0.5)
+		(thermal_bridge_angle 45)
+		(thermal_gap 0.5)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 2)
+			(best_width_ratio 1)
+			(max_width 1.7)
+			(curve_points 0)
+			(filter_ratio 0.9)
+			(enabled no)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "1b4f05ae-b737-4805-b619-a47754d387d0")
+	)
+)

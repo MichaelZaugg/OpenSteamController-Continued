@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Steam_Controller")(type "KiCad")(uri "$(KIPRJMOD)/Steam_Controller.pretty")(options "")(descr ""))
+)

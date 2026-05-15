@@ -1,0 +1,141 @@
+(footprint "STEAMTRKBUTTON"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "LT"
+		(at 0 -4.7244 0)
+		(layer "F.SilkS")
+		(uuid "45ee54b4-b6e0-48cf-a823-a7f5c34674c0")
+		(effects
+			(font
+				(size 0.9144 0.9144)
+				(thickness 0.1524)
+			)
+			(justify left top)
+		)
+	)
+	(property "Value" "UnknownTactile"
+		(at 0 -6.5024 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8bcc0be7-ee88-4de2-af89-da1a896531eb")
+		(effects
+			(font
+				(size 0.9144 0.9144)
+				(thickness 0.1524)
+			)
+			(justify left top)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e7f27efd-232d-4a0e-93aa-fded1d85e684")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b42af9a7-820f-48f7-aa90-aeed1ba889ce")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1c112eea-c14d-4487-8c38-87c393db42f9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -4.445 3.302)
+		(end 4.318 3.302)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "966e19d7-3045-473f-9b57-d0b6cf3e1ccf")
+	)
+	(fp_line
+		(start -4.3815 -3.556)
+		(end 4.3815 -3.556)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3ebf018c-2fd6-4e8f-9280-2325375a64b4")
+	)
+	(fp_circle
+		(center 4.699 2.794)
+		(end 4.826 2.794)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "29f597f9-f12d-4930-9ce6-938fabfae00a")
+	)
+	(pad "1" smd rect
+		(at 2.921 2.413)
+		(size 2 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.0508)
+		(thermal_bridge_angle 0)
+		(uuid "45c62c56-309f-4632-858f-648783da34cc")
+	)
+	(pad "2" smd rect
+		(at -3.048 -2.667)
+		(size 2 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.0508)
+		(thermal_bridge_angle 0)
+		(uuid "485a992c-6bc9-4775-825b-047b5e16d650")
+	)
+	(pad "3" smd rect
+		(at -3.048 2.413)
+		(size 2 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.0508)
+		(thermal_bridge_angle 0)
+		(uuid "62a7a536-04a3-4e93-98f8-2c732f76a254")
+	)
+	(pad "4" smd rect
+		(at 2.921 -2.667)
+		(size 2 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.0508)
+		(thermal_bridge_angle 0)
+		(uuid "54d930fe-2077-404f-8b18-d582544fe633")
+	)
+	(model "/home/michael/Desktop/SteamController PCB test/Components/TL3315NF100Q (1)/TL3315NF100Q.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1.4 1 1.4)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

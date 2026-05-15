@@ -1,0 +1,19 @@
+.nRF52833-QDAA-R :1 ;RF System on a Chip - SoC nRF52833-QDAA QFN 40L 5x5
+QFN40P500X500X90-41N
+*STM IC
+*NGS
+*PLB 1="DEC1" 2="P0.00/XL1" 3="P0.01/XL2" 4="P0.04/AIN2" 5="P0.05/AIN3" 6="P1.09" 7="P0.11" 8="VDD_1" 9="VDDH" 10="VBUS" 11="DECUSB" 12="D-" 13="D+" 14="P0.15" 15="P0.17" 16="P0.18/NRESET" 17="P0.20" 18="VDD_2" 19="SWDIO" 20="SWDCLK" 21="DEC5" 22="P0.09/NFC1" 23="P0.10/NFC2" 24="ANT" 25="VSS_PA" 26="DEC6" 27="DEC3" 28="XC1" 29="XC2" 30="VDD_3" 31="P0.03/AIN1" 32="P0.02/AIN0" 33="P0.28/AIN4" 34="P0.29/AIN5" 35="P0.30/AIN6" 36="P0.31/AIN7" 37="VSS_1" &
+38="DEC4" 39="DCC" 40="VDD_4" 41="VSS_2"
+*MXP 41
+*DFN nRF52833-QDAA-R
+~!Manufacturer_Name (Nordic Semiconductor)
+~!Manufacturer_Part_Number (nRF52833-QDAA-R)
+~!Mouser Part Number (949-NRF52833-QDAA-R)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Nordic-Semiconductor/nRF52833-QDAA-R?qs=xZ%2FP%252Ba9zWqYrk%252Bfy26NOZQ%3D%3D)
+~!Arrow Part Number (NRF52833-QDAA-R)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/nrf52833-qdaa-r/nordic-semiconductor?region=nac)
+~!Link Datasheet (https://infocenter.nordicsemi.com/pdf/nRF52833_PS_v1.3.pdf)
+~!Height (0.9mm)
+~!3D_Model (nRF52833-QDAA-R)
+nRF52833-QDAA-R
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 15.1!U 16.1!U 17.1!U 18.1!U 19.1!U 20.1!U 30.1!U 29.1!U 28.1!U 27.1!U 26.1!U 25.1!U 24.1!U 23.1!U 22.1!U 21.1!U 41.1!U 40.1!U 39.1!U 38.1!U 37.1!U 36.1!U 35.1!U 34.1!U 33.1!U 32.1!U 31.1!U 

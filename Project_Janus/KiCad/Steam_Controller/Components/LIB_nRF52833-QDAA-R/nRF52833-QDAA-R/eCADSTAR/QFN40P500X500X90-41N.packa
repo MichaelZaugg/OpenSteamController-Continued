@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "nRF52833-QDAA-R"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2023-10-20-14:20:33)
+    (mountForm default
+        (footprintRef "QFN40P500X500X90-41N")
+        (spec "System")
+    )
+)

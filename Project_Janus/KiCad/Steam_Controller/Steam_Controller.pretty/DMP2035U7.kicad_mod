@@ -1,0 +1,280 @@
+(footprint "DMP2035U7"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "DMP2035U-7-1")
+	(tags "MOSFET (P-Channel)")
+	(property "Reference" "Q**"
+		(at 4.22 0.01 0)
+		(layer "F.SilkS")
+		(uuid "db168bda-6ecc-4577-85c0-fecce3202cb8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "DMP2035U7"
+		(at 0.07 -3.65 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ee8139bc-800d-487d-bd16-4b9e2bab9b58")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "29c6f44d-4035-41d3-a25f-c44ab20e4604")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a8b745b-ed68-4a87-93ad-d17aa3f80826")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b0a23ff2-5bbf-4897-a014-1e37034995c1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.45 -0.65)
+		(end -1.45 0.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "15b2cef8-315b-47ec-90cb-815b62526b58")
+	)
+	(fp_line
+		(start -0.95 1.9)
+		(end -0.95 1.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8ef1197a-4ad3-431b-8613-f079b08bd326")
+	)
+	(fp_line
+		(start -0.95 2)
+		(end -0.95 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "651277df-435c-44c6-987f-47ce8ec31e93")
+	)
+	(fp_line
+		(start -0.8 -0.65)
+		(end -1.45 -0.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "91d42af7-e165-430c-b496-a24b028f3bc8")
+	)
+	(fp_line
+		(start -0.2 0.65)
+		(end 0.2 0.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "706855bd-bfb9-4458-9f74-fad1f3e6dc37")
+	)
+	(fp_line
+		(start 0.8 -0.65)
+		(end 1.45 -0.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e5aff3f8-6bc6-4e9c-b399-990c7d6c8549")
+	)
+	(fp_line
+		(start 1.45 -0.65)
+		(end 1.45 0.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "03e396a4-6c5f-42c0-83da-6b2dbf700047")
+	)
+	(fp_arc
+		(start -0.95 1.9)
+		(mid -0.9 1.95)
+		(end -0.95 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "54aa4cc5-b5b3-415a-a5e2-64db36afcd25")
+	)
+	(fp_arc
+		(start -0.95 2)
+		(mid -1 1.95)
+		(end -0.95 1.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fd9cc4d9-e33e-4feb-8e23-2695026c6915")
+	)
+	(fp_line
+		(start -2.45 -2.45)
+		(end 2.45 -2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bd4a39ef-62cc-4e70-9e2c-e818cd563a31")
+	)
+	(fp_line
+		(start -2.45 2.45)
+		(end -2.45 -2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3c97d141-fa9e-42d2-9e82-8da4efa447f6")
+	)
+	(fp_line
+		(start 2.45 -2.45)
+		(end 2.45 2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "841702c3-9e44-4c61-91f7-d8908baefd64")
+	)
+	(fp_line
+		(start 2.45 2.45)
+		(end -2.45 2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9159287b-9e7b-4484-a7b3-74403276c57b")
+	)
+	(fp_line
+		(start -1.45 -0.65)
+		(end -1.45 0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b3bb9413-6461-40cb-a3f4-f9b898d81e9d")
+	)
+	(fp_line
+		(start -1.45 0.65)
+		(end 1.45 0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f021873a-fd89-46d7-b3be-da0081c38034")
+	)
+	(fp_line
+		(start 1.45 -0.65)
+		(end -1.45 -0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "401205db-3f5a-4b6f-b834-722c37eec85a")
+	)
+	(fp_line
+		(start 1.45 0.65)
+		(end 1.45 -0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "26b84cb8-6dce-457c-b0e4-07ae24a870eb")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.05 3.61 0)
+		(layer "F.Fab")
+		(uuid "f0b31a86-da9a-45d3-a4bb-a66a507007d4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.95 1)
+		(size 0.8 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "810a0ef4-ac59-4e96-b1a5-92180006540b")
+	)
+	(pad "2" smd rect
+		(at 0.95 1)
+		(size 0.8 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c2c91853-7b33-4188-8082-630dba929829")
+	)
+	(pad "3" smd rect
+		(at 0 -1)
+		(size 0.8 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "556b2bc5-4507-4e7f-8eb6-20009ae7290b")
+	)
+	(model "/home/michael/Desktop/SteamController PCB test/Components/LIB_DMP2035U-7/DMP2035U-7/3D/DMP2035U-7.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
+)

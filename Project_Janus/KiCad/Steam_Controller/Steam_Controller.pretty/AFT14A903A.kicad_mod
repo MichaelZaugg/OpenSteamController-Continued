@@ -1,0 +1,124 @@
+(footprint "AFT14A903A"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "P**"
+		(at 0.55 -5.85 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "bb4ee60a-55b4-466a-97da-75651835cd33")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "AFT14A903A"
+		(at 0.17 6.12 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "253d0533-f83b-481c-9dff-f6fbd420416e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e06d1575-10ac-41c3-9074-49581095616d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a6180666-3c40-4eac-b19b-f83d0d11cd7e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "50d4d463-b2b0-4cdf-bfc0-4188df1e7cc9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -11.28 -4.93)
+		(end 11.62 5.37)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9af58694-7061-453c-8495-a065d502e124")
+	)
+	(fp_line
+		(start 11.62 -4.93)
+		(end -11.28 5.37)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "91393a1d-f911-4ba7-b808-485ef950cae4")
+	)
+	(fp_rect
+		(start -11.28 -4.93)
+		(end 11.72 5.37)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "cbb81f32-83f5-4567-a523-dc2cfc68b3ae")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.08 7.47 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4f6aceda-ac8f-4e33-b51f-e6c881a0b611")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(model "/home/michael/Desktop/SteamController PCB test/Components/Trackpad-Haptics/AFT14A903A/AFT14A903A_3D Model.STEP"
+		(offset
+			(xyz 0 -0.2 4.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 180 90)
+		)
+	)
+)

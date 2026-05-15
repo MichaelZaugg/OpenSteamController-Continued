@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/11884402/1510757/2.50/41/3/Integrated Circuit/-->
+<!DOCTYPE curve SYSTEM "eagle.dtd">
+<eagle version="7.7.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;RF System on a Chip - SoC nRF52833-QDAA QFN 40L 5x5&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="QFN40P500X500X90-41N">
+<description>&lt;b&gt;40-Pin QFN&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-2.45" y="1.8" dx="0.8" dy="0.2" layer="1" rot="R0"/>
+<smd name="2" x="-2.45" y="1.4" dx="0.8" dy="0.2" layer="1" rot="R0"/>
+<smd name="3" x="-2.45" y="1" dx="0.8" dy="0.2" layer="1" rot="R0"/>
+<smd name="4" x="-2.45" y="0.6" dx="0.8" dy="0.2" layer="1" rot="R0"/>
+<smd name="5" x="-2.45" y="0.2" dx="0.8" dy="0.2" layer="1" rot="R0"/>
+<smd name="6" x="-2.45" y="-0.2" dx="0.8" dy="0.2" layer="1" rot="R0"/>
+<smd name="7" x="-2.45" y="-0.6" dx="0.8" dy="0.2" layer="1" rot="R0"/>
+<smd name="8" x="-2.45" y="-1" dx="0.8" dy="0.2" layer="1" rot="R0"/>
+<smd name="9" x="-2.45" y="-1.4" dx="0.8" dy="0.2" layer="1" rot="R0"/>
+<smd name="10" x="-2.45" y="-1.8" dx="0.8" dy="0.2" layer="1" rot="R0"/>
+<smd name="11" x="-1.8" y="-2.45" dx="0.8" dy="0.2" layer="1" rot="R90"/>
+<smd name="12" x="-1.4" y="-2.45" dx="0.8" dy="0.2" layer="1" rot="R90"/>
+<smd name="13" x="-1" y="-2.45" dx="0.8" dy="0.2" layer="1" rot="R90"/>
+<smd name="14" x="-0.6" y="-2.45" dx="0.8" dy="0.2" layer="1" rot="R90"/>
+<smd name="15" x="-0.2" y="-2.45" dx="0.8" dy="0.2" layer="1" rot="R90"/>
+<smd name="16" x="0.2" y="-2.45" dx="0.8" dy="0.2" layer="1" rot="R90"/>
+<smd name="17" x="0.6" y="-2.45" dx="0.8" dy="0.2" layer="1" rot="R90"/>
+<smd name="18" x="1" y="-2.45" dx="0.8" dy="0.2" layer="1" rot="R90"/>
+<smd name="19" x="1.4" y="-2.45" dx="0.8" dy="0.2" layer="1" rot="R90"/>
+<smd name="20" x="1.8" y="-2.45" dx="0.8" dy="0.2" layer="1" rot="R90"/>
+<smd name="21" x="2.45" y="-1.8" dx="0.8" dy="0.2" layer="1" rot="R0"/>
+<smd name="22" x="2.45" y="-1.4" dx="0.8" dy="0.2" layer="1" rot="R0"/>
+<smd name="23" x="2.45" y="-1" dx="0.8" dy="0.2" layer="1" rot="R0"/>
+<smd name="24" x="2.45" y="-0.6" dx="0.8" dy="0.2" layer="1" rot="R0"/>
+<smd name="25" x="2.45" y="-0.2" dx="0.8" dy="0.2" layer="1" rot="R0"/>
+<smd name="26" x="2.45" y="0.2" dx="0.8" dy="0.2" layer="1" rot="R0"/>
+<smd name="27" x="2.45" y="0.6" dx="0.8" dy="0.2" layer="1" rot="R0"/>
+<smd name="28" x="2.45" y="1" dx="0.8" dy="0.2" layer="1" rot="R0"/>
+<smd name="29" x="2.45" y="1.4" dx="0.8" dy="0.2" layer="1" rot="R0"/>
+<smd name="30" x="2.45" y="1.8" dx="0.8" dy="0.2" layer="1" rot="R0"/>
+<smd name="31" x="1.8" y="2.45" dx="0.8" dy="0.2" layer="1" rot="R90"/>
+<smd name="32" x="1.4" y="2.45" dx="0.8" dy="0.2" layer="1" rot="R90"/>
+<smd name="33" x="1" y="2.45" dx="0.8" dy="0.2" layer="1" rot="R90"/>
+<smd name="34" x="0.6" y="2.45" dx="0.8" dy="0.2" layer="1" rot="R90"/>
+<smd name="35" x="0.2" y="2.45" dx="0.8" dy="0.2" layer="1" rot="R90"/>
+<smd name="36" x="-0.2" y="2.45" dx="0.8" dy="0.2" layer="1" rot="R90"/>
+<smd name="37" x="-0.6" y="2.45" dx="0.8" dy="0.2" layer="1" rot="R90"/>
+<smd name="38" x="-1" y="2.45" dx="0.8" dy="0.2" layer="1" rot="R90"/>
+<smd name="39" x="-1.4" y="2.45" dx="0.8" dy="0.2" layer="1" rot="R90"/>
+<smd name="40" x="-1.8" y="2.45" dx="0.8" dy="0.2" layer="1" rot="R90"/>
+<smd name="41" x="0" y="0" dx="3.7" dy="3.7" layer="1" rot="R90"/>
+<text x="0" y="0" align="center" size="1.27" layer="25" rot="R0" >&gt;NAME</text>
+<text x="0" y="0" align="center" size="1.27" layer="27" rot="R0" >&gt;VALUE</text>
+<wire x1="-3.1" y1="3.1" x2="3.1" y2="3.1" width="0.05" layer="51"/>
+<wire x1="3.1" y1="3.1" x2="3.1" y2="-3.1" width="0.05" layer="51"/>
+<wire x1="3.1" y1="-3.1" x2="-3.1" y2="-3.1" width="0.05" layer="51"/>
+<wire x1="-3.1" y1="-3.1" x2="-3.1" y2="3.1" width="0.05" layer="51"/>
+<wire x1="-2.5" y1="2.5" x2="2.5" y2="2.5" width="0.1" layer="51"/>
+<wire x1="2.5" y1="2.5" x2="2.5" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="2.5" y1="-2.5" x2="-2.5" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="-2.5" y1="-2.5" x2="-2.5" y2="2.5" width="0.1" layer="51"/>
+<wire x1="-2.5" y1="2.1" x2="-2.1" y2="2.5" width="0.1" layer="51"/>
+<circle x="-2.85" y="2.4" radius="0.1" width="0.2" layer="25"/>
+</package>
+</packages>
+<symbols>
+<symbol name="NRF52833-QDAA-R">
+<wire x1="5.08" y1="17.78" x2="40.64" y2="17.78" width="0.254" layer="94"/>
+<wire x1="40.64" y1="-43.18" x2="40.64" y2="17.78" width="0.254" layer="94"/>
+<wire x1="40.64" y1="-43.18" x2="5.08" y2="-43.18" width="0.254" layer="94"/>
+<wire x1="5.08" y1="17.78" x2="5.08" y2="-43.18" width="0.254" layer="94"/>
+<text x="41.91" y="22.86" align="center-left" size="1.778" layer="95">&gt;NAME</text>
+<text x="41.91" y="20.32" align="center-left" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="DEC1" x="0" y="0" length="middle" direction="io" rot="R0"/>
+<pin name="P0.00/XL1" x="0" y="-2.54" length="middle" direction="io" rot="R0"/>
+<pin name="P0.01/XL2" x="0" y="-5.08" length="middle" direction="io" rot="R0"/>
+<pin name="P0.04/AIN2" x="0" y="-7.62" length="middle" direction="io" rot="R0"/>
+<pin name="P0.05/AIN3" x="0" y="-10.16" length="middle" direction="io" rot="R0"/>
+<pin name="P1.09" x="0" y="-12.7" length="middle" direction="io" rot="R0"/>
+<pin name="P0.11" x="0" y="-15.24" length="middle" direction="io" rot="R0"/>
+<pin name="VDD_1" x="0" y="-17.78" length="middle" direction="io" rot="R0"/>
+<pin name="VDDH" x="0" y="-20.32" length="middle" direction="io" rot="R0"/>
+<pin name="VBUS" x="0" y="-22.86" length="middle" direction="io" rot="R0"/>
+<pin name="DECUSB" x="10.16" y="-48.26" length="middle" direction="io" rot="R90"/>
+<pin name="D-" x="12.7" y="-48.26" length="middle" direction="io" rot="R90"/>
+<pin name="D+" x="15.24" y="-48.26" length="middle" direction="io" rot="R90"/>
+<pin name="P0.15" x="17.78" y="-48.26" length="middle" direction="io" rot="R90"/>
+<pin name="P0.17" x="20.32" y="-48.26" length="middle" direction="io" rot="R90"/>
+<pin name="P0.18/NRESET" x="22.86" y="-48.26" length="middle" direction="io" rot="R90"/>
+<pin name="P0.20" x="25.4" y="-48.26" length="middle" direction="io" rot="R90"/>
+<pin name="VDD_2" x="27.94" y="-48.26" length="middle" direction="io" rot="R90"/>
+<pin name="SWDIO" x="30.48" y="-48.26" length="middle" direction="io" rot="R90"/>
+<pin name="SWDCLK" x="33.02" y="-48.26" length="middle" direction="io" rot="R90"/>
+<pin name="VDD_3" x="45.72" y="0" length="middle" direction="io" rot="R180"/>
+<pin name="XC2" x="45.72" y="-2.54" length="middle" direction="io" rot="R180"/>
+<pin name="XC1" x="45.72" y="-5.08" length="middle" direction="io" rot="R180"/>
+<pin name="DEC3" x="45.72" y="-7.62" length="middle" direction="io" rot="R180"/>
+<pin name="DEC6" x="45.72" y="-10.16" length="middle" direction="io" rot="R180"/>
+<pin name="VSS_PA" x="45.72" y="-12.7" length="middle" direction="io" rot="R180"/>
+<pin name="ANT" x="45.72" y="-15.24" length="middle" direction="io" rot="R180"/>
+<pin name="P0.10/NFC2" x="45.72" y="-17.78" length="middle" direction="io" rot="R180"/>
+<pin name="P0.09/NFC1" x="45.72" y="-20.32" length="middle" direction="io" rot="R180"/>
+<pin name="DEC5" x="45.72" y="-22.86" length="middle" direction="io" rot="R180"/>
+<pin name="VSS_2" x="10.16" y="22.86" length="middle" direction="io" rot="R270"/>
+<pin name="VDD_4" x="12.7" y="22.86" length="middle" direction="io" rot="R270"/>
+<pin name="DCC" x="15.24" y="22.86" length="middle" direction="io" rot="R270"/>
+<pin name="DEC4" x="17.78" y="22.86" length="middle" direction="io" rot="R270"/>
+<pin name="VSS_1" x="20.32" y="22.86" length="middle" direction="io" rot="R270"/>
+<pin name="P0.31/AIN7" x="22.86" y="22.86" length="middle" direction="io" rot="R270"/>
+<pin name="P0.30/AIN6" x="25.4" y="22.86" length="middle" direction="io" rot="R270"/>
+<pin name="P0.29/AIN5" x="27.94" y="22.86" length="middle" direction="io" rot="R270"/>
+<pin name="P0.28/AIN4" x="30.48" y="22.86" length="middle" direction="io" rot="R270"/>
+<pin name="P0.02/AIN0" x="33.02" y="22.86" length="middle" direction="io" rot="R270"/>
+<pin name="P0.03/AIN1" x="35.56" y="22.86" length="middle" direction="io" rot="R270"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="NRF52833-QDAA-R" prefix="IC">
+<description>&lt;b&gt;RF System on a Chip - SoC nRF52833-QDAA QFN 40L 5x5&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://infocenter.nordicsemi.com/pdf/nRF52833_PS_v1.3.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="NRF52833-QDAA-R" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="QFN40P500X500X90-41N">
+<connects>
+<connect gate="G$1" pin="DEC1" pad="1"/>
+<connect gate="G$1" pin="P0.00/XL1" pad="2"/>
+<connect gate="G$1" pin="P0.01/XL2" pad="3"/>
+<connect gate="G$1" pin="P0.04/AIN2" pad="4"/>
+<connect gate="G$1" pin="P0.05/AIN3" pad="5"/>
+<connect gate="G$1" pin="P1.09" pad="6"/>
+<connect gate="G$1" pin="P0.11" pad="7"/>
+<connect gate="G$1" pin="VDD_1" pad="8"/>
+<connect gate="G$1" pin="VDDH" pad="9"/>
+<connect gate="G$1" pin="VBUS" pad="10"/>
+<connect gate="G$1" pin="DECUSB" pad="11"/>
+<connect gate="G$1" pin="D-" pad="12"/>
+<connect gate="G$1" pin="D+" pad="13"/>
+<connect gate="G$1" pin="P0.15" pad="14"/>
+<connect gate="G$1" pin="P0.17" pad="15"/>
+<connect gate="G$1" pin="P0.18/NRESET" pad="16"/>
+<connect gate="G$1" pin="P0.20" pad="17"/>
+<connect gate="G$1" pin="VDD_2" pad="18"/>
+<connect gate="G$1" pin="SWDIO" pad="19"/>
+<connect gate="G$1" pin="SWDCLK" pad="20"/>
+<connect gate="G$1" pin="DEC5" pad="21"/>
+<connect gate="G$1" pin="P0.09/NFC1" pad="22"/>
+<connect gate="G$1" pin="P0.10/NFC2" pad="23"/>
+<connect gate="G$1" pin="ANT" pad="24"/>
+<connect gate="G$1" pin="VSS_PA" pad="25"/>
+<connect gate="G$1" pin="DEC6" pad="26"/>
+<connect gate="G$1" pin="DEC3" pad="27"/>
+<connect gate="G$1" pin="XC1" pad="28"/>
+<connect gate="G$1" pin="XC2" pad="29"/>
+<connect gate="G$1" pin="VDD_3" pad="30"/>
+<connect gate="G$1" pin="P0.03/AIN1" pad="31"/>
+<connect gate="G$1" pin="P0.02/AIN0" pad="32"/>
+<connect gate="G$1" pin="P0.28/AIN4" pad="33"/>
+<connect gate="G$1" pin="P0.29/AIN5" pad="34"/>
+<connect gate="G$1" pin="P0.30/AIN6" pad="35"/>
+<connect gate="G$1" pin="P0.31/AIN7" pad="36"/>
+<connect gate="G$1" pin="VSS_1" pad="37"/>
+<connect gate="G$1" pin="DEC4" pad="38"/>
+<connect gate="G$1" pin="DCC" pad="39"/>
+<connect gate="G$1" pin="VDD_4" pad="40"/>
+<connect gate="G$1" pin="VSS_2" pad="41"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="Manufacturer_Name" value="Nordic Semiconductor" constant="no"/>
+<attribute name="Manufacturer_Part_Number" value="nRF52833-QDAA-R" constant="no"/>
+<attribute name="Mouser_Part_Number" value="949-NRF52833-QDAA-R" constant="no"/>
+<attribute name="Mouser_Price-Stock" value="https://www.mouser.co.uk/ProductDetail/Nordic-Semiconductor/nRF52833-QDAA-R?qs=xZ%2FP%252Ba9zWqYrk%252Bfy26NOZQ%3D%3D" constant="no"/>
+<attribute name="Arrow_Part_Number" value="NRF52833-QDAA-R" constant="no"/>
+<attribute name="Arrow_Price-Stock" value="https://www.arrow.com/en/products/nrf52833-qdaa-r/nordic-semiconductor?region=nac" constant="no"/>
+<attribute name="Description" value="RF System on a Chip - SoC nRF52833-QDAA QFN 40L 5x5" constant="no"/>
+<attribute name="Height" value="0.9mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

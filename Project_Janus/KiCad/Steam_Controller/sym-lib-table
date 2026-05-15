@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Steam_Controller_Symbols")(type "KiCad")(uri "${KIPRJMOD}/Steam_Controller_Symbols.kicad_sym")(options "")(descr ""))
+)

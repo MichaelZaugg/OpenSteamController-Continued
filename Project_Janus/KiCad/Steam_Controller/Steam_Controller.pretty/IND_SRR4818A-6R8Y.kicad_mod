@@ -1,0 +1,212 @@
+(footprint "IND_SRR4818A-6R8Y"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.525 -3.465 0)
+		(layer "F.SilkS")
+		(uuid "beeebb25-4b83-42a5-9420-f76b971634fd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "IND_SRR4818A-6R8Y"
+		(at 8.025 3.395 0)
+		(layer "F.Fab")
+		(uuid "34db35f4-4b6e-435f-850c-94c144b3069e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f514f53e-7134-482e-a538-5a90069bdaa4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "24287288-3710-4456-8a4b-901a6dc86826")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "24b925f3-75d1-4f98-a49c-f9dbd9480cb3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.4 -2.415)
+		(end 2.4 -2.415)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2d30edad-9488-445a-b6b8-d747b2525c4c")
+	)
+	(fp_line
+		(start -2.4 2.415)
+		(end 2.4 2.415)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b0c44a11-2063-452b-92d7-8f7d85da8354")
+	)
+	(fp_circle
+		(center -3.49 -0.27)
+		(end -3.367937 -0.27)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "3fd27ae8-6a38-4623-b905-e912c4b68f58")
+	)
+	(fp_line
+		(start -2.815 -2.65)
+		(end 2.815 -2.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ee2a36b2-a7ef-4315-b901-9d4795235163")
+	)
+	(fp_line
+		(start -2.815 2.65)
+		(end -2.815 -2.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f32d9006-375d-4096-92d1-ea7a00568a37")
+	)
+	(fp_line
+		(start 2.815 -2.65)
+		(end 2.815 2.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b006c1ac-788b-4099-b465-515e8c133ef3")
+	)
+	(fp_line
+		(start 2.815 2.65)
+		(end -2.815 2.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e8794691-ab13-4041-ba64-8c9605716126")
+	)
+	(fp_line
+		(start -2.4 -2.4)
+		(end 2.4 -2.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cdc31537-fe75-4645-8865-4acd5e47f530")
+	)
+	(fp_line
+		(start -2.4 2.4)
+		(end -2.4 -2.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "13d7bf88-ca32-453a-b4a8-3fc6eb62f231")
+	)
+	(fp_line
+		(start 2.4 -2.4)
+		(end 2.4 2.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f1da2fb7-10de-4143-a850-6a838450ddf8")
+	)
+	(fp_line
+		(start 2.4 2.4)
+		(end -2.4 2.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "02991792-0d1b-453c-9abc-c07be5829752")
+	)
+	(fp_circle
+		(center -3.49 -0.27)
+		(end -3.359619 -0.27)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "fceba8cb-c782-42d3-97bc-ece4267c0540")
+	)
+	(pad "1" smd rect
+		(at -1.575 0)
+		(size 1.98 4.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "8066bf40-0ed0-40bc-b184-9e3025eb077c")
+	)
+	(pad "2" smd rect
+		(at 1.575 0)
+		(size 1.98 4.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "865cac77-9141-4b71-8f44-8ce7f32d48d2")
+	)
+	(model "/home/michael/Desktop/SteamController PCB test/Components/SRR4818A-6R8Y/SRR4818A.stp"
+		(offset
+			(xyz 0 0 1.7)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
